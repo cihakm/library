@@ -1,0 +1,13 @@
+{block #content}
+<div class="container">
+        <h2><span>Aktuality</span> z knihovny</h2>
+	{foreach $news as $new}
+		<article>
+			<header>
+				<p class="date">{$new->date|date:'d.m.Y'}</p>
+				<h3>{$new->title|noescape}</h3>
+			</header>
+			{$new->content|noescape}
+		</article>
+	{/foreach}
+</div>

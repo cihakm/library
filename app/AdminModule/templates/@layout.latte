@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="">
+		<meta name="robots" content="noindex" n:ifset="$robots">
+
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+		<title>{block title|striptags}Knihovna HK | Admin{/block}</title>
+		<script type="text/javascript" src="{$basePath}/js/live-form-validation.js"></script>
+
+		<link rel="stylesheet" media="screen,projection,tv" href="{$basePath}/design-admin/css/styles.css">
+		<link rel="shortcut icon" href="{$basePath}/favicon.ico">
+	</head>
+	<body class="admin">
+		{include modal.latte}
+		{snippet flashes}
+			{foreach $flashes as $flash}
+				<div class="alert alert-{$flash->type} alert-dismissible fade in" role="alert"> 
+					<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+					<div class="msg">{$flash->message}</div> 
+				</div> 
+			{/foreach}
+		{/snippet}
+
+		{if !$isSign}
+			<header>
+				<div class="pull-left">
+					<a n:href=":Admin:Default:default" class="admin-logo">Admin CMS</a>
+				</div>
+				<div class="pull-right">
+					<div class="dropdown">
+						<button class="btn btn-default dropdown-toggle" type="button" id="dropdownUser" data-toggle="dropdown" aria-expanded="true">
+							{$user->identity->name}
+							<span class="caret"></span>
+							<div class="clearfix"></div>
+						</button>
+						<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownUser">
+							<li role="presentation"><a role="menuitem" tabindex="-1" n:href="Sign:out">Logout</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="clearfix"></div>    
+			</header>
+		{/if}
+
+		{if !$isSign}
+			<div class="sidebar col-lg-2 col-md-3 col-sm-3">
+				<nav>
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<div class="navbar-collapse collapse">
+						<ul class="nav navbar-nav">
+							<li class="dropdown">
+								<a href="#" data-toggle="dropdown"  class="dropdown-toggle">Obsah</a>
+								<ul class="dropdown-menu">
+									<li {ifCurrent :Admin:News:*}class="current"{/ifCurrent}><a n:href=":Admin:News:">Aktuality</a></li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="#" data-toggle="dropdown"  class="dropdown-toggle">test</a>
+								<ul class="dropdown-menu">
+									<li ><a>test submenu</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+
+				</nav>   
+			</div>
+
+		</div>
+
+
+	{/if}
+	<div class="content {if !$isSign}col-lg-10 col-md-9 col-sm-9{/if}">
+		{include #content}
+	</div>
+
+
+
+
+	<!-- javascripts -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="{$basePath}/design-admin/js/live-form-validation.js"></script>
+	<script type="text/javascript" src="{$basePath}/design-admin/js/ckeditor/ckeditor.js"></script>
+	<script type="text/javascript" src="{$basePath}/design-admin/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="{$basePath}/design-admin/js/alert.js"></script>
+	<script type="text/javascript" src="{$basePath}/design-admin/js/jquery.js"></script>
+	<script type="text/javascript" src="{$basePath}/design-admin/js/jquery.nette.js"></script>
+	{block #scripts}{/block}
+	<script type="text/javascript">
+		$(".alert").delay(4000).slideUp(200, function () {
+			$(this).alert('close');
+		});
+	</script>
+
+</body>
+
+</html>

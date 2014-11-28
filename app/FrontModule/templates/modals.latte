@@ -1,0 +1,66 @@
+<!-- Login modal -->
+<div id="loginModal" class="modal fade">
+        <div class="modal-dialog">
+                <div class="modal-content">
+                        <p class="fb-login"><a n:href="fbLogin-open!" class="btn fb blue">Facebook přihlášení</a></p>
+			<p class="choise">Nebo</p>
+                        {form signInForm}
+				{input email}
+				{input password}
+				<p class="lost-pass"><a n:href=":Front:Password:">Zapoměli jste své heslo?</a></p>
+				{input submit}
+
+                        {/form}
+                </div>
+        </div>
+
+
+</div>
+
+<!-- Registration modal -->
+<div id="registrationModal" class="modal fade">
+        <div class="modal-dialog">
+                <div class="modal-content">
+                        <p class="fb-login"><a n:href="fbLogin-open!" class="btn fb blue">Facebook přihlášení</a></p>
+			<p class="choise">Nebo</p>
+                        {form regForm}
+				<div class="control-group">
+					{input name}
+				</div>
+				<div class="control-group">
+					{input surname}
+				</div>
+				<div class="control-group">
+					{input mail}
+				</div>
+				<div class="control-group">
+					{input password}
+				</div>
+				<div class="control-group">
+					{input password_ver}
+				</div>
+				{input submit}
+                        {/form}
+                </div>
+        </div>
+</div>
+
+<!-- Please Register modal -->
+<div id="pleaseLoginModal" class="modal fade">
+        <div class="modal-dialog">
+                <div class="modal-content">
+			<p class="modal-info">Nejprve se prosím zaregistrujte nebo prihlaště.</p>
+                        <p class="fb-login"><a n:href="fbLogin-open!" class="btn fb blue">Facebook přihlášení</a></p>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="row">
+						<p class="col-md-6"><a href="#" data-toggle="modal" class="btn orange" data-target="#registrationModal"  data-dismiss="modal">Registrace</a></p>
+						<p class="col-md-6"><a href="#" data-toggle="modal" class="btn orange" data-target="#loginModal" data-dismiss="modal">Přihlášení</a></p>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+        </div>
+</div>

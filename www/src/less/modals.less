@@ -1,0 +1,118 @@
+/*
+=======================================
+                Login
+=======================================
+*/
+.modal {
+	.modal-dialog {
+		.modal-content {
+			.modal-info{
+				margin: 0 0 15px;
+				font-weight: @fontBold;
+				text-align: center;
+			}
+			.choise {
+				text-align: center;
+				margin: 15px 0;
+			}
+			form {
+				margin-bottom: 0;
+				.control-group{
+					position: relative;
+					.form-error-message{
+						position: absolute;
+						color: #ff0000;
+						bottom: 0px;
+						right: 5px;
+						z-index: 0;
+					}
+				}
+				.form-control {
+					box-shadow: none;
+					border-radius: 1px;
+					margin-bottom: 10px;
+					border: 1px solid #d3d3d3;
+					font-size: @size16;
+					&:focus {
+						border: 1px solid #a3a3a3;
+
+					}
+					&.form-control-error{
+						border: 1px solid #ff0000;
+					}
+					&.mail {
+						padding-left: 40px;
+						background: #fff url(../images/icons/email.png) no-repeat 10px 15px;
+					}
+					&.pass {
+						padding-left: 40px;
+						background: #fff url(../images/icons/password.png) no-repeat 10px 12px;
+					}
+					&::-webkit-input-placeholder {
+						font-size: @size16;
+						font-weight: @fontNormal
+					}
+				}
+
+				&:-moz-placeholder {
+					/* Firefox 18- */
+					font-size: @size16;
+					font-weight: @fontNormal
+				}
+
+				&::-moz-placeholder {
+					/* Firefox 19+ */
+					font-size: @size16;
+					font-weight: @fontNormal
+				}
+
+				&:-ms-input-placeholder {
+					font-size: @size16;
+					font-weight: @fontNormal
+				}
+			}
+			.lost-pass {
+				margin: 15px 0;
+				a {
+					color: #d64445;
+					font-weight: @fontLight
+				}
+			}
+			input[type="submit"] {
+				background-color: #d64445;
+				font-weight: @fontNormal;
+				&:focus {
+					color: #fff;
+					outline: none;
+				}
+				&:hover {
+					color: #fff;
+					background-color: #e66364
+				}
+			}
+
+		}
+	}
+	&#loginModal, &#registrationModal,&#pleaseLoginModal  {
+		.modal-dialog {
+			max-width: 340px;
+
+			.modal-content {
+				max-width: 340px;
+				left: 50%;
+				margin-left: -170px;
+				width: 100%;
+				padding: 20px;
+				.btn {
+					box-shadow: none;
+					width: 100%;
+					padding: 10px 12px;
+					&:before {
+						top: 10px;
+					}
+				}
+			}
+		}
+	}
+
+}

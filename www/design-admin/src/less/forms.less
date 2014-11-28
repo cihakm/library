@@ -1,0 +1,48 @@
+.login-form{
+	max-width: 300px;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 15%;
+	text-align: center;
+
+}
+.form-group{
+	position: relative;
+	margin-bottom: 30px
+}
+
+.form-control{
+	box-shadow: none;
+	border-radius: 0;
+	border: none;
+	border-bottom: @input-border;
+	height: 50px;
+	font-size: @size16;
+	color: #000;
+	cursor:text;
+	padding: 0 5px;
+	&:hover{
+		cursor: text;
+	}
+	&:active, &:focus{
+		border-bottom: @input-border-active;
+		box-shadow: none;
+		outline: none;
+	}
+	+label{
+		color: @placeholderColor; 
+		font-size: @size18;
+		font-weight: @fontNormal;
+		position: absolute;
+		cursor: text;
+		left: 5px;
+		top: 10px;
+		transition: 0.2s ease all; 
+	}
+
+	&:focus + label, &.used + label{
+		top: -15px;
+		font-size: @size14;
+		color: @blue;
+	}
+}

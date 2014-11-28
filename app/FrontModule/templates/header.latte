@@ -1,0 +1,28 @@
+<section>
+	<div class="container">
+			<header>
+				<div class="logo pull-left">
+					<a n:href=":Front:Homepage:"><h1><img src="{$basePath}/images/data/logo/logo.png" alt="Knihovna Hradec Králové"></h1></a>
+				</div>
+				<div class="pull-right">
+					{if $user->loggedIn}
+						<p class="pull-left"><a href="#">Můj účet</a></p>
+						<p class="pull-right"><a n:href="Sign:out">Odhlásit</a></p>
+					{else}
+						<p class="pull-left"><a href="#" data-toggle="modal" data-target="#registrationModal">Registrace</a></p>
+						<p class="pull-right"><a href="#" data-toggle="modal" data-target="#loginModal">Přihlášení</a></p>
+					{/if}
+					<div class="clear"></div>
+				</div>
+				<div class="clearfix"></div>
+			</header>
+			<nav>
+				<ul>
+					<li {ifCurrent :Front:Homepage:default}class="active"{/ifCurrent}><a n:href=":Front:Homepage:">Úvod</a></li>
+					<li {ifCurrent :Front:Catalog:default}class="active"{/ifCurrent}><a n:href=":Front:Catalog:">Katalog</a></li>
+					<li {ifCurrent :Front:Price:default}class="active"{/ifCurrent}><a n:href=":Front:Price:">Ceník</a></li>
+					<li {ifCurrent :Front:News:default}class="active"{/ifCurrent}><a n:href=":Front:News:">Aktuality</a></li>
+				</ul>
+			</nav>
+	</div>
+</section>

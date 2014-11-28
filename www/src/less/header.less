@@ -1,0 +1,50 @@
+header{
+	border-bottom: 1px solid #cdcdcd;
+	h1{
+		margin: 10px 0 15px;
+	}
+	> .pull-right{
+		p{
+			margin-top: 25px;
+			a{
+				color: #000;
+				font-size: @size15;
+				margin-left: 30px;
+				font-weight: @fontSb;
+			}
+		}
+	}
+}
+
+nav{
+	ul{
+		margin: 0;
+		li{
+			display: inline-block;
+			font-size: @size15;
+			text-transform: uppercase;
+			a{
+				display: block;
+				color: #000;
+				font-weight: @fontBold;
+				padding: 20px 20px;
+				&:hover{
+					text-decoration: none;
+					color: @orange
+				}
+			}
+			&:first-child{
+				a{
+					padding-left: 0;
+
+				}
+			}
+			&.active{
+				a{
+					color: @orange;
+
+				}
+			}
+		}
+	}
+}

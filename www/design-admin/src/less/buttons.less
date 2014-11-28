@@ -1,0 +1,67 @@
+.btn{
+	font-size: @size16;
+	font-weight: @fontSb;
+	text-transform: uppercase;
+	border-radius: 2px;
+	padding: 10px 20px;
+	-webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.4);
+	box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.4);
+	-webkit-transition: background-color 100ms ease-in;
+	-moz-transition: background-color 100ms ease-in;
+	-o-transition: background-color 100ms ease-in;
+	-ms-transition: background-color 100ms ease-in;
+	transition: background-color 100ms ease-in;
+	
+	&:focus{
+		-webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2);
+		-moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2);
+		box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2);
+		border: 0;
+		outline: none !important;
+
+	}
+	&.orange{
+		#gradient > .vertical(@start-color: #e28e50; @end-color: #a64e29; 0%; 100%);
+		color: #fff;
+		border: 1px solid #b35227;
+		&:hover{
+			background: #a64e29;
+			color: #fff;
+		}
+	}
+	&.blue{
+		color: #fff;
+		border: none;
+		background-color: @blue;
+		&:hover{
+			background-color: @blueLight
+		}
+	}
+
+	&.reg{
+		width: 50%;
+		&:before{
+			position: absolute;
+			content: "";
+			width: 45px;
+			height: 45px;
+			left: 10px;
+			top: 5px;
+			background: url(@urlIcons) no-repeat -77px -62px;
+		}
+	}
+	&.fb{
+		width: 50%;
+		padding-left: 35px;
+		&:before{
+			position: absolute;
+			content: "";
+			width: 45px;
+			height: 45px;
+			left: 5px;
+			top: 5px;
+			background: url(@urlIcons) no-repeat -120px -62px
+		}
+	}
+}

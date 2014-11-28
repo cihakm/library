@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="robots" content="noindex,follow">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Knihovna Hradec Králové</title>
+
+		<!-- CSS -->
+		<link href="{$basePath}/css/styles.css" rel="stylesheet">
+
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="{$basePath}/favicon.ico">
+
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+        <body>
+                {foreach $flashes as $flash}
+                        <div class="alert alert-{$flash->type}"> 
+                                <div class="msg">{$flash->message}</div> 
+				                <a href="#" class="close" data-dismiss="alert">Close</a>
+			            </div>
+		        {/foreach}
+		{include 'modals.latte'}
+
+		<div class="wrapper">
+		{include 'header.latte'}
+            <section>
+                <div class="slider">
+                    <div class="container">
+                        <img src="{$basePath}/images/data/logo/logo-big.png" alt="logo-big" />
+                        <form>
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <input type="text" placeholder="Zadejte jméno autora nebo název knihy" class="form-control" />
+                                </div>
+                                <div class="col-md-3">
+                                    <input type="submit" class="btn" value="Hledat" />
+                                </div>
+                                <div class="clear"></div>
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            {include #content}
+		<div class="push"></div>
+		</div>
+		{include 'footer.latte'}
+
+                <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+                <script type="text/javascript" src="{$basePath}/js/bootstrap.min.js"></script>
+                <script type="text/javascript" src="{$basePath}/js/jquery.js"></script>
+                <script type="text/javascript" src="{$basePath}/js/live-form-validation.js"></script>
+
+
+	</body>
+</html>
