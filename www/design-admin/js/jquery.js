@@ -13,24 +13,18 @@ $(document).ready(function () {
 		}
 	});
 
-	$confirmBox = $('#confirm-modal');
-	var staticObject =
-		function () {
-			$('[data-confirm]').on('click.confirm-box-open', function (e) {
-				e.preventDefault();
-				var $this = $(this);
-				$confirmBox.find('p.body').text($this.attr('data-confirm'));
-				$confirmBox.find('.yes')
-					.attr('href', $this.attr('href'))
-					.attr('data-form-id', $this.attr('data-form-id'))
-					.attr('data-original-id', $this.attr('id'));
-				$confirmBox.modal('show');
-				$confirmBox.find('.yes').focus();
-			});
 
-		};
-	var modal = $('#confirm-modal');
-	staticObject.$confirmBox = modal;
+	$confirmBox = $('#confirm-modal');
+	$('[data-confirm]').on('click.confirm-box-open', function (e) {
+		e.preventDefault();
+		var $this = $(this);
+		$confirmBox.find('p.body').text($this.attr('data-confirm'));
+		$confirmBox.find('.yes')
+			.attr('href', $this.attr('href'))
+			.attr('data-original-id', $this.attr('id'));
+		$confirmBox.modal('show');
+		$confirmBox.find('.yes').focus();
+	});
 
 
 	$(document).on('click.confirm-yes', '#confirm-modal' + ' .yes', function (e) {
@@ -40,7 +34,7 @@ $(document).ready(function () {
 		if (href && href !== '#') {
 			var post_data = 'confirm-post-data';
 			if (!post_data) {
-				$.get($this.attr('href')).then(function (/* r */) {
+				$.get($this.attr('href')).then(function () {
 
 				}, function (r) {
 					if (r.status !== 200)
@@ -49,7 +43,7 @@ $(document).ready(function () {
 			} else {
 				$.post($(this).attr('href'), {
 					selected: post_data
-				}).then(function (/* r */) {
+				}).then(function () {
 
 				}, function (r) {
 					if (r.status !== 200)
@@ -57,20 +51,7 @@ $(document).ready(function () {
 				});
 			}
 		}
-		staticObject.$confirmBox.modal('hide');
+		$('#confirm-modal').modal('hide');
 		$this.removeAttr('href');
 	});
-	$('[data-confirm]').on('click.confirm-box-open', function (e) {
-		e.preventDefault();
-		var $this = $(this);
-		$confirmBox.find('p.body').text($this.attr('data-confirm'));
-		$confirmBox.find('.yes')
-			.attr('href', $this.attr('href'))
-			.attr('data-form-id', $this.attr('data-form-id'))
-			.attr('data-original-id', $this.attr('id'));
-		$confirmBox.modal('show');
-		$confirmBox.find('.yes').focus();
-	});
-	
-	
 });

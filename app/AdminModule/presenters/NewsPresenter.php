@@ -73,8 +73,7 @@ class NewsPresenter extends BasePresenter {
 					'id' => '{' . $table_id . '}'
 				)
 			)))
-			->addAttribute('data-confirm', 'Realy want to delete this item?')
-		;
+			->addAttribute('data-confirm', 'Realy want to delete this item?');
 		$buttons_container->addButton($second_button);
 
 
