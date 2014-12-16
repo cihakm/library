@@ -1,0 +1,37 @@
+{block #content}
+<div class="container">
+	<div class="book-detail">
+		<div class="book-about">
+			<div class="row">
+				<div class="col-md-3">
+					<img src="{$basePath}/{$book->url}" alt="book thumbnail">
+				</div>
+				<div class="col-md-9">
+					<div class="category">
+						<p>{$book->category->name}</p>
+					</div>
+					<h2>{$book->title}</h2>
+					<p class="author">{$book->author->name}</p>
+					<div class="text">
+						{$book->desc|noescape}
+					</div>
+					<div class="row">
+						<div class="col-md-4">
+							<p><span>Rok vydání: </span>{$book->year|date:'Y'}</p>
+							<p><span>Počet stran: </span>{$book->page_count}</p>
+						</div>
+						<div class="col-md-4">
+							<p><span>Dostupnost: </span>zbývají {$book->count}</p>
+							<p><span>Vydavatel: </span>{$book->publisher->name}</p>
+						</div>
+						<div class="col-md-4">
+							<p><span>EAN: </span>{$book->ean}</p>
+							<p><span>ISBN: </span>{$book->isbn}</p>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+</div>

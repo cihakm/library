@@ -2,13 +2,13 @@
 // source: C:\xampp\htdocs\library\app\FrontModule/templates/Homepage/default.latte
 
 // prolog Latte\Macros\CoreMacros
-list($_b, $_g, $_l) = $template->initialize('0482904225', 'html')
+list($_b, $_g, $_l) = $template->initialize('6023385386', 'html')
 ;
 // prolog Latte\Macros\BlockMacros
 //
 // block content
 //
-if (!function_exists($_b->blocks['content'][] = '_lbf04ca0ced6_content')) { function _lbf04ca0ced6_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+if (!function_exists($_b->blocks['content'][] = '_lb48f949a6f1_content')) { function _lb48f949a6f1_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
 ?><section class="numbers">
 	<div class="container">
 		<h2>Knihovna HK <span>v číslech</span></h2>
@@ -32,72 +32,40 @@ if (!function_exists($_b->blocks['content'][] = '_lbf04ca0ced6_content')) { func
 <section class="welcome">
 	<div class="container">
 		<h2>Vítejte <span>v knihovně města Hradec Králové</span></h2>
-		<p>Knihovna v Hradci Králové je veřejnou knihovnou, jejímž účelem je zabezpečovat všem          občanům rovný přístup k informacím a kulturním hodnotám, které jsou obsaženy ve fondech a informačních databázích knihovny. Pomáhá zvyšovat všeobecné a odborné vzdělání občanů.</p>
+		<?php echo $welcome->text ?>
+
 	</div>
 </section>
 <section class="bestsellers">
 	<div class="container">
 		<h2><span>Nejčasteji půjčované</span> knihy</h2>
-
-		<div id="carousel" class="carousel slide" data-interval="5000" data-ride="carousel">
-			<!-- Carousel items -->
-			<div class="carousel-inner" >
-				<div class="active item" data-target="#carousel">
-					<div class="row">
-						<div class="book-box col-md-3">
-							<img src="<?php echo Latte\Runtime\Filters::escapeHtml(Latte\Runtime\Filters::safeUrl($basePath), ENT_COMPAT) ?>/images/data/books/0001/thumb.jpg" alt="">
-							<div class="infobox">
-								<p class="title">Hra o trůny</p>
-								<p class="author">George R.R. Martin</p>
-								<a href="#" class="info-button">info</a>
-								<a href="#" class="basket-button" <?php if (!$user->loggedIn) { ?>data-toggle="modal" data-target="#pleaseLoginModal"<?php } ?>>vypůjčit</a>
-							</div>
-						</div>
-						<div class="book-box col-md-3">
-							<img src="<?php echo Latte\Runtime\Filters::escapeHtml(Latte\Runtime\Filters::safeUrl($basePath), ENT_COMPAT) ?>/images/data/books/0002/thumb.jpg" alt="">
-							<div class="infobox">
-								<p class="title">50 odstínů šedi</p>
-								<p class="author">E. L. James</p>
-								<a href="#" class="info-button">info</a>
-								<a href="#" class="basket-button" <?php if (!$user->loggedIn) { ?>data-toggle="modal" data-target="#pleaseLoginModal"<?php } ?>>vypůjčit</a>
-
-							</div>
-						</div>
-						<div class="book-box col-md-3">
-							<img src="<?php echo Latte\Runtime\Filters::escapeHtml(Latte\Runtime\Filters::safeUrl($basePath), ENT_COMPAT) ?>/images/data/books/0003/thumb.jpg" alt="">
-							<div class="infobox">
-								<p class="title">Hobbit</p>
-								<p class="author">J. R. R. Tolkien</p>
-								<a href="#" class="info-button">info</a>
-								<a href="#" class="basket-button" <?php if (!$user->loggedIn) { ?>data-toggle="modal" data-target="#pleaseLoginModal"<?php } ?>>vypůjčit</a>
-
-							</div>
-						</div>
-						<div class="book-box col-md-3">
-							<img src="<?php echo Latte\Runtime\Filters::escapeHtml(Latte\Runtime\Filters::safeUrl($basePath), ENT_COMPAT) ?>/images/data/books/0004/thumb.jpg" alt="">
-							<div class="infobox">
-								<p class="title">Hunger Games</p>
-								<p class="author">S. Collins</p>
-								<a href="#" class="info-button">info</a>
-								<a href="#" class="basket-button" <?php if (!$user->loggedIn) { ?>data-toggle="modal" data-target="#pleaseLoginModal"<?php } ?>>vypůjčit</a>
-							</div>
-						</div>
-						<div class="clear"></div>
+		<div class="book-carousel">
+<?php $iterations = 0; foreach ($mostBorrowed as $book) { ?>
+				<div class="book-box col-md-3">
+					<img src="<?php echo Latte\Runtime\Filters::escapeHtml(Latte\Runtime\Filters::safeUrl($basePath), ENT_COMPAT) ?>
+/<?php echo Latte\Runtime\Filters::escapeHtml(Latte\Runtime\Filters::safeUrl($book->url), ENT_COMPAT) ?>" alt="">
+					<div class="infobox">
+						<p class="title"><?php echo Latte\Runtime\Filters::escapeHtml($book->title, ENT_NOQUOTES) ?></p>
+						<p class="author"><?php echo Latte\Runtime\Filters::escapeHtml($book->author->name, ENT_NOQUOTES) ?></p>
+						<a class="info-button" href="<?php echo Latte\Runtime\Filters::escapeHtml($_control->link(":Front:Catalog:detail", array($book->id)), ENT_COMPAT) ?>
+">info</a>
+						<a href="#" class="basket-button" <?php if (!$user->loggedIn) { ?>data-toggle="modal" data-target="#pleaseLoginModal"<?php } ?>>vypůjčit</a>
 					</div>
 				</div>
 
+<?php $iterations++; } ?>
 
-			</div> 
-			<!-- Controls -->
-			<a class="left carousel-control" href="#carousel" role="button" data-slide="prev"><span></span></a>
-			<a class="right carousel-control" href="#carousel" role="button" data-slide="next"><span></span></a>
 		</div>
 	</div>
 </section>
 <section class="registration">
 	<div class="container">
 		<h2><span>Zaregistrujte se</span> u nás</h2>
-		<p class="subtitle">Registrací na našem webu získáte nejenom možnost vypůjčení knih.</p>
+		<div class="subtitle">
+			<?php echo $registration->text ?>
+
+
+		</div>
 		<div class="col-md-6 right">
 			<p><a href="#" class="btn reg orange" data-toggle="modal" data-target="#registrationModal">Běžná registrace</a></p>
 		</div>

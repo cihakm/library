@@ -2,20 +2,20 @@
 // source: C:\xampp\htdocs\library\app\AdminModule/templates/@layout.latte
 
 // prolog Latte\Macros\CoreMacros
-list($_b, $_g, $_l) = $template->initialize('5866278025', 'html')
+list($_b, $_g, $_l) = $template->initialize('3375828698', 'html')
 ;
 // prolog Latte\Macros\BlockMacros
 //
 // block title
 //
-if (!function_exists($_b->blocks['title'][] = '_lbdf3d84c2f6_title')) { function _lbdf3d84c2f6_title($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+if (!function_exists($_b->blocks['title'][] = '_lb22a482ee98_title')) { function _lb22a482ee98_title($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
 ?>Knihovna HK | Admin<?php
 }}
 
 //
 // block _flashes
 //
-if (!function_exists($_b->blocks['_flashes'][] = '_lb06382077bd__flashes')) { function _lb06382077bd__flashes($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v; $_control->redrawControl('flashes', FALSE)
+if (!function_exists($_b->blocks['_flashes'][] = '_lb1b9f8ce0b3__flashes')) { function _lb1b9f8ce0b3__flashes($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v; $_control->redrawControl('flashes', FALSE)
 ;$iterations = 0; foreach ($flashes as $flash) { ?>
 				<div class="alert alert-<?php echo Latte\Runtime\Filters::escapeHtml($flash->type, ENT_COMPAT) ?> alert-dismissible fade in" role="alert"> 
 					<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -27,7 +27,7 @@ if (!function_exists($_b->blocks['_flashes'][] = '_lb06382077bd__flashes')) { fu
 //
 // block scripts
 //
-if (!function_exists($_b->blocks['scripts'][] = '_lbd476a9e43e_scripts')) { function _lbd476a9e43e_scripts($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+if (!function_exists($_b->blocks['scripts'][] = '_lb0bda578ce5_scripts')) { function _lb0bda578ce5_scripts($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
 ;
 }}
 
@@ -72,7 +72,7 @@ ob_start(); call_user_func(reset($_b->blocks['title']), $_b, get_defined_vars())
 		<link rel="shortcut icon" href="<?php echo Latte\Runtime\Filters::escapeHtml(Latte\Runtime\Filters::safeUrl($basePath), ENT_COMPAT) ?>/favicon.ico">
 	</head>
 	<body class="admin">
-<?php $_b->templates['5866278025']->renderChildTemplate("modal.latte", $template->getParameters())  ?>
+<?php $_b->templates['3375828698']->renderChildTemplate("modal.latte", $template->getParameters())  ?>
 <div id="<?php echo $_control->getSnippetId('flashes') ?>"><?php call_user_func(reset($_b->blocks['_flashes']), $_b, $template->getParameters()) ?>
 </div>
 <?php if (!$isSign) { ?>
@@ -118,6 +118,9 @@ ob_start(); call_user_func(reset($_b->blocks['title']), $_b, get_defined_vars())
 									<li <?php try { $_presenter->link(":Admin:News:*"); } catch (Nette\Application\UI\InvalidLinkException $e) {}; if ($_presenter->getLastCreatedRequestFlag("current")) { ?>
 class="current"<?php } ?>><a href="<?php echo Latte\Runtime\Filters::escapeHtml($_control->link(":Admin:News:"), ENT_COMPAT) ?>
 ">Aktuality</a></li>
+									<li <?php try { $_presenter->link(":Admin:Tax:*"); } catch (Nette\Application\UI\InvalidLinkException $e) {}; if ($_presenter->getLastCreatedRequestFlag("current")) { ?>
+class="current"<?php } ?>><a href="<?php echo Latte\Runtime\Filters::escapeHtml($_control->link(":Admin:Tax:"), ENT_COMPAT) ?>
+">Ceník</a></li>
 								</ul>
 							</li>
 							<li class="dropdown">

@@ -35,5 +35,8 @@ services:
 	- App\Model\AdminUserManager
 	- App\Model\NewsManager
 	- App\Model\TaxManager
+	- App\Model\CatalogManager
+	- App\Model\BookManager
+	- App\Model\TextManager
 	- App\RouterFactory
 	router: @App\RouterFactory::createRouter

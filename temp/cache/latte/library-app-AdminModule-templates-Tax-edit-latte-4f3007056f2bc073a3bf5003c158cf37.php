@@ -1,27 +1,18 @@
 <?php
-// source: C:\xampp\htdocs\library\app\FrontModule/templates/News/default.latte
+// source: C:\xampp\htdocs\library\app\AdminModule/templates/Tax/edit.latte
 
 // prolog Latte\Macros\CoreMacros
-list($_b, $_g, $_l) = $template->initialize('2409876361', 'html')
+list($_b, $_g, $_l) = $template->initialize('6414630741', 'html')
 ;
 // prolog Latte\Macros\BlockMacros
 //
 // block content
 //
-if (!function_exists($_b->blocks['content'][] = '_lb430d8ff552_content')) { function _lb430d8ff552_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
-?><div class="container">
-        <h2><span>Aktuality</span> z knihovny</h2>
-<?php $iterations = 0; foreach ($news as $new) { ?>
-		<article>
-			<header>
-				<p class="date"><?php echo Latte\Runtime\Filters::escapeHtml($template->date($new->date, 'd.m.Y'), ENT_NOQUOTES) ?></p>
-				<h3><?php echo Latte\Runtime\Filters::escapeHtml($new->title, ENT_NOQUOTES) ?></h3>
-			</header>
-			<?php echo $new->content ?>
+if (!function_exists($_b->blocks['content'][] = '_lb8e3286048f_content')) { function _lb8e3286048f_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+;$_l->tmp = $_control->getComponent("taxForm"); if ($_l->tmp instanceof Nette\Application\UI\IRenderable) $_l->tmp->redrawControl(NULL, FALSE); $_l->tmp->render() ?>
 
-		</article>
-<?php $iterations++; } ?>
-</div><?php
+
+<?php
 }}
 
 //

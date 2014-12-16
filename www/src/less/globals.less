@@ -7,7 +7,7 @@
 
 html, body {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
+	.font-size(14px);
 	height: 100%;
 }
 
@@ -26,18 +26,18 @@ p{
 }
 
 h2 {
-	font-size: @size36;
-	font-weight: @fontNormal;
+	.font-size(36px);
+	.font-weight(400);
 	text-align: center;
 	color: #444548;
 	margin: 30px 0;
 	span {
-		font-weight: @fontBold
+		.font-weight(700);
 	}
 }
 
 .subtitle {
-	font-size: @size24;
+	.font-size(26px);
 	text-align: center;
 }
 
@@ -75,12 +75,12 @@ h2 {
 
 		}
 		.title {
-			font-size: @size20;
-			font-weight: @fontBold;
+			.font-size(20px);
+			.font-weight(700);
 			margin: 0;
 		}
 		.author {
-			font-size: @size16;
+			.font-size(16px);
 			margin: 0;
 		}
 	}
@@ -90,18 +90,25 @@ h2 {
 	text-align: right;
 }
 
-.carousel-control {
-	width: 30px;
-	height: 47px;
-	top: 50%;
-	margin-top: -23px;
-	&.left {
-		background: url(@urlIcons) no-repeat -69px top;
-		left: -50px;
-	}
-	&.right {
-		background: url(@urlIcons) no-repeat -99px top;
-		right: -50px;
+.book-carousel{
+	button{
+		width: 30px;
+		height: 47px;
+		top: 50%;
+		margin-top: -23px;
+		text-indent: -9999px;
+		opacity: 0.5;
+		&:hover{
+			opacity: 1;
+		}
+		&.slick-prev {
+			background: url(@urlIcons) no-repeat -69px top;
+			left: -50px;
+		}
+		&.slick-next{
+			background: url(@urlIcons) no-repeat -99px top;
+			right: -50px;
+		}
 	}
 }
 
@@ -148,12 +155,12 @@ h2 {
 				background-color: #d64445;
 				color: #fff;
 				padding: 5px 15px;
-				font-weight: @fontNormal;
-				font-size: @size20;
+				.font-weight(400);
+				.font-size(20px);
 			}
 			td {
 				padding: 10px 15px;
-				font-size: @size14;
+				.font-size(24px);
 				&:last-child {
 					text-align: right;
 					width: 30%;
@@ -168,27 +175,27 @@ h2 {
 
 &::-webkit-input-placeholder {
 	color: @placeholderColor;
-	font-size: @size18;
-	font-weight: @fontSb
+	.font-size(18px);
+	.font-weight(600);
 }
 
 &:-moz-placeholder {
 	/* Firefox 18- */
 	color: @placeholderColor;
-	font-size: @size18;
-	font-weight: @fontSb
+	.font-size(18px);
+	.font-weight(600);
 }
 
 &::-moz-placeholder {
 	/* Firefox 19+ */
 	color: @placeholderColor;
-	font-size: @size18;
-	font-weight: @fontSb
+	.font-size(18px);
+	.font-weight(600);
 }
 
 &:-ms-input-placeholder {
 	color: @placeholderColor;
-	font-size: @size18;
-	font-weight: @fontSb
+	.font-size(18px);
+	.font-weight(600);
 }
 

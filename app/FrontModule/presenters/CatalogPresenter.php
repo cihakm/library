@@ -2,18 +2,20 @@
 
 namespace App\FrontModule\Presenters;
 
-class CatalogPresenter extends BasePresenter
-{
+class CatalogPresenter extends BasePresenter {
 
+	/** @var \App\Model\CatalogManager @inject */
+	public $catalogManager;
 
-	protected function startup()
-	{
+	protected function startup() {
 		parent::startup();
 	}
 
-	public function renderDefault()
-	{
-
+	public function renderDefault() {
+		$this->template->books = $this->catalogManager->findAll();
+	}
+	public function renderDetail($id) {
+		$this->template->book = $this->catalogManager->findById($id);
 	}
 
 }

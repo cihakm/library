@@ -2,7 +2,7 @@
 // source: C:\xampp\htdocs\library\app\FrontModule/templates/header.latte
 
 // prolog Latte\Macros\CoreMacros
-list($_b, $_g, $_l) = $template->initialize('2011432465', 'html')
+list($_b, $_g, $_l) = $template->initialize('6075742191', 'html')
 ;
 // prolog Nette\Bridges\ApplicationLatte\UIMacros
 
@@ -43,8 +43,8 @@ class="active"<?php } ?>><a href="<?php echo Latte\Runtime\Filters::escapeHtml($
 					<li <?php try { $_presenter->link(":Front:Catalog:default"); } catch (Nette\Application\UI\InvalidLinkException $e) {}; if ($_presenter->getLastCreatedRequestFlag("current")) { ?>
 class="active"<?php } ?>><a href="<?php echo Latte\Runtime\Filters::escapeHtml($_control->link(":Front:Catalog:"), ENT_COMPAT) ?>
 ">Katalog</a></li>
-					<li <?php try { $_presenter->link(":Front:Price:default"); } catch (Nette\Application\UI\InvalidLinkException $e) {}; if ($_presenter->getLastCreatedRequestFlag("current")) { ?>
-class="active"<?php } ?>><a href="<?php echo Latte\Runtime\Filters::escapeHtml($_control->link(":Front:Price:"), ENT_COMPAT) ?>
+					<li <?php try { $_presenter->link(":Front:Tax:default"); } catch (Nette\Application\UI\InvalidLinkException $e) {}; if ($_presenter->getLastCreatedRequestFlag("current")) { ?>
+class="active"<?php } ?>><a href="<?php echo Latte\Runtime\Filters::escapeHtml($_control->link(":Front:Tax:"), ENT_COMPAT) ?>
 ">Ceník</a></li>
 					<li <?php try { $_presenter->link(":Front:News:default"); } catch (Nette\Application\UI\InvalidLinkException $e) {}; if ($_presenter->getLastCreatedRequestFlag("current")) { ?>
 class="active"<?php } ?>><a href="<?php echo Latte\Runtime\Filters::escapeHtml($_control->link(":Front:News:"), ENT_COMPAT) ?>

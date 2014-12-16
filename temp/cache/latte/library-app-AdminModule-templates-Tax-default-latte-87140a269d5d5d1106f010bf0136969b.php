@@ -1,27 +1,23 @@
 <?php
-// source: C:\xampp\htdocs\library\app\FrontModule/templates/News/default.latte
+// source: C:\xampp\htdocs\library\app\AdminModule/templates/Tax/default.latte
 
 // prolog Latte\Macros\CoreMacros
-list($_b, $_g, $_l) = $template->initialize('2409876361', 'html')
+list($_b, $_g, $_l) = $template->initialize('1466114598', 'html')
 ;
 // prolog Latte\Macros\BlockMacros
 //
 // block content
 //
-if (!function_exists($_b->blocks['content'][] = '_lb430d8ff552_content')) { function _lb430d8ff552_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
-?><div class="container">
-        <h2><span>Aktuality</span> z knihovny</h2>
-<?php $iterations = 0; foreach ($news as $new) { ?>
-		<article>
-			<header>
-				<p class="date"><?php echo Latte\Runtime\Filters::escapeHtml($template->date($new->date, 'd.m.Y'), ENT_NOQUOTES) ?></p>
-				<h3><?php echo Latte\Runtime\Filters::escapeHtml($new->title, ENT_NOQUOTES) ?></h3>
-			</header>
-			<?php echo $new->content ?>
+if (!function_exists($_b->blocks['content'][] = '_lbebf622d5b5_content')) { function _lbebf622d5b5_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+?><h2 class="pull-left">Ceník</h2>
+<div class="pull-right">
+	<a class="btn" href="<?php echo Latte\Runtime\Filters::escapeHtml($_control->link(":Admin:Tax:edit"), ENT_COMPAT) ?>
+">Editovat stránku</a>
+</div>
+<div class="clearfix"></div>
+<?php echo $tax->content ?>
 
-		</article>
-<?php $iterations++; } ?>
-</div><?php
+<?php
 }}
 
 //

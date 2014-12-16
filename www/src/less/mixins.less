@@ -1,0 +1,68 @@
+.font-size(@size){
+	font-size: @size
+}
+.font-weight(@weight){
+	font-weight: @weight
+}
+.box-shadow(@horizontal, @vertical, @blur, @spread, @color ){
+	-webkit-box-shadow: @horizontal @vertical @blur @spread @color;
+	-moz-box-shadow: @horizontal @vertical @blur @spread @color;
+	box-shadow: @horizontal @vertical @blur @spread @color;
+}
+.box-shadow-inner(@horizontal, @vertical, @blur, @spread, @color ){
+	-webkit-box-shadow: inset @horizontal @vertical @blur @spread @color;
+	-moz-box-shadow: inset @horizontal @vertical @blur @spread @color;
+	box-shadow: inset @horizontal @vertical @blur @spread @color;
+}
+.box-shadow-both(@horizontalOut, @verticalOut, @blurOut, @spreadOut, @colorOut,@horizontalIn, @verticalIn, @blurIn, @spreadIn, @colorIn){
+	-webkit-box-shadow: inset @horizontalIn @verticalIn @blurIn @spreadIn @colorIn, @horizontalOut @verticalOut @blurOut @spreadOut @colorOut ;
+	-moz-box-shadow: inset @horizontalIn @verticalIn @blurIn @spreadIn @colorIn, @horizontalOut @verticalOut @blurOut @spreadOut @colorOut;
+	box-shadow: inset @horizontalIn @verticalIn @blurIn @spreadIn @colorIn, @horizontalOut @verticalOut @blurOut @spreadOut @colorOut;
+}
+
+.button-after(@position, @content, @width, @height, @top, @right, @url, @position-x, @position-y){
+	position: @position;
+	content: @content;
+	width: @width;
+	height: @height;
+	right: @right;
+	top: @top;
+	background: url(@url) no-repeat @position-x @position-y;
+}
+.button-after-bottom(@position, @content, @width, @height, @bottom, @right, @url, @position-x, @position-y){
+	position: @position;
+	content: @content;
+	width: @width;
+	height: @height;
+	right: @right;
+	bottom: @bottom;
+	background: url(@url) no-repeat @position-x @position-y;
+}
+
+.button-before(@position, @content, @width, @height, @top, @left, @url, @position-x, @position-y){
+	position: @position;
+	content: @content;
+	width: @width;
+	height: @height;
+	left: @left;
+	top: @top;
+	background: url(@url) no-repeat @position-x @position-y;
+}
+
+.gradient(@startColor, @startPosition, @endColor, @endPosition){
+	background: @startColor; /* Old browsers */
+	background: -moz-linear-gradient(top,  @startColor @startPosition, @endColor @endPosition); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(@startPosition,@startColor), color-stop(@endPosition,@endColor)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  @startColor @startPosition,@endColor @endPosition); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  @startColor @startPosition,@endColor @endPosition); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  @startColor @startPosition,@endColor @endPosition); /* IE10+ */
+	background: linear-gradient(to bottom,  @startColor @startPosition,@endColor @endPosition); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@startColor', endColorstr='@endColor',GradientType=0 ); /* IE6-9 */
+}
+
+.transition(@type, @delay, @effect){
+	-webkit-transition: @type @delay @effect;
+	-moz-transition: @type @delay @effect;
+	-o-transition: @type @delay @effect;
+	transition: @type @delay @effect;
+}

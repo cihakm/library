@@ -8,7 +8,7 @@
 		.modal-content {
 			.modal-info{
 				margin: 0 0 15px;
-				font-weight: @fontBold;
+				.font-weight(600);
 				text-align: center;
 			}
 			.choise {
@@ -32,7 +32,7 @@
 					border-radius: 1px;
 					margin-bottom: 10px;
 					border: 1px solid #d3d3d3;
-					font-size: @size16;
+					.font-size(16px);
 					&:focus {
 						border: 1px solid #a3a3a3;
 
@@ -48,39 +48,39 @@
 						padding-left: 40px;
 						background: #fff url(../images/icons/password.png) no-repeat 10px 12px;
 					}
-					&::-webkit-input-placeholder {
-						font-size: @size16;
-						font-weight: @fontNormal
-					}
-				}
 
+				}
+				&::-webkit-input-placeholder {
+					.font-size(16px);
+					.font-weight(400);
+				}
 				&:-moz-placeholder {
 					/* Firefox 18- */
-					font-size: @size16;
-					font-weight: @fontNormal
+					.font-size(16px);
+					.font-weight(400);
 				}
 
 				&::-moz-placeholder {
 					/* Firefox 19+ */
-					font-size: @size16;
-					font-weight: @fontNormal
+					.font-size(16px);
+					.font-weight(400);
 				}
 
 				&:-ms-input-placeholder {
-					font-size: @size16;
-					font-weight: @fontNormal
+					.font-size(16px);
+					.font-weight(400);
 				}
 			}
 			.lost-pass {
 				margin: 15px 0;
 				a {
 					color: #d64445;
-					font-weight: @fontLight
+					.font-weight(300);
 				}
 			}
 			input[type="submit"] {
 				background-color: #d64445;
-				font-weight: @fontNormal;
+				.font-weight(400);
 				&:focus {
 					color: #fff;
 					outline: none;

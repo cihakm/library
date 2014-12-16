@@ -2,7 +2,7 @@
 // source: C:\xampp\htdocs\library\app\FrontModule/templates/@layout.latte
 
 // prolog Latte\Macros\CoreMacros
-list($_b, $_g, $_l) = $template->initialize('7738603592', 'html')
+list($_b, $_g, $_l) = $template->initialize('0834782304', 'html')
 ;
 // prolog Nette\Bridges\ApplicationLatte\UIMacros
 
@@ -26,6 +26,7 @@ if (empty($_l->extends) && !empty($_control->snippetMode)) {
 
 		<!-- CSS -->
 		<link href="<?php echo Latte\Runtime\Filters::escapeHtml(Latte\Runtime\Filters::safeUrl($basePath), ENT_COMPAT) ?>/css/styles.css" rel="stylesheet">
+		<link href="<?php echo Latte\Runtime\Filters::escapeHtml(Latte\Runtime\Filters::safeUrl($basePath), ENT_COMPAT) ?>/css/responsive-slider.css" rel="stylesheet">
 
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="<?php echo Latte\Runtime\Filters::escapeHtml(Latte\Runtime\Filters::safeUrl($basePath), ENT_COMPAT) ?>/favicon.ico">
@@ -41,10 +42,10 @@ if (empty($_l->extends) && !empty($_control->snippetMode)) {
                                 <div class="msg"><?php echo Latte\Runtime\Filters::escapeHtml($flash->message, ENT_NOQUOTES) ?></div> 
 				                <a href="#" class="close" data-dismiss="alert">Close</a>
 			            </div>
-<?php $iterations++; } $_b->templates['7738603592']->renderChildTemplate('modals.latte', $template->getParameters()) ?>
+<?php $iterations++; } $_b->templates['0834782304']->renderChildTemplate('modals.latte', $template->getParameters()) ?>
 
 		<div class="wrapper">
-<?php $_b->templates['7738603592']->renderChildTemplate('header.latte', $template->getParameters()) ?>
+<?php $_b->templates['0834782304']->renderChildTemplate('header.latte', $template->getParameters()) ?>
             <section>
                 <div class="slider">
                     <div class="container">
@@ -67,12 +68,14 @@ if (empty($_l->extends) && !empty($_control->snippetMode)) {
 <?php Latte\Macros\BlockMacros::callBlock($_b, 'content', $template->getParameters()) ?>
 		<div class="push"></div>
 		</div>
-<?php $_b->templates['7738603592']->renderChildTemplate('footer.latte', $template->getParameters()) ?>
+<?php $_b->templates['0834782304']->renderChildTemplate('footer.latte', $template->getParameters()) ?>
 
                 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
                 <script type="text/javascript" src="<?php echo Latte\Runtime\Filters::escapeHtml(Latte\Runtime\Filters::safeUrl($basePath), ENT_COMPAT) ?>/js/bootstrap.min.js"></script>
                 <script type="text/javascript" src="<?php echo Latte\Runtime\Filters::escapeHtml(Latte\Runtime\Filters::safeUrl($basePath), ENT_COMPAT) ?>/js/jquery.js"></script>
                 <script type="text/javascript" src="<?php echo Latte\Runtime\Filters::escapeHtml(Latte\Runtime\Filters::safeUrl($basePath), ENT_COMPAT) ?>/js/live-form-validation.js"></script>
+		<script type="text/javascript" src="<?php echo Latte\Runtime\Filters::escapeHtml(Latte\Runtime\Filters::safeUrl($basePath), ENT_COMPAT) ?>/js/responsive-slider.js"></script>
+                <script type="text/javascript" src="<?php echo Latte\Runtime\Filters::escapeHtml(Latte\Runtime\Filters::safeUrl($basePath), ENT_COMPAT) ?>/js/main.js"></script>
 
 
 	</body>
