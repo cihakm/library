@@ -2,13 +2,13 @@
 // source: C:\xampp\htdocs\library\app\AdminModule/templates/News/default.latte
 
 // prolog Latte\Macros\CoreMacros
-list($_b, $_g, $_l) = $template->initialize('5867760271', 'html')
+list($_b, $_g, $_l) = $template->initialize('9640309393', 'html')
 ;
 // prolog Latte\Macros\BlockMacros
 //
 // block content
 //
-if (!function_exists($_b->blocks['content'][] = '_lb59afd523b3_content')) { function _lb59afd523b3_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+if (!function_exists($_b->blocks['content'][] = '_lbfba1ce2768_content')) { function _lbfba1ce2768_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
 ?><h2 class="pull-left">Aktuality</h2>
 <div class="pull-right">
 	<a class="btn" href="<?php echo Latte\Runtime\Filters::escapeHtml($_control->link(":Admin:News:add"), ENT_COMPAT) ?>
@@ -23,7 +23,7 @@ if (!function_exists($_b->blocks['content'][] = '_lb59afd523b3_content')) { func
 //
 // block _dataGrid
 //
-if (!function_exists($_b->blocks['_dataGrid'][] = '_lb4f9daadefd__dataGrid')) { function _lb4f9daadefd__dataGrid($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v; $_control->redrawControl('dataGrid', FALSE)
+if (!function_exists($_b->blocks['_dataGrid'][] = '_lbe2ea628e2a__dataGrid')) { function _lbe2ea628e2a__dataGrid($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v; $_control->redrawControl('dataGrid', FALSE)
 ;$_l->tmp = $_control->getComponent("newsDataGrid"); if ($_l->tmp instanceof Nette\Application\UI\IRenderable) $_l->tmp->redrawControl(NULL, FALSE); $_l->tmp->render() ;
 }}
 

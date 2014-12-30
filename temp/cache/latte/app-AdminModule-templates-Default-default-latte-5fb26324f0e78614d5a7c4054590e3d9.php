@@ -2,13 +2,13 @@
 // source: C:\xampp\htdocs\library\app\AdminModule/templates/Default/default.latte
 
 // prolog Latte\Macros\CoreMacros
-list($_b, $_g, $_l) = $template->initialize('3182623012', 'html')
+list($_b, $_g, $_l) = $template->initialize('9126224398', 'html')
 ;
 // prolog Latte\Macros\BlockMacros
 //
 // block content
 //
-if (!function_exists($_b->blocks['content'][] = '_lb9e985bc1b6_content')) { function _lb9e985bc1b6_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+if (!function_exists($_b->blocks['content'][] = '_lbe1cfabd0a8_content')) { function _lbe1cfabd0a8_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
 ?><div class="admin-default">
 	<p>There will be dashboard</p>
 </div>

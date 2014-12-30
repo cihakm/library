@@ -2,20 +2,20 @@
 // source: C:\xampp\htdocs\library\app\AdminModule/templates/Sign/in.latte
 
 // prolog Latte\Macros\CoreMacros
-list($_b, $_g, $_l) = $template->initialize('6071770761', 'html')
+list($_b, $_g, $_l) = $template->initialize('8574549626', 'html')
 ;
 // prolog Latte\Macros\BlockMacros
 //
 // block title
 //
-if (!function_exists($_b->blocks['title'][] = '_lba160cb05c3_title')) { function _lba160cb05c3_title($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+if (!function_exists($_b->blocks['title'][] = '_lbe83200e73e_title')) { function _lbe83200e73e_title($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
 ?>Knihovna HK | Admin | Login<?php
 }}
 
 //
 // block content
 //
-if (!function_exists($_b->blocks['content'][] = '_lbdf356fd75d_content')) { function _lbdf356fd75d_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+if (!function_exists($_b->blocks['content'][] = '_lb341deed98b_content')) { function _lb341deed98b_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
 ?><div class="login-form">
 	<h2>Přihlášení do administrace</h2>
 	<?php Nette\Bridges\FormsLatte\FormMacros::renderFormBegin($form = $_form = $_control["signInForm"], array()) ?>
@@ -47,7 +47,7 @@ if (!function_exists($_b->blocks['content'][] = '_lbdf356fd75d_content')) { func
 //
 // block scripts
 //
-if (!function_exists($_b->blocks['scripts'][] = '_lb3593faea28_scripts')) { function _lb3593faea28_scripts($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+if (!function_exists($_b->blocks['scripts'][] = '_lbf1e9fdbf04_scripts')) { function _lbf1e9fdbf04_scripts($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
 ?><script type="text/javascript" src="<?php echo Latte\Runtime\Filters::escapeHtml(Latte\Runtime\Filters::safeUrl($basePath), ENT_COMPAT) ?>/design-admin/js/jquery.js"></script>
 
 <?php

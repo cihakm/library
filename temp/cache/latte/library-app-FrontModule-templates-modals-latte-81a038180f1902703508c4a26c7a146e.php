@@ -2,7 +2,7 @@
 // source: C:\xampp\htdocs\library\app\FrontModule/templates/modals.latte
 
 // prolog Latte\Macros\CoreMacros
-list($_b, $_g, $_l) = $template->initialize('7988819488', 'html')
+list($_b, $_g, $_l) = $template->initialize('7065955620', 'html')
 ;
 // prolog Nette\Bridges\ApplicationLatte\UIMacros
 

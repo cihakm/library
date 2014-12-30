@@ -16,8 +16,13 @@ class CatalogManager {
 		$this->database = $database;
 	}
 
-	public function findAll() {
-		$row = $this->database->table('book')->fetchAll();
+	public function findCategoryBooks($catId) {
+		$row = $this->database->table('book')->where("category_id", $catId)->fetchAll();
+		return $row;
+	}
+	
+	public function findBookCategory($catId) {
+		$row = $this->database->table('category')->where("id", $catId)->fetch();
 		return $row;
 	}
 

@@ -2,16 +2,23 @@
 // source: C:\xampp\htdocs\library\app\FrontModule/templates/Catalog/detail.latte
 
 // prolog Latte\Macros\CoreMacros
-list($_b, $_g, $_l) = $template->initialize('8032095581', 'html')
+list($_b, $_g, $_l) = $template->initialize('6008574637', 'html')
 ;
 // prolog Latte\Macros\BlockMacros
 //
 // block content
 //
-if (!function_exists($_b->blocks['content'][] = '_lba03cae73ac_content')) { function _lba03cae73ac_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+if (!function_exists($_b->blocks['content'][] = '_lb127305c5ec_content')) { function _lb127305c5ec_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
 ?><div class="container">
 	<div class="book-detail">
 		<div class="book-about">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="row">
+						<p class="back pull-right"><a href="javascript:history.back();" >Zpět</a></p>
+					</div>
+				</div>
+			</div>
 			<div class="row">
 				<div class="col-md-3">
 					<img src="<?php echo Latte\Runtime\Filters::escapeHtml(Latte\Runtime\Filters::safeUrl($basePath), ENT_COMPAT) ?>
@@ -40,6 +47,12 @@ if (!function_exists($_b->blocks['content'][] = '_lba03cae73ac_content')) { func
 							<p><span>EAN: </span><?php echo Latte\Runtime\Filters::escapeHtml($book->ean, ENT_NOQUOTES) ?></p>
 							<p><span>ISBN: </span><?php echo Latte\Runtime\Filters::escapeHtml($book->isbn, ENT_NOQUOTES) ?></p>
 						</div>
+					</div>
+
+				</div>
+				<div class="col-md-12">
+					<div class="row">
+						<p class="basket pull-right"><a href="#" <?php if (!$user->loggedIn) { ?>data-toggle="modal" data-target="#pleaseLoginModal"<?php } ?>>Vypůjčit</a></p>
 					</div>
 				</div>
 				<div class="clearfix"></div>

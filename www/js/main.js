@@ -1,3 +1,5 @@
+$('.alert').delay(3000).slideToggle('slow');
+
 $(document).ready(function () {
 	$('.book-carousel').slick({
 		dots: false,
@@ -23,5 +25,8 @@ $(document).ready(function () {
 			}
 		]
 	});
-	
+	$(function () {
+		$.nette.init();
+	});
+
 });

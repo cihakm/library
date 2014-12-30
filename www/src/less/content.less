@@ -232,6 +232,61 @@ article{
 					}
 				}
 			}
+			.basket{
+				margin-top: 40px;
+				margin-bottom: 50px;
+				a{
+					.gradient(#e28e50, 0%, #b35429, 100%);
+					border: 1px solid #b35429;
+					display: block;
+					color: #fff;
+					.font-size(18px);
+					.font-weight(600);
+					padding: 5px 20px 5px 60px;
+					position: relative;
+					.box-shadow(0, 1px, 4px, 0,rgba(0,0,0,0.40));
+					&:before{
+						.button-before(absolute, "", 45px, 45px, 2px, 8%, @urlIcons, -70px, -105px);
+					}
+					&:focus{
+						text-decoration: none;
+					}
+					&:hover{
+						background: #b35429;
+						text-decoration: none;
+					}
+				}
+			}
+			> .col-md-12{
+				&:first-child{
+					border-bottom: 1px solid #f4f4f4;
+					margin-bottom: 20px;
+					padding-bottom: 20px;
+				}
+				.back{
+					a{
+						.gradient(#e28e50, 0%, #b35429, 100%);
+						border: 1px solid #b35429;
+						display: block;
+						color: #fff;
+						.font-size(18px);
+						.font-weight(600);
+						padding: 5px 20px 5px 60px;
+						position: relative;
+						.box-shadow(0, 1px, 4px, 0,rgba(0,0,0,0.40));
+						&:before{
+							.button-before(absolute, "", 45px, 45px, 0, 10%, @urlIcons, -160px, -58px);
+						}
+						&:focus{
+							text-decoration: none;
+						}
+						&:hover{
+							background: #b35429;
+							text-decoration: none;
+						}
+					}
+				}
+			}
 		}
 	}
 }

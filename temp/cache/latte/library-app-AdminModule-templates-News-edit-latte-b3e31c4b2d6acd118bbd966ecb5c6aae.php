@@ -2,13 +2,13 @@
 // source: C:\xampp\htdocs\library\app\AdminModule/templates/News/edit.latte
 
 // prolog Latte\Macros\CoreMacros
-list($_b, $_g, $_l) = $template->initialize('5055758546', 'html')
+list($_b, $_g, $_l) = $template->initialize('5135830347', 'html')
 ;
 // prolog Latte\Macros\BlockMacros
 //
 // block content
 //
-if (!function_exists($_b->blocks['content'][] = '_lb838bd4db1b_content')) { function _lb838bd4db1b_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+if (!function_exists($_b->blocks['content'][] = '_lb8c9e6edbbb_content')) { function _lb8c9e6edbbb_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
 ;$_l->tmp = $_control->getComponent("newForm"); if ($_l->tmp instanceof Nette\Application\UI\IRenderable) $_l->tmp->redrawControl(NULL, FALSE); $_l->tmp->render() ?>
 
 

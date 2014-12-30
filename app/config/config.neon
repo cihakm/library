@@ -37,6 +37,7 @@ services:
 	- App\Model\TaxManager
 	- App\Model\CatalogManager
 	- App\Model\BookManager
+	- App\Model\CategoryManager
 	- App\Model\TextManager
 	- App\RouterFactory
 	router: @App\RouterFactory::createRouter

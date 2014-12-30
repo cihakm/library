@@ -2,112 +2,70 @@
 // source: C:\xampp\htdocs\library\app\FrontModule/templates/Catalog/default.latte
 
 // prolog Latte\Macros\CoreMacros
-list($_b, $_g, $_l) = $template->initialize('8071419812', 'html')
+list($_b, $_g, $_l) = $template->initialize('9858736957', 'html')
 ;
 // prolog Latte\Macros\BlockMacros
 //
 // block content
 //
-if (!function_exists($_b->blocks['content'][] = '_lbef8351ee2a_content')) { function _lbef8351ee2a_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+if (!function_exists($_b->blocks['content'][] = '_lbc8a25361cb_content')) { function _lbc8a25361cb_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
 ?><div class="container">
 	<div class="catalog">
 		<div class="row">
-			<div class="col-md-3">
-				<nav class="navbar navbar-default" role="navigation">
-					<div class="container-fluid">
-						<div class="navbar-header">
-							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-								<span class="sr-only">Toggle navigation</span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</button>
-							<a class="navbar-brand" href="#">Kategorie</a>
-						</div>
-						<div id="navbar" class="navbar-collapse collapse">
-							<ul class="nav navbar-nav">
-								<li><a href="#">Beletrie</a></li>
-								<li><a href="#">Detektivky</a></li>
-								<li class="active"><a href="#">Dobrodružné</a></li>
-								<li><a href="#">Dětské</a></li>
-								<li><a href="#">Duchovní rozvoj</a></li>
-								<li><a href="#">Jazyky</a></li>
-								<li><a href="#">Komiksy</a></li>
-								<li><a href="#">Kuchařky</a></li>
-								<li><a href="#">Sci-fi a fantasy</a></li>
-							</ul>
-						</div><!--/.nav-collapse -->
-					</div><!--/.container-fluid -->
-				</nav>
-			</div>
-			<div class="col-md-9">
-				<h4>Dobrodružné</h4>
-				<div class="row">
-
-					<div class="book-box col-md-4">
-						<img src="<?php echo Latte\Runtime\Filters::escapeHtml(Latte\Runtime\Filters::safeUrl($basePath), ENT_COMPAT) ?>/images/data/books/0001/thumb.jpg" alt="">
-						<div class="infobox">
-							<p class="title">Hra o trůny</p>
-							<p class="author">George R.R. Martin</p>
-							<a href="#" class="info-button">info</a>
-							<a href="#" class="basket-button" <?php if (!$user->loggedIn) { ?>data-toggle="modal" data-target="#pleaseLoginModal"<?php } ?>>vypůjčit</a>
-						</div>
-					</div>
-					<div class="book-box col-md-4">
-						<img src="<?php echo Latte\Runtime\Filters::escapeHtml(Latte\Runtime\Filters::safeUrl($basePath), ENT_COMPAT) ?>/images/data/books/0002/thumb.jpg" alt="">
-						<div class="infobox">
-							<p class="title">50 odstínů šedi</p>
-							<p class="author">E. L. James</p>
-							<a href="#" class="info-button">info</a>
-							<a href="#" class="basket-button" <?php if (!$user->loggedIn) { ?>data-toggle="modal" data-target="#pleaseLoginModal"<?php } ?>>vypůjčit</a>
-
-						</div>
-					</div>
-					<div class="book-box col-md-4">
-						<img src="<?php echo Latte\Runtime\Filters::escapeHtml(Latte\Runtime\Filters::safeUrl($basePath), ENT_COMPAT) ?>/images/data/books/0003/thumb.jpg" alt="">
-						<div class="infobox">
-							<p class="title">Hobbit</p>
-							<p class="author">J. R. R. Tolkien</p>
-							<a href="#" class="info-button">info</a>
-							<a href="#" class="basket-button" <?php if (!$user->loggedIn) { ?>data-toggle="modal" data-target="#pleaseLoginModal"<?php } ?>>vypůjčit</a>
-
-						</div>
-					</div>
-					<div class="book-box col-md-4">
-						<img src="<?php echo Latte\Runtime\Filters::escapeHtml(Latte\Runtime\Filters::safeUrl($basePath), ENT_COMPAT) ?>/images/data/books/0004/thumb.jpg" alt="">
-						<div class="infobox">
-							<p class="title">Hunger Games</p>
-							<p class="author">S. Collins</p>
-							<a href="#" class="info-button">info</a>
-							<a href="#" class="basket-button" <?php if (!$user->loggedIn) { ?>data-toggle="modal" data-target="#pleaseLoginModal"<?php } ?>>vypůjčit</a>
-						</div>
-					</div>	
-					<div class="book-box col-md-4">
-						<img src="<?php echo Latte\Runtime\Filters::escapeHtml(Latte\Runtime\Filters::safeUrl($basePath), ENT_COMPAT) ?>/images/data/books/0001/thumb.jpg" alt="">
-						<div class="infobox">
-							<p class="title">Hra o trůny</p>
-							<p class="author">George R.R. Martin</p>
-							<a href="#" class="info-button">info</a>
-							<a href="#" class="basket-button" <?php if (!$user->loggedIn) { ?>data-toggle="modal" data-target="#pleaseLoginModal"<?php } ?>>vypůjčit</a>
-						</div>
-					</div>
-					<div class="book-box col-md-4">
-						<img src="<?php echo Latte\Runtime\Filters::escapeHtml(Latte\Runtime\Filters::safeUrl($basePath), ENT_COMPAT) ?>/images/data/books/0002/thumb.jpg" alt="">
-						<div class="infobox">
-							<p class="title">50 odstínů šedi</p>
-							<p class="author">E. L. James</p>
-							<a href="#" class="info-button">info</a>
-							<a href="#" class="basket-button" <?php if (!$user->loggedIn) { ?>data-toggle="modal" data-target="#pleaseLoginModal"<?php } ?>>vypůjčit</a>
-
-						</div>
-					</div>
-					
-					<div class="clear"></div>
-				</div>
-			</div>
+<div id="<?php echo $_control->getSnippetId('category') ?>"><?php call_user_func(reset($_b->blocks['_category']), $_b, $template->getParameters()) ?>
+</div>
 		</div>
 	</div>
 </div><?php
+}}
+
+//
+// block _category
+//
+if (!function_exists($_b->blocks['_category'][] = '_lb3c682b7129__category')) { function _lb3c682b7129__category($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v; $_control->redrawControl('category', FALSE)
+?>				<div class="col-md-3">
+					<nav class="navbar navbar-default" role="navigation">
+						<div class="container-fluid">
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+								<a class="navbar-brand" href="#">Kategorie</a>
+							</div>
+							<div id="navbar" class="navbar-collapse collapse">
+								<ul class="nav navbar-nav">
+<?php $iterations = 0; foreach ($categories as $cat) { ?>
+										<li <?php if ($categoryId == $cat->id) { ?>class="active"<?php } ?>><a class="ajax" href="<?php echo Latte\Runtime\Filters::escapeHtml($_control->link("changeCategory!", array($cat->id)), ENT_COMPAT) ?>
+"><?php echo Latte\Runtime\Filters::escapeHtml($cat->name, ENT_NOQUOTES) ?></a></li>
+<?php $iterations++; } ?>
+								</ul>
+							</div><!--/.nav-collapse -->
+						</div><!--/.container-fluid -->
+					</nav>
+				</div>
+				<div class="col-md-9">
+					<h4><?php echo Latte\Runtime\Filters::escapeHtml($category->name, ENT_NOQUOTES) ?></h4>
+					<div class="row">
+<?php $iterations = 0; foreach ($books as $book) { ?>
+							<div class="book-box col-md-4">
+								<img src="<?php echo Latte\Runtime\Filters::escapeHtml(Latte\Runtime\Filters::safeUrl($basePath), ENT_COMPAT) ?>
+/<?php echo Latte\Runtime\Filters::escapeHtml(Latte\Runtime\Filters::safeUrl($book->url), ENT_COMPAT) ?>" alt="">
+								<div class="infobox">
+									<p class="title"><?php echo Latte\Runtime\Filters::escapeHtml($book->title, ENT_NOQUOTES) ?></p>
+									<p class="author"><?php echo Latte\Runtime\Filters::escapeHtml($book->author->name, ENT_NOQUOTES) ?></p>
+									<a class="info-button" href="<?php echo Latte\Runtime\Filters::escapeHtml($_control->link(":Front:Catalog:detail", array($book->id)), ENT_COMPAT) ?>
+">info</a>
+									<a href="#" class="basket-button" <?php if (!$user->loggedIn) { ?>data-toggle="modal" data-target="#pleaseLoginModal"<?php } ?>>vypůjčit</a>
+								</div>
+							</div>
+<?php $iterations++; } ?>
+						<div class="clear"></div>
+					</div>
+				</div>
+<?php
 }}
 
 //

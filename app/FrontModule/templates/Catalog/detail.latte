@@ -3,6 +3,13 @@
 	<div class="book-detail">
 		<div class="book-about">
 			<div class="row">
+				<div class="col-md-12">
+					<div class="row">
+						<p class="back pull-right"><a href="javascript:history.back();" >Zpět</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
 				<div class="col-md-3">
 					<img src="{$basePath}/{$book->url}" alt="book thumbnail">
 				</div>
@@ -28,6 +35,12 @@
 							<p><span>EAN: </span>{$book->ean}</p>
 							<p><span>ISBN: </span>{$book->isbn}</p>
 						</div>
+					</div>
+
+				</div>
+				<div class="col-md-12">
+					<div class="row">
+						<p class="basket pull-right"><a href="#" {if !$user->loggedIn}data-toggle="modal" data-target="#pleaseLoginModal"{/if}>Vypůjčit</a></p>
 					</div>
 				</div>
 				<div class="clearfix"></div>

@@ -2,13 +2,13 @@
 // source: C:\xampp\htdocs\library\app\AdminModule/templates/Tax/default.latte
 
 // prolog Latte\Macros\CoreMacros
-list($_b, $_g, $_l) = $template->initialize('1466114598', 'html')
+list($_b, $_g, $_l) = $template->initialize('1295060853', 'html')
 ;
 // prolog Latte\Macros\BlockMacros
 //
 // block content
 //
-if (!function_exists($_b->blocks['content'][] = '_lbebf622d5b5_content')) { function _lbebf622d5b5_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+if (!function_exists($_b->blocks['content'][] = '_lba5cf17676d_content')) { function _lba5cf17676d_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
 ?><h2 class="pull-left">Ceník</h2>
 <div class="pull-right">
 	<a class="btn" href="<?php echo Latte\Runtime\Filters::escapeHtml($_control->link(":Admin:Tax:edit"), ENT_COMPAT) ?>

@@ -76,11 +76,12 @@ class SystemContainer extends Nette\DI\Container
 			'app\\model\\adminusermanager' => array('27_App_Model_AdminUserManager'),
 			'app\\model\\bookmanager' => array('28_App_Model_BookManager'),
 			'app\\model\\catalogmanager' => array('29_App_Model_CatalogManager'),
-			'app\\model\\newsmanager' => array('30_App_Model_NewsManager'),
-			'app\\model\\taxmanager' => array('31_App_Model_TaxManager'),
-			'app\\model\\textmanager' => array('32_App_Model_TextManager'),
-			'app\\model\\usermanager' => array('33_App_Model_UserManager'),
-			'app\\routerfactory' => array('34_App_RouterFactory'),
+			'app\\model\\categorymanager' => array('30_App_Model_CategoryManager'),
+			'app\\model\\newsmanager' => array('31_App_Model_NewsManager'),
+			'app\\model\\taxmanager' => array('32_App_Model_TaxManager'),
+			'app\\model\\textmanager' => array('33_App_Model_TextManager'),
+			'app\\model\\usermanager' => array('34_App_Model_UserManager'),
+			'app\\routerfactory' => array('35_App_RouterFactory'),
 			'nette\\di\\container' => array('container'),
 		),
 	);
@@ -136,9 +137,19 @@ class SystemContainer extends Nette\DI\Container
 
 
 	/**
+	 * @return App\Model\CategoryManager
+	 */
+	public function createService__30_App_Model_CategoryManager()
+	{
+		$service = new App\Model\CategoryManager($this->getService('database.default.context'));
+		return $service;
+	}
+
+
+	/**
 	 * @return App\Model\NewsManager
 	 */
-	public function createService__30_App_Model_NewsManager()
+	public function createService__31_App_Model_NewsManager()
 	{
 		$service = new App\Model\NewsManager($this->getService('database.default.context'));
 		return $service;
@@ -148,7 +159,7 @@ class SystemContainer extends Nette\DI\Container
 	/**
 	 * @return App\Model\TaxManager
 	 */
-	public function createService__31_App_Model_TaxManager()
+	public function createService__32_App_Model_TaxManager()
 	{
 		$service = new App\Model\TaxManager($this->getService('database.default.context'));
 		return $service;
@@ -158,7 +169,7 @@ class SystemContainer extends Nette\DI\Container
 	/**
 	 * @return App\Model\TextManager
 	 */
-	public function createService__32_App_Model_TextManager()
+	public function createService__33_App_Model_TextManager()
 	{
 		$service = new App\Model\TextManager($this->getService('database.default.context'));
 		return $service;
@@ -168,7 +179,7 @@ class SystemContainer extends Nette\DI\Container
 	/**
 	 * @return App\Model\UserManager
 	 */
-	public function createService__33_App_Model_UserManager()
+	public function createService__34_App_Model_UserManager()
 	{
 		$service = new App\Model\UserManager($this->getService('database.default.context'), $this->getService('user'));
 		return $service;
@@ -178,7 +189,7 @@ class SystemContainer extends Nette\DI\Container
 	/**
 	 * @return App\RouterFactory
 	 */
-	public function createService__34_App_RouterFactory()
+	public function createService__35_App_RouterFactory()
 	{
 		$service = new App\RouterFactory;
 		return $service;
@@ -476,7 +487,7 @@ class SystemContainer extends Nette\DI\Container
 	 */
 	public function createServiceRouter()
 	{
-		$service = $this->getService('34_App_RouterFactory')->createRouter();
+		$service = $this->getService('35_App_RouterFactory')->createRouter();
 		if (!$service instanceof Nette\Application\IRouter) {
 			throw new Nette\UnexpectedValueException('Unable to create service \'router\', value returned by factory is not Nette\\Application\\IRouter type.');
 		}
