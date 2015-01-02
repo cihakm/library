@@ -585,16 +585,15 @@ class CatalogPresenter extends BasePresenter {
 					} else {
 						$old = $this->catalogManager->findById(array('id' => $id));
 						$oldUrl = $old->url;
-						$folder = \Nette\Utils\Strings::webalize($values->title);
 
 						if (file_exists($oldUrl)) {
 							unlink($oldUrl);
 						} else {
-							mkdir('images/upload/' . $folder);
+							mkdir('images/upload/' . $id);
 						}
 
 						$file = $values->url;
-						$imgUrl = 'images/upload/' . $folder . "/thumb.jpg";
+						$imgUrl = 'images/upload/' . $id . "/thumb.jpg";
 
 						$tmp_file = $file->getTemporaryFile();
 						$image = Image::fromFile($tmp_file);
@@ -613,9 +612,10 @@ class CatalogPresenter extends BasePresenter {
 			} else {
 				try {
 					$file = $values->url;
-					$folder = \Nette\Utils\Strings::webalize($values->title);
-					mkdir('images/upload/' . $folder);
-					$imgUrl = 'images/upload/' . $folder . "/thumb.jpg";
+					$lastId = $this->catalogManager->findLastId();
+					$id = $lastId + 1;
+					mkdir('images/upload/' . $id);
+					$imgUrl = 'images/upload/' . $id . "/thumb.jpg";
 
 					$tmp_file = $file->getTemporaryFile();
 					$image = Image::fromFile($tmp_file);

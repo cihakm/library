@@ -2,13 +2,13 @@
 // source: C:\xampp\htdocs\library\app\FrontModule/templates/Homepage/default.latte
 
 // prolog Latte\Macros\CoreMacros
-list($_b, $_g, $_l) = $template->initialize('6930731355', 'html')
+list($_b, $_g, $_l) = $template->initialize('4739081346', 'html')
 ;
 // prolog Latte\Macros\BlockMacros
 //
 // block content
 //
-if (!function_exists($_b->blocks['content'][] = '_lbbaf59b297c_content')) { function _lbbaf59b297c_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+if (!function_exists($_b->blocks['content'][] = '_lb0a6ae72158_content')) { function _lb0a6ae72158_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
 ?><section class="numbers">
 	<div class="container">
 		<h2>Knihovna HK <span>v číslech</span></h2>

@@ -171,7 +171,7 @@ abstract class BasePresenter extends \Nette\Application\UI\Presenter {
 
 		if ($form->isSuccess()) {
 			try {
-			//	$this->catalogManager->findByKey();
+				//	$this->catalogManager->findByKey();
 				$this->redirect(':Front:Search:default', $values->search);
 			} catch (Nette\Security\AuthenticationException $e) {
 				$this->getPresenter()->flashMessage($e->getMessage(), "danger");

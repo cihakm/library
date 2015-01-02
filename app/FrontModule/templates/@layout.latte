@@ -20,12 +20,14 @@
 		<![endif]-->
 	</head>
         <body>
-                {foreach $flashes as $flash}
-                        <div class="alert alert-{$flash->type}"> 
-                                <div class="msg">{$flash->message}</div> 
-				<a href="#" class="close" data-dismiss="alert">Close</a>
-			</div>
-		{/foreach}
+		{snippet flashes}
+			{foreach $flashes as $flash}
+				<div class="alert alert-{$flash->type} alert-dismissible fade in" role="alert"> 
+					<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+					<div class="msg">{$flash->message}</div> 
+				</div> 
+			{/foreach}
+		{/snippet}
 		{include 'modals.latte'}
 
 		<div class="wrapper">

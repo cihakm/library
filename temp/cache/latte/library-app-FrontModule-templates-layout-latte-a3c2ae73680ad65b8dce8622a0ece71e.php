@@ -2,8 +2,31 @@
 // source: C:\xampp\htdocs\library\app\FrontModule/templates/@layout.latte
 
 // prolog Latte\Macros\CoreMacros
-list($_b, $_g, $_l) = $template->initialize('8471065939', 'html')
+list($_b, $_g, $_l) = $template->initialize('3469088120', 'html')
 ;
+// prolog Latte\Macros\BlockMacros
+//
+// block _flashes
+//
+if (!function_exists($_b->blocks['_flashes'][] = '_lbed1a424bac__flashes')) { function _lbed1a424bac__flashes($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v; $_control->redrawControl('flashes', FALSE)
+;$iterations = 0; foreach ($flashes as $flash) { ?>
+				<div class="alert alert-<?php echo Latte\Runtime\Filters::escapeHtml($flash->type, ENT_COMPAT) ?> alert-dismissible fade in" role="alert"> 
+					<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+					<div class="msg"><?php echo Latte\Runtime\Filters::escapeHtml($flash->message, ENT_NOQUOTES) ?></div> 
+				</div> 
+<?php $iterations++; } 
+}}
+
+//
+// end of blocks
+//
+
+// template extending
+
+$_l->extends = empty($_g->extended) && isset($_control) && $_control instanceof Nette\Application\UI\Presenter ? $_control->findLayoutTemplateFile() : NULL; $_g->extended = TRUE;
+
+if ($_l->extends) { ob_start();}
+
 // prolog Nette\Bridges\ApplicationLatte\UIMacros
 
 // snippets support
@@ -37,15 +60,12 @@ if (empty($_l->extends) && !empty($_control->snippetMode)) {
 		<![endif]-->
 	</head>
         <body>
-<?php $iterations = 0; foreach ($flashes as $flash) { ?>
-                        <div class="alert alert-<?php echo Latte\Runtime\Filters::escapeHtml($flash->type, ENT_COMPAT) ?>"> 
-                                <div class="msg"><?php echo Latte\Runtime\Filters::escapeHtml($flash->message, ENT_NOQUOTES) ?></div> 
-				<a href="#" class="close" data-dismiss="alert">Close</a>
-			</div>
-<?php $iterations++; } $_b->templates['8471065939']->renderChildTemplate('modals.latte', $template->getParameters()) ?>
+<?php if ($_l->extends) { ob_end_clean(); return $template->renderChildTemplate($_l->extends, get_defined_vars()); } ?>
+<div id="<?php echo $_control->getSnippetId('flashes') ?>"><?php call_user_func(reset($_b->blocks['_flashes']), $_b, $template->getParameters()) ?>
+</div><?php $_b->templates['3469088120']->renderChildTemplate('modals.latte', $template->getParameters()) ?>
 
 		<div class="wrapper">
-<?php $_b->templates['8471065939']->renderChildTemplate('header.latte', $template->getParameters()) ?>
+<?php $_b->templates['3469088120']->renderChildTemplate('header.latte', $template->getParameters()) ?>
 			<section>
 				<div class="slider">
 					<div class="container">
@@ -71,7 +91,7 @@ if (empty($_l->extends) && !empty($_control->snippetMode)) {
 <?php Latte\Macros\BlockMacros::callBlock($_b, 'content', $template->getParameters()) ?>
 			<div class="push"></div>
 		</div>
-<?php $_b->templates['8471065939']->renderChildTemplate('footer.latte', $template->getParameters()) ?>
+<?php $_b->templates['3469088120']->renderChildTemplate('footer.latte', $template->getParameters()) ?>
 
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 		<script type="text/javascript" src="<?php echo Latte\Runtime\Filters::escapeHtml(Latte\Runtime\Filters::safeUrl($basePath), ENT_COMPAT) ?>/js/nette.ajax.js"></script>

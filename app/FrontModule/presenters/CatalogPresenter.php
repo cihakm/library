@@ -25,6 +25,25 @@ class CatalogPresenter extends BasePresenter {
 		}
 	}
 
+	public function handleBookBorrow($bookId) {
+		$checkCount = $this->catalogManager->findBookById($bookId);
+		if ($checkCount->count > 0) {
+			$this->catalogManager->updateBookInfo($bookId);
+			$this->catalogManager->insertBookBorrow($this->user->id, $bookId);
+			if ($this->isAjax()) {
+				$this->flashMessage('Informace o výpujčce byly zaslány na Váš e-mail.', 'success');
+				$this->redrawControl('flashes');
+			} else {
+				$this->flashMessage('Informace o výpujčce byly zaslány na Váš e-mail.', 'success');
+				//$this->redirect('this');
+				$this->redrawControl('flashes');
+			}
+		} else {
+			$this->flashMessage('Omlouváme se, ale požadovaná kniha není momentálně dostupná.', 'info');
+			$this->redrawControl('flashes');
+		}
+	}
+
 	public function renderDefault() {
 		$this->template->categoryId = $this->categoryId;
 		$this->template->books = $this->catalogManager->findCategoryBooks($this->categoryId);

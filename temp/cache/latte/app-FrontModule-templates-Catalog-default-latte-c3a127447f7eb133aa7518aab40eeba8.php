@@ -2,13 +2,13 @@
 // source: C:\xampp\htdocs\library\app\FrontModule/templates/Catalog/default.latte
 
 // prolog Latte\Macros\CoreMacros
-list($_b, $_g, $_l) = $template->initialize('4118464566', 'html')
+list($_b, $_g, $_l) = $template->initialize('7320593944', 'html')
 ;
 // prolog Latte\Macros\BlockMacros
 //
 // block content
 //
-if (!function_exists($_b->blocks['content'][] = '_lb2cd36be5cd_content')) { function _lb2cd36be5cd_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+if (!function_exists($_b->blocks['content'][] = '_lb0fd9980af5_content')) { function _lb0fd9980af5_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
 ?><div class="container">
 	<div class="catalog">
 		<div class="row">
@@ -22,7 +22,7 @@ if (!function_exists($_b->blocks['content'][] = '_lb2cd36be5cd_content')) { func
 //
 // block _category
 //
-if (!function_exists($_b->blocks['_category'][] = '_lb53ede2ecdc__category')) { function _lb53ede2ecdc__category($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v; $_control->redrawControl('category', FALSE)
+if (!function_exists($_b->blocks['_category'][] = '_lb208102de0c__category')) { function _lb208102de0c__category($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v; $_control->redrawControl('category', FALSE)
 ?>				<div class="col-md-3">
 					<nav class="navbar navbar-default" role="navigation">
 						<div class="container-fluid">
@@ -58,7 +58,12 @@ if (!function_exists($_b->blocks['_category'][] = '_lb53ede2ecdc__category')) { 
 									<p class="author"><?php echo Latte\Runtime\Filters::escapeHtml($book->author->name, ENT_NOQUOTES) ?></p>
 									<a class="info-button" href="<?php echo Latte\Runtime\Filters::escapeHtml($_control->link(":Front:Catalog:detail", array($book->id)), ENT_COMPAT) ?>
 ">info</a>
-									<a href="#" class="basket-button" <?php if (!$user->loggedIn) { ?>data-toggle="modal" data-target="#pleaseLoginModal"<?php } ?>>vypůjčit</a>
+<?php if (!$user->loggedIn) { ?>
+										<a href="#" data-toggle="modal" data-target="#pleaseLoginModal" class="basket-button">vypůjčit</a>
+<?php } else { ?>
+										<a class="basket-button ajax" href="<?php echo Latte\Runtime\Filters::escapeHtml($_control->link("bookBorrow!", array($book->id)), ENT_COMPAT) ?>
+">vypůjčit</a>
+<?php } ?>
 								</div>
 							</div>
 <?php $iterations++; } ?>

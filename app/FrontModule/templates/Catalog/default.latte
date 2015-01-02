@@ -19,7 +19,7 @@
 								<ul class="nav navbar-nav">
 									{foreach $categories as $cat}
 										<li {if $categoryId == $cat->id}class="active"{/if}><a n:href="changeCategory! $cat->id" class="ajax">{$cat->name}</a></li>
-									{/foreach}
+										{/foreach}
 								</ul>
 							</div><!--/.nav-collapse -->
 						</div><!--/.container-fluid -->
@@ -35,7 +35,11 @@
 									<p class="title">{$book->title}</p>
 									<p class="author">{$book->author->name}</p>
 									<a n:href=':Front:Catalog:detail $book->id' class="info-button">info</a>
-									<a href="#" class="basket-button" {if !$user->loggedIn}data-toggle="modal" data-target="#pleaseLoginModal"{/if}>vypůjčit</a>
+									{if !$user->loggedIn}
+										<a href="#" data-toggle="modal" data-target="#pleaseLoginModal" class="basket-button">vypůjčit</a>
+									{else}
+										<a n:href="bookBorrow! $book->id" class="basket-button ajax">vypůjčit</a>
+									{/if}
 								</div>
 							</div>
 						{/foreach}
