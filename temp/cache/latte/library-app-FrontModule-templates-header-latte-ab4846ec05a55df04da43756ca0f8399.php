@@ -2,7 +2,7 @@
 // source: C:\xampp\htdocs\library\app\FrontModule/templates/header.latte
 
 // prolog Latte\Macros\CoreMacros
-list($_b, $_g, $_l) = $template->initialize('9303677438', 'html')
+list($_b, $_g, $_l) = $template->initialize('1763881506', 'html')
 ;
 // prolog Nette\Bridges\ApplicationLatte\UIMacros
 
@@ -24,7 +24,8 @@ if (empty($_l->extends) && !empty($_control->snippetMode)) {
 				</div>
 				<div class="pull-right">
 <?php if ($user->loggedIn) { ?>
-						<p class="pull-left"><a href="#">Můj účet</a></p>
+						<p class="pull-left"><a href="<?php echo Latte\Runtime\Filters::escapeHtml($_control->link(":Front:MyProfile:"), ENT_COMPAT) ?>
+">Můj účet</a></p>
 						<p class="pull-right"><a href="<?php echo Latte\Runtime\Filters::escapeHtml($_control->link("Sign:out"), ENT_COMPAT) ?>
 ">Odhlásit</a></p>
 <?php } else { ?>

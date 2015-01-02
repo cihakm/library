@@ -2,20 +2,20 @@
 // source: C:\xampp\htdocs\library\app\AdminModule/templates/@layout.latte
 
 // prolog Latte\Macros\CoreMacros
-list($_b, $_g, $_l) = $template->initialize('7387016439', 'html')
+list($_b, $_g, $_l) = $template->initialize('3010061819', 'html')
 ;
 // prolog Latte\Macros\BlockMacros
 //
 // block title
 //
-if (!function_exists($_b->blocks['title'][] = '_lbc951535e0f_title')) { function _lbc951535e0f_title($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+if (!function_exists($_b->blocks['title'][] = '_lb2b5eeb102d_title')) { function _lb2b5eeb102d_title($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
 ?>Knihovna HK | Admin<?php
 }}
 
 //
 // block scripts
 //
-if (!function_exists($_b->blocks['scripts'][] = '_lb828d794026_scripts')) { function _lb828d794026_scripts($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+if (!function_exists($_b->blocks['scripts'][] = '_lb6dad1f932f_scripts')) { function _lb6dad1f932f_scripts($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
 ;
 }}
 
@@ -60,7 +60,7 @@ ob_start(); call_user_func(reset($_b->blocks['title']), $_b, get_defined_vars())
 		<link rel="shortcut icon" href="<?php echo Latte\Runtime\Filters::escapeHtml(Latte\Runtime\Filters::safeUrl($basePath), ENT_COMPAT) ?>/favicon.ico">
 	</head>
 	<body class="admin">
-<?php $_b->templates['7387016439']->renderChildTemplate("modal.latte", $template->getParameters()) ;$iterations = 0; foreach ($flashes as $flash) { ?>
+<?php $_b->templates['3010061819']->renderChildTemplate("modal.latte", $template->getParameters()) ;$iterations = 0; foreach ($flashes as $flash) { ?>
 			<div class="alert alert-<?php echo Latte\Runtime\Filters::escapeHtml($flash->type, ENT_COMPAT) ?> alert-dismissible fade in" role="alert"> 
 				<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
 				<div class="msg"><?php echo Latte\Runtime\Filters::escapeHtml($flash->message, ENT_NOQUOTES) ?></div> 

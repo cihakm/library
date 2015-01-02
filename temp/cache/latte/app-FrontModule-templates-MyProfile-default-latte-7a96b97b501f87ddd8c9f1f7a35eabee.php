@@ -1,18 +1,20 @@
 <?php
-// source: C:\xampp\htdocs\library\app\FrontModule/templates/Tax/default.latte
+// source: C:\xampp\htdocs\library\app\FrontModule/templates/MyProfile/default.latte
 
 // prolog Latte\Macros\CoreMacros
-list($_b, $_g, $_l) = $template->initialize('9700191751', 'html')
+list($_b, $_g, $_l) = $template->initialize('4583327545', 'html')
 ;
 // prolog Latte\Macros\BlockMacros
 //
 // block content
 //
-if (!function_exists($_b->blocks['content'][] = '_lb60ed331b03_content')) { function _lb60ed331b03_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+if (!function_exists($_b->blocks['content'][] = '_lb1f45245390_content')) { function _lb1f45245390_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
 ?><div class="container price">
-        <h2><span>Ceník služeb</span> knihovny Hradec Králové</h2>
-	<?php echo $tax->content ?>
-
+        <h2><span>Můj</span> účet</h2>
+	<ul>
+		<li><a href="<?php echo Latte\Runtime\Filters::escapeHtml($_control->link(":Front:MyProfile:myBooks"), ENT_COMPAT) ?>
+">Mé výpůjčky</a></li>
+	</ul>
 </div><?php
 }}
 

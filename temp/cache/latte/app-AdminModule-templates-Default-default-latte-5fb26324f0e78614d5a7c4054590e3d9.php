@@ -1,15 +1,18 @@
 <?php
-// source: C:\xampp\htdocs\library\app\AdminModule/templates/Catalog/editBook.latte
+// source: C:\xampp\htdocs\library\app\AdminModule/templates/Default/default.latte
 
 // prolog Latte\Macros\CoreMacros
-list($_b, $_g, $_l) = $template->initialize('6627391384', 'html')
+list($_b, $_g, $_l) = $template->initialize('5023460050', 'html')
 ;
 // prolog Latte\Macros\BlockMacros
 //
 // block content
 //
-if (!function_exists($_b->blocks['content'][] = '_lb0ca7687248_content')) { function _lb0ca7687248_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
-;$_l->tmp = $_control->getComponent("bookForm"); if ($_l->tmp instanceof Nette\Application\UI\IRenderable) $_l->tmp->redrawControl(NULL, FALSE); $_l->tmp->render() ?>
+if (!function_exists($_b->blocks['content'][] = '_lb0f92837a80_content')) { function _lb0f92837a80_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+?><div class="admin-default">
+	<p>There will be dashboard</p>
+</div>
+
 
 
 <?php
@@ -36,4 +39,5 @@ if (empty($_l->extends) && !empty($_control->snippetMode)) {
 // main template
 //
 if ($_l->extends) { ob_end_clean(); return $template->renderChildTemplate($_l->extends, get_defined_vars()); }
-call_user_func(reset($_b->blocks['content']), $_b, get_defined_vars()) ; 
+call_user_func(reset($_b->blocks['content']), $_b, get_defined_vars())  ?>
+

@@ -3,11 +3,10 @@
 namespace App\Model;
 
 use Nette,
-    Nette\Utils\Strings,
     Nette\Security\Passwords;
 
 /**
- * AdminUsers management.
+ * AdminUser management.
  */
 class AdminUserManager {
 

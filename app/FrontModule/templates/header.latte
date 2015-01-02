@@ -6,7 +6,7 @@
 				</div>
 				<div class="pull-right">
 					{if $user->loggedIn}
-						<p class="pull-left"><a href="#">Můj účet</a></p>
+						<p class="pull-left"><a n:href=":Front:MyProfile:">Můj účet</a></p>
 						<p class="pull-right"><a n:href="Sign:out">Odhlásit</a></p>
 					{else}
 						<p class="pull-left"><a href="#" data-toggle="modal" data-target="#registrationModal">Registrace</a></p>

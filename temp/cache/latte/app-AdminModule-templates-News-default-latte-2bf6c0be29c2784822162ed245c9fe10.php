@@ -1,18 +1,18 @@
 <?php
-// source: C:\xampp\htdocs\library\app\AdminModule/templates/Catalog/books.latte
+// source: C:\xampp\htdocs\library\app\AdminModule/templates/News/default.latte
 
 // prolog Latte\Macros\CoreMacros
-list($_b, $_g, $_l) = $template->initialize('3666319569', 'html')
+list($_b, $_g, $_l) = $template->initialize('9914175751', 'html')
 ;
 // prolog Latte\Macros\BlockMacros
 //
 // block content
 //
-if (!function_exists($_b->blocks['content'][] = '_lba458b4d935_content')) { function _lba458b4d935_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
-?><h2 class="pull-left">Knihy</h2>
+if (!function_exists($_b->blocks['content'][] = '_lb5569e1a170_content')) { function _lb5569e1a170_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+?><h2 class="pull-left">Aktuality</h2>
 <div class="pull-right">
-	<a class="btn" href="<?php echo Latte\Runtime\Filters::escapeHtml($_control->link(":Admin:Catalog:addBook"), ENT_COMPAT) ?>
-">Přidat knihu</a>
+	<a class="btn" href="<?php echo Latte\Runtime\Filters::escapeHtml($_control->link(":Admin:News:add"), ENT_COMPAT) ?>
+">Přidat aktualitu</a>
 </div>
 <div class="clearfix"></div>
 <div id="<?php echo $_control->getSnippetId('dataGrid') ?>"><?php call_user_func(reset($_b->blocks['_dataGrid']), $_b, $template->getParameters()) ?>
@@ -23,8 +23,8 @@ if (!function_exists($_b->blocks['content'][] = '_lba458b4d935_content')) { func
 //
 // block _dataGrid
 //
-if (!function_exists($_b->blocks['_dataGrid'][] = '_lba3d1c5fbdf__dataGrid')) { function _lba3d1c5fbdf__dataGrid($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v; $_control->redrawControl('dataGrid', FALSE)
-;$_l->tmp = $_control->getComponent("booksDataGrid"); if ($_l->tmp instanceof Nette\Application\UI\IRenderable) $_l->tmp->redrawControl(NULL, FALSE); $_l->tmp->render() ;
+if (!function_exists($_b->blocks['_dataGrid'][] = '_lb211d5fd6c9__dataGrid')) { function _lb211d5fd6c9__dataGrid($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v; $_control->redrawControl('dataGrid', FALSE)
+;$_l->tmp = $_control->getComponent("newsDataGrid"); if ($_l->tmp instanceof Nette\Application\UI\IRenderable) $_l->tmp->redrawControl(NULL, FALSE); $_l->tmp->render() ;
 }}
 
 //

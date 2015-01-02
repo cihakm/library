@@ -2,12 +2,17 @@
 
 namespace App\FrontModule\Presenters;
 
+use \Nette\Utils\DateTime;
+
 class CatalogPresenter extends BasePresenter {
 
 	private $categoryId = 1;
 
 	/** @var \App\Model\CatalogManager @inject */
 	public $catalogManager;
+
+	/** @var \App\Model\BorrowManager @inject */
+	public $borrowManager;
 
 	/** @var \App\Model\CategoryManager @inject */
 	public $categoryManager;
@@ -29,7 +34,7 @@ class CatalogPresenter extends BasePresenter {
 		$checkCount = $this->catalogManager->findBookById($bookId);
 		if ($checkCount->count > 0) {
 			$this->catalogManager->updateBookInfo($bookId);
-			$this->catalogManager->insertBookBorrow($this->user->id, $bookId);
+			$this->borrowManager->insertBookBorrow($this->user->id, $bookId, new DateTime(), "Vypůjčeno");
 			if ($this->isAjax()) {
 				$this->flashMessage('Informace o výpujčce byly zaslány na Váš e-mail.', 'success');
 				$this->redrawControl('flashes');

@@ -110,12 +110,7 @@ class CatalogManager {
 		'borrow' => new \Nette\Database\SqlLiteral('borrow + 1')
 		));
 	}
-	public function insertBookBorrow($userId, $bookId) {
-		return $this->database->table('book_borrow')->insert(array(
-		'user_id' =>  $userId,
-		'book_id' => $bookId
-		));
-	}
+
 
 	public function insertCategory($values) {
 		return $this->database->table('category')->insert($values);
