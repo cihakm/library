@@ -21,10 +21,16 @@ class TextManager {
 		return $row;
 	}
 
-
-	public function updateTax($values) {
-		return $this->database->table('tax')->wherePrimary('1')->update($values);
+	public function getTextsSource() {
+		return $this->database->table('text');
 	}
 	
+	public function findById(array $id) {
+		return $this->database->table('text')->wherePrimary($id);
+	}
+
+	public function updateText($id,$values) {
+		return $this->database->table('text')->wherePrimary($id)->update($values);
+	}
 
 }

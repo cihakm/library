@@ -1,0 +1,30 @@
+{block #content}
+<div class="container">
+	<h2>Výsledky <span>vyhledávání</span></h2>
+	<div class="catalog search">
+		<div class="col-md-12">
+			<div class="row">
+				<p class="searchkey"><span>Hledaný výraz:</span> "{$searchKey}"</p>
+				{if $booksCount > 0}
+					<div class="row">
+
+						{foreach $books as $book}
+							<div class="book-box col-md-3">
+								<img src="{$basePath}/{$book->url}" alt="" />
+								<div class="infobox">
+									<p class="title">{$book->title}</p>
+									<p class="author">{$book->author->name}</p>
+									<a n:href=':Front:Catalog:detail $book->id' class="info-button">info</a>
+									<a href="#" class="basket-button" {if !$user->loggedIn}data-toggle="modal" data-target="#pleaseLoginModal"{/if}>vypůjčit</a>
+								</div>
+							</div>
+
+						{/foreach}
+					</div>
+				{else}
+					<p>Nebyly nalezeny žádné výsledky.</p>
+				{/if}
+			</div>
+		</div>
+	</div>
+</div>

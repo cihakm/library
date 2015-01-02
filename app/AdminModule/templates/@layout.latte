@@ -17,14 +17,12 @@
 	</head>
 	<body class="admin">
 		{include modal.latte}
-		{snippet flashes}
-			{foreach $flashes as $flash}
-				<div class="alert alert-{$flash->type} alert-dismissible fade in" role="alert"> 
-					<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-					<div class="msg">{$flash->message}</div> 
-				</div> 
-			{/foreach}
-		{/snippet}
+		{foreach $flashes as $flash}
+			<div class="alert alert-{$flash->type} alert-dismissible fade in" role="alert"> 
+				<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+				<div class="msg">{$flash->message}</div> 
+			</div> 
+		{/foreach}
 
 		{if !$isSign}
 			<header>
@@ -68,9 +66,18 @@
 								</ul>
 							</li>
 							<li class="dropdown">
-								<a href="#" data-toggle="dropdown"  class="dropdown-toggle">test</a>
+								<a href="#" data-toggle="dropdown"  class="dropdown-toggle">Katalog</a>
 								<ul class="dropdown-menu">
-									<li ><a>test submenu</a></li>
+									<li {ifCurrent :Admin:Catalog:books}class="current"{/ifCurrent}><a n:href=":Admin:Catalog:books">Knihy</a></li>
+									<li {ifCurrent :Admin:Catalog:authors}class="current"{/ifCurrent}><a n:href=":Admin:Catalog:authors">Autoři</a></li>
+									<li {ifCurrent :Admin:Catalog:categories}class="current"{/ifCurrent}><a n:href=":Admin:Catalog:categories">Kategorie</a></li>
+									<li {ifCurrent :Admin:Catalog:publishers}class="current"{/ifCurrent}><a n:href=":Admin:Catalog:publishers">Vydavatelé</a></li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="#" data-toggle="dropdown"  class="dropdown-toggle">Globální</a>
+								<ul class="dropdown-menu">
+									<li {ifCurrent :Admin:Texts:*}class="current"{/ifCurrent}><a n:href=":Admin:Texts:">Texty</a></li>
 								</ul>
 							</li>
 						</ul>

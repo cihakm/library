@@ -21,6 +21,9 @@ abstract class BasePresenter extends \Nette\Application\UI\Presenter {
 	/** @var \App\Model\UserManager @inject */
 	public $userManager;
 
+	/** @var \App\Model\CatalogManager @inject */
+	public $catalogManager;
+
 	public function __construct() {
 		parent::__construct();
 	}
@@ -143,6 +146,33 @@ abstract class BasePresenter extends \Nette\Application\UI\Presenter {
 				$this->userManager->registerUser($values->name, $values->surname, $values->mail, $values->password);
 				$this->flashMessage('Byl jste úspěšně zaregistrován.', 'success');
 				$this->redirect(':Front:Homepage:default');
+			} catch (Nette\Security\AuthenticationException $e) {
+				$this->getPresenter()->flashMessage($e->getMessage(), "danger");
+			}
+		}
+	}
+
+	protected function createComponentSearchForm() {
+		$form = new Nette\Application\UI\Form;
+
+		$form->addText('search', 'Hledaný výraz')
+			->setAttribute('placeholder', 'Zadejte jméno autora nebo název knihy')
+			->setAttribute('class', 'form-control');
+
+		$form->addSubmit('submit', 'Hledat')
+			->setAttribute("class", "btn");
+
+		$form->onSuccess[] = $this->searchFormSuccess;
+		return $form;
+	}
+
+	public function searchFormSuccess($form) {
+		$values = $form->getValues();
+
+		if ($form->isSuccess()) {
+			try {
+			//	$this->catalogManager->findByKey();
+				$this->redirect(':Front:Search:default', $values->search);
 			} catch (Nette\Security\AuthenticationException $e) {
 				$this->getPresenter()->flashMessage($e->getMessage(), "danger");
 			}

@@ -26,7 +26,7 @@ class NewsManager {
 	}
 
 	public function findById(array $id) {
-		return $this->database->table('new')->wherePrimary($id);
+		return $this->database->table('new')->wherePrimary($id)->fetch();
 	}
 
 	public function updateNew($id, $values) {

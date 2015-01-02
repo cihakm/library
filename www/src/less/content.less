@@ -192,12 +192,29 @@ article{
 			}
 		}
 	}
+	&.search{
+		.searchkey{
+			border-bottom: 1px solid #f4f4f4;
+			border-top: 1px solid #f4f4f4;
+			padding: 10px 0;
+			margin-bottom: 20px;
+			span{
+				.font-weight(600);
+			}
+		}
+	}
 }
 
 .book-detail{
 	.book-about{
 		margin-top: 20px;
 		.row{
+			>.col-md-3{
+				padding-left: 0px;
+				img{
+					width: 100%;
+				}
+			}
 			>.col-md-9{
 				position: relative;
 				.category{
@@ -220,6 +237,10 @@ article{
 				.text{
 					margin: 20px 0;
 					line-height: 1.8em;
+					.font-weight(400) !important;
+					span{
+						.font-weight(400) !important;
+					}
 				}
 				.author{
 					.font-size(24px);

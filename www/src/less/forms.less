@@ -19,10 +19,13 @@ form{
 		.font-size(20px);
 		height: 50px;
 		width: 100%;
-	.font-weight(600);
+		.font-weight(600);
 		padding-left: 12px;
 		&:focus{
-			outline: none;
+			outline: none !important;
+			-webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,0.4);
+			-moz-box-shadow: 0 1px 5px 0 rgba(0,0,0,0.4);
+			box-shadow: 0 1px 5px 0 rgba(0,0,0,0.4);
 		}
 		&:hover{
 			background-color: #3a3a3a;

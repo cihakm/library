@@ -2,7 +2,7 @@
 // source: C:\xampp\htdocs\library\app\FrontModule/templates/@layout.latte
 
 // prolog Latte\Macros\CoreMacros
-list($_b, $_g, $_l) = $template->initialize('2517056962', 'html')
+list($_b, $_g, $_l) = $template->initialize('8471065939', 'html')
 ;
 // prolog Nette\Bridges\ApplicationLatte\UIMacros
 
@@ -27,6 +27,7 @@ if (empty($_l->extends) && !empty($_control->snippetMode)) {
 		<!-- CSS -->
 		<link href="<?php echo Latte\Runtime\Filters::escapeHtml(Latte\Runtime\Filters::safeUrl($basePath), ENT_COMPAT) ?>/css/styles.css" rel="stylesheet">
 		<link href="<?php echo Latte\Runtime\Filters::escapeHtml(Latte\Runtime\Filters::safeUrl($basePath), ENT_COMPAT) ?>/css/responsive-slider.css" rel="stylesheet">
+
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="<?php echo Latte\Runtime\Filters::escapeHtml(Latte\Runtime\Filters::safeUrl($basePath), ENT_COMPAT) ?>/favicon.ico">
 
@@ -41,33 +42,36 @@ if (empty($_l->extends) && !empty($_control->snippetMode)) {
                                 <div class="msg"><?php echo Latte\Runtime\Filters::escapeHtml($flash->message, ENT_NOQUOTES) ?></div> 
 				<a href="#" class="close" data-dismiss="alert">Close</a>
 			</div>
-<?php $iterations++; } $_b->templates['2517056962']->renderChildTemplate('modals.latte', $template->getParameters()) ?>
+<?php $iterations++; } $_b->templates['8471065939']->renderChildTemplate('modals.latte', $template->getParameters()) ?>
 
 		<div class="wrapper">
-<?php $_b->templates['2517056962']->renderChildTemplate('header.latte', $template->getParameters()) ?>
+<?php $_b->templates['8471065939']->renderChildTemplate('header.latte', $template->getParameters()) ?>
 			<section>
 				<div class="slider">
 					<div class="container">
 						<img src="<?php echo Latte\Runtime\Filters::escapeHtml(Latte\Runtime\Filters::safeUrl($basePath), ENT_COMPAT) ?>/images/data/logo/logo-big.png" alt="logo-big">
-						<form>
+						<?php Nette\Bridges\FormsLatte\FormMacros::renderFormBegin($form = $_form = $_control["searchForm"], array()) ?>
+
 							<div class="row">
 								<div class="col-md-9">
-									<input type="text" placeholder="Zadejte jméno autora nebo název knihy" class="form-control">
+									<?php echo $_form["search"]->getControl() ?>
+
 								</div>
 								<div class="col-md-3">
-									<input type="submit" class="btn" value="Hledat">
+									<?php echo $_form["submit"]->getControl() ?>
+
 								</div>
 								<div class="clear"></div>
-
 							</div>
-						</form>
+						<?php Nette\Bridges\FormsLatte\FormMacros::renderFormEnd($_form) ?>
+
 					</div>
 				</div>
 			</section>
 <?php Latte\Macros\BlockMacros::callBlock($_b, 'content', $template->getParameters()) ?>
 			<div class="push"></div>
 		</div>
-<?php $_b->templates['2517056962']->renderChildTemplate('footer.latte', $template->getParameters()) ?>
+<?php $_b->templates['8471065939']->renderChildTemplate('footer.latte', $template->getParameters()) ?>
 
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 		<script type="text/javascript" src="<?php echo Latte\Runtime\Filters::escapeHtml(Latte\Runtime\Filters::safeUrl($basePath), ENT_COMPAT) ?>/js/nette.ajax.js"></script>

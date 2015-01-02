@@ -32,12 +32,14 @@ class NewsPresenter extends BasePresenter {
 		$grid->column(new Column\Date(array(
 			Column\Date::ID => 'date',
 			Column\Date::TEXT => 'Datum zveřejnění',
-			Column\Date::FORMAT => 'j.n.Y H:i:s' // php date format 
+			Column\Date::FORMAT => 'j.n.Y H:i:s',
+			Column\Text::ORDERING => FALSE
 		)));
 
 		$grid->column(new Column\Text(array(
 			Column\Text::ID => 'title',
-			Column\Text::TEXT => 'Nadpis'
+			Column\Text::TEXT => 'Nadpis',
+			Column\Text::ORDERING => FALSE
 		)));
 
 		$grid->column(new Column\Text(array(
@@ -45,7 +47,8 @@ class NewsPresenter extends BasePresenter {
 			Column\Text::TEXT => 'text',
 			Column\Text::CALLBACK => function($data) {
 				return strlen($data['content']) > 80 ? (substr($data['content'], 0, 80) . '...') : $data['content'];
-			}
+			},
+			Column\Text::ORDERING => FALSE
 		)));
 
 
@@ -93,7 +96,7 @@ class NewsPresenter extends BasePresenter {
 
 	public function renderEdit($id = 0) {
 		$form = $this['newForm'];
-		$row = $this->newsManager->findById(array('id' => $id))->fetch();
+		$row = $this->newsManager->findById(array('id' => $id));
 		if (!$row) {
 			$this->error('No data found');
 		}
