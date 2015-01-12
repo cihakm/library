@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Počítač: 127.0.0.1
--- Vytvořeno: Pon 12. led 2015, 17:08
+-- Vytvořeno: Pon 12. led 2015, 18:15
 -- Verze serveru: 5.6.20
 -- Verze PHP: 5.5.15
 
@@ -230,6 +230,10 @@ CREATE TABLE IF NOT EXISTS `user` (
   `name` varchar(150) CHARACTER SET utf8 COLLATE utf8_czech_ci NOT NULL,
   `surname` varchar(255) NOT NULL,
   `role` varchar(50) CHARACTER SET utf8 COLLATE utf8_czech_ci NOT NULL,
+  `street` varchar(150) CHARACTER SET utf8 COLLATE utf8_czech_ci NOT NULL,
+  `house_number` int(10) NOT NULL,
+  `city` varchar(50) CHARACTER SET utf8 COLLATE utf8_czech_ci NOT NULL,
+  `post_id` int(5) NOT NULL,
   `fb_id` int(20) DEFAULT NULL,
   `fb_access_token` varchar(300) CHARACTER SET utf8 COLLATE utf8_czech_ci DEFAULT NULL
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=32 ;
@@ -238,10 +242,10 @@ CREATE TABLE IF NOT EXISTS `user` (
 -- Vypisuji data pro tabulku `user`
 --
 
-INSERT INTO `user` (`id`, `password`, `email`, `name`, `surname`, `role`, `fb_id`, `fb_access_token`) VALUES
-(1, '$2y$10$RqaeQEeXaay8x87z.QN/8eazeAJAzpGCY.uA/UvDufCbH7ETVg/v.', 'cihak.mar@gmail.com', 'Martin', 'Čihák', 'user', 2147483647, 'CAAE0KnrC6M0BAL4ZBOC59ktMYFYUVioZBWPcHDnodUESGOIfFNKZAorZBElgoMFEus4V9cN5PnmNw8H7LTad8efAPJaPvJOJeGTNl96jSIYaGR1zlozIJdEX83mp19KQtEi4TAYSDTu8xVTmRyJ4yT3uByBhO93CUufZBqsMYEeoAvEXxHg1rQGY9he320MF1KIXKnH67gjkJ1TzZAYz9n'),
-(30, '$2y$10$GgYSm.SVTsC2MZXpK73O.eA8ieuJySCO7tcod3xiamaAv/dSNfvwa', 'test@test.cz', 'Martin test', '', 'user', NULL, NULL),
-(31, '$2y$10$RqaeQEeXaay8x87z.QN/8eazeAJAzpGCY.uA/UvDufCbH7ETVg/v.', 'mc@creox.cz', 'Martin', 'Čihák', 'user', NULL, NULL);
+INSERT INTO `user` (`id`, `password`, `email`, `name`, `surname`, `role`, `street`, `house_number`, `city`, `post_id`, `fb_id`, `fb_access_token`) VALUES
+(1, '$2y$10$dp0aRYTede8r1JbeGrtYRu5RlfisP..ow2w9Xj/gyaj/RlefH2RIe', 'cihak.mar@gmail.com', 'Martin', 'Čihák', 'user', 'T.N.Kautníka', 1676, 'Choceň', 56502, 2147483647, 'CAAE0KnrC6M0BAL4ZBOC59ktMYFYUVioZBWPcHDnodUESGOIfFNKZAorZBElgoMFEus4V9cN5PnmNw8H7LTad8efAPJaPvJOJeGTNl96jSIYaGR1zlozIJdEX83mp19KQtEi4TAYSDTu8xVTmRyJ4yT3uByBhO93CUufZBqsMYEeoAvEXxHg1rQGY9he320MF1KIXKnH67gjkJ1TzZAYz9n'),
+(30, '$2y$10$GgYSm.SVTsC2MZXpK73O.eA8ieuJySCO7tcod3xiamaAv/dSNfvwa', 'test@test.cz', 'Martin test', '', 'user', '', 0, '', 0, NULL, NULL),
+(31, '$2y$10$RqaeQEeXaay8x87z.QN/8eazeAJAzpGCY.uA/UvDufCbH7ETVg/v.', 'mc@creox.cz', 'Martin', 'Čihák', 'user', '', 0, '', 0, NULL, NULL);
 
 --
 -- Klíče pro exportované tabulky
