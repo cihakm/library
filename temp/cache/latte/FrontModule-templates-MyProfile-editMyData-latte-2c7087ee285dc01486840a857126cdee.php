@@ -1,28 +1,17 @@
 <?php
-// source: C:\xampp\htdocs\library\app\FrontModule/templates/MyProfile/default.latte
+// source: C:\xampp\htdocs\library\app\FrontModule/templates/MyProfile/editMyData.latte
 
 // prolog Latte\Macros\CoreMacros
-list($_b, $_g, $_l) = $template->initialize('0527185793', 'html')
+list($_b, $_g, $_l) = $template->initialize('0686912485', 'html')
 ;
 // prolog Latte\Macros\BlockMacros
 //
 // block content
 //
-if (!function_exists($_b->blocks['content'][] = '_lb6e6d3c97c0_content')) { function _lb6e6d3c97c0_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
-?><div class="container account">
+if (!function_exists($_b->blocks['content'][] = '_lbbed0677e92_content')) { function _lbbed0677e92_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+?><div class="container">
         <h2><span>Můj</span> účet</h2>
-	<nav>
-		<div class="col-md-6 text-center">
-			<p><a class="btn orange" href="<?php echo Latte\Runtime\Filters::escapeHtml($_control->link(":Front:MyProfile:myBooks"), ENT_COMPAT) ?>
-">Mé výpůjčky</a></p>
-		</div>
-		<div class="col-md-6 text-center">
-			<p><a class="btn orange" href="<?php echo Latte\Runtime\Filters::escapeHtml($_control->link(":Front:MyProfile:myData"), ENT_COMPAT) ?>
-">Mé osobní údaje</a></p>
-		</div>
-		<div class="clearfix"></div>
-	</nav>
-
+<?php $_l->tmp = $_control->getComponent("myDataForm"); if ($_l->tmp instanceof Nette\Application\UI\IRenderable) $_l->tmp->redrawControl(NULL, FALSE); $_l->tmp->render() ?>
 </div><?php
 }}
 

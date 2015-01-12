@@ -1,11 +1,16 @@
 {block #content}
 
-<div class="container price">
+<div class="container account">
         <h2><span>Můj</span> účet</h2>
-	<ul>
-		<li><a n:href=":Front:MyProfile:myBooks">Mé výpůjčky</a></li>
-	</ul>
-
+	<nav>
+		<div class="col-md-6 text-center">
+			<p><a n:href=":Front:MyProfile:myBooks" class="btn orange">Mé výpůjčky</a></p>
+		</div>
+		<div class="col-md-6 text-center">
+			<p><a n:href=":Front:MyProfile:myData" class="btn orange">Mé osobní údaje</a></p>
+		</div>
+		<div class="clearfix"></div>
+	</nav>
 	{snippet dataGrid}
 		{control myBooksDataGrid}
 	{/snippet}

@@ -35,7 +35,7 @@ class UserManager {
 
 	public function login($email, $password) {
 		$row = $this->database->table(self::TABLE_USER)->where(self::COLUMN_MAIL, $email)->fetch();
-		
+
 		if (!$row) {
 			throw new Nette\Security\AuthenticationException('Uživatelské heslo je nesprávné.');
 		} elseif (!Passwords::verify($password, $row[self::COLUMN_PASSWORD_HASH])) {
@@ -50,7 +50,6 @@ class UserManager {
 		unset($arr[self::COLUMN_PASSWORD_HASH]);
 		$this->user->login(new Nette\Security\Identity($row[self::COLUMN_ID], $row[self::COLUMN_ROLE], $arr));
 	}
-
 
 	public function registerFromFacebook($fbId, $token, $fbData) {
 		$this->database->table(self::TABLE_USER)->insert(array(
@@ -94,5 +93,24 @@ class UserManager {
 	public function findUserMail($mail) {
 		return $this->database->table('user')->select('email')->where('email', $mail)->fetch();
 	}
+
+	public function findUserById($id) {
+		return $this->database->table('user')->wherePrimary($id)->fetch();
+	}
+
+	public function updateUser($id, $values) {
+		return $this->database->table('user')->wherePrimary($id)->update($values);
+	}
+
+	public function updateUserPassword($id, $pass) {
+		return $this->database->table('user')->wherePrimary($id)->update(array(
+			'password' => Passwords::hash($pass)
+		));
+	}
+
+	public function getUsersData($user_id) {
+		return $this->database->table('user')->wherePrimary($user_id)->fetchAll();
+	}
+
 
 }

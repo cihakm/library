@@ -1,0 +1,37 @@
+{block #content}
+
+<div class="container account">
+        <h2><span>Můj</span> účet</h2>
+	<div class="row">
+
+		<nav>
+			<div class="col-md-6 text-center">
+				<p><a n:href=":Front:MyProfile:myBooks" class="btn orange">Mé výpůjčky</a></p>
+			</div>
+			<div class="col-md-6 text-center">
+				<p><a n:href=":Front:MyProfile:myData" class="btn orange">Mé osobní údaje</a></p>
+			</div>
+			<div class="clearfix"></div>
+		</nav>
+	</div>
+	{foreach $mydata as $mydata}
+		<p>{$mydata->name} {$mydata->surname}</p>
+		<p>{$mydata->email}</p>
+		<p>{$mydata->street} {$mydata->house_number}</p>
+		<p>{$mydata->city}, {$mydata->post_id}</p>
+	{/foreach}
+	<div class="col-md-6">
+		<div class="row">
+			<div class="row">
+				<div class="col-md-6">
+					<p><a n:href=":Front:MyProfile:editMyData" class="btn orange edit">Editovat mé údaje</a></p>
+				</div>
+				<div class="col-md-6">
+					<p><a n:href=":Front:MyProfile:editPassword" class="btn orange editPass">Zadat nové heslo</a></p>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+
+</div>

@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^solms.tryitout.cz$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^solms.tryitout.cz$
+RewriteCond %{REQUEST_URI} !www/
+RewriteRule (.*) /www/$1 [L]
