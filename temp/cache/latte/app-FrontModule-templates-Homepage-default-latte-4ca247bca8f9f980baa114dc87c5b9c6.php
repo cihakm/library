@@ -2,26 +2,26 @@
 // source: C:\xampp\htdocs\library\app\FrontModule/templates/Homepage/default.latte
 
 // prolog Latte\Macros\CoreMacros
-list($_b, $_g, $_l) = $template->initialize('4732912223', 'html')
+list($_b, $_g, $_l) = $template->initialize('1492148040', 'html')
 ;
 // prolog Latte\Macros\BlockMacros
 //
 // block content
 //
-if (!function_exists($_b->blocks['content'][] = '_lb1a83010eb4_content')) { function _lb1a83010eb4_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+if (!function_exists($_b->blocks['content'][] = '_lbd286e3b6cf_content')) { function _lbd286e3b6cf_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
 ?><section class="numbers">
 	<div class="container">
 		<h2>Knihovna HK <span>v číslech</span></h2>
 		<div class="list">
-			<div class="col-md-4 daily">
+			<div class="col-md-4 col-sm-4 daily">
 				<p><span>Výpujček</span> deně</p>
 				<p class="number">1500</p>
 			</div>
-			<div class="col-md-4 users">
+			<div class="col-md-4 col-sm-4 users">
 				<p><span>Uživatelů</span></p>
 				<p class="number">10555</p>
 			</div>
-			<div class="col-md-4 books">
+			<div class="col-md-4 col-sm-4 books">
 				<p>Knih <span>k vypůjčení</span></span>
 				<p class="number">253242</p>
 			</div>
@@ -49,7 +49,12 @@ if (!function_exists($_b->blocks['content'][] = '_lb1a83010eb4_content')) { func
 						<p class="author"><?php echo Latte\Runtime\Filters::escapeHtml($book->author->name, ENT_NOQUOTES) ?></p>
 						<a class="info-button" href="<?php echo Latte\Runtime\Filters::escapeHtml($_control->link(":Front:Catalog:detail", array($book->id)), ENT_COMPAT) ?>
 ">info</a>
-						<a href="#" class="basket-button" <?php if (!$user->loggedIn) { ?>data-toggle="modal" data-target="#pleaseLoginModal"<?php } ?>>vypůjčit</a>
+<?php if (!$user->loggedIn) { ?>
+							<a href="#" data-toggle="modal" data-target="#pleaseLoginModal" class="basket-button">vypůjčit</a>
+<?php } else { ?>
+							<a class="basket-button ajax" href="<?php echo Latte\Runtime\Filters::escapeHtml($_control->link("bookBorrow!", array($book->id)), ENT_COMPAT) ?>
+">vypůjčit</a>
+<?php } ?>
 					</div>
 				</div>
 
@@ -66,10 +71,10 @@ if (!function_exists($_b->blocks['content'][] = '_lb1a83010eb4_content')) { func
 
 
 		</div>
-		<div class="col-md-6 right">
+		<div class="col-md-6 col-sm-6 right">
 			<p><a href="#" class="btn reg orange" data-toggle="modal" data-target="#registrationModal">Běžná registrace</a></p>
 		</div>
-		<div class="col-md-6">
+		<div class="col-md-6 col-sm-6">
 			<p><a class="btn fb blue" href="<?php echo Latte\Runtime\Filters::escapeHtml($_control->link("fbLogin-open!"), ENT_COMPAT) ?>
 ">Facebook přihlášení</a></p>
 		</div>

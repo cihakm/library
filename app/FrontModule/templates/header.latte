@@ -16,13 +16,23 @@
 				</div>
 				<div class="clearfix"></div>
 			</header>
-			<nav>
-				<ul>
-					<li {ifCurrent :Front:Homepage:default}class="active"{/ifCurrent}><a n:href=":Front:Homepage:">Úvod</a></li>
-					<li {ifCurrent :Front:Catalog:default}class="active"{/ifCurrent}><a n:href=":Front:Catalog:">Katalog</a></li>
-					<li {ifCurrent :Front:Tax:default}class="active"{/ifCurrent}><a n:href=":Front:Tax:">Ceník</a></li>
-					<li {ifCurrent :Front:News:default}class="active"{/ifCurrent}><a n:href=":Front:News:">Aktuality</a></li>
-				</ul>
-			</nav>
+			<div class="navbar-header main">
+            								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main" aria-expanded="false" aria-controls="navbar">
+            									<span class="sr-only">Toggle navigation</span>
+            									<span class="icon-bar"></span>
+            									<span class="icon-bar"></span>
+            									<span class="icon-bar"></span>
+            								</button>
+            								<a class="navbar-brand"data-toggle="collapse" data-target="#navbar-main" href="#">Menu</a>
+            							</div>
+            							<div id="navbar-main" class="navbar-collapse collapse">
+            								<ul class="nav navbar-nav">
+            									<li {ifCurrent :Front:Homepage:default}class="active"{/ifCurrent}><a n:href=":Front:Homepage:">Úvod</a></li>
+                                                <li {ifCurrent :Front:Catalog:default}class="active"{/ifCurrent}><a n:href=":Front:Catalog:">Katalog</a></li>
+                                                <li {ifCurrent :Front:Tax:default}class="active"{/ifCurrent}><a n:href=":Front:Tax:">Ceník</a></li>
+                                                <li {ifCurrent :Front:News:default}class="active"{/ifCurrent}><a n:href=":Front:News:">Aktuality</a></li>
+            								</ul>
+            							</div><!--/.nav-collapse -->
+
 	</div>
 </section>

@@ -1,18 +1,12 @@
 <?php
 
 /**
- * Nette Framework (version 2.2.6 released on 2014-11-16, http://nette.org)
+ * Nette Framework (version 2.2.7 released on 2015-01-06, http://nette.org)
  *
  * Copyright (c) 2004, 2014 David Grudl (http://davidgrudl.com)
  */
 
 
-if (PHP_VERSION_ID < 50301) {
-	throw new Exception('Nette Framework requires PHP 5.3.1 or newer.');
-}
-
-
-// Run NetteLoader
 require_once __DIR__ . '/Loaders/NetteLoader.php';
 
 Nette\Loaders\NetteLoader::getInstance()->register();

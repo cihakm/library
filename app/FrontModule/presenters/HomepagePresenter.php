@@ -2,6 +2,7 @@
 
 namespace App\FrontModule\Presenters;
 
+
 class HomepagePresenter extends BasePresenter {
 
 	/** @var \App\Model\TextManager @inject */
@@ -19,5 +20,6 @@ class HomepagePresenter extends BasePresenter {
 		$this->template->registration = $this->textManager->findByKey('registration');
 		$this->template->mostBorrowed = $this->bookManager->findMostBorrowed(10);
 	}
+
 
 }

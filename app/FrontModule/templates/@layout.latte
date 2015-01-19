@@ -22,7 +22,7 @@
         <body>
 		{snippet flashes}
 			{foreach $flashes as $flash}
-				<div class="alert alert-{$flash->type} alert-dismissible fade in" role="alert"> 
+				<div class="alert alert-{$flash->type} alert-dismissible" role="alert">
 					<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
 					<div class="msg">{$flash->message}</div> 
 				</div> 
@@ -35,7 +35,7 @@
 			<section>
 				<div class="slider">
 					<div class="container">
-						<img src="{$basePath}/images/data/logo/logo-big.png" alt="logo-big" />
+						<img src="{$basePath}/images/data/logo/logo-big.png" alt="logo-big" class="hidden-xs" />
 						{form searchForm}
 							<div class="row">
 								<div class="col-md-9">

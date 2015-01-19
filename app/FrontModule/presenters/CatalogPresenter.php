@@ -11,9 +11,6 @@ class CatalogPresenter extends BasePresenter {
 	/** @var \App\Model\CatalogManager @inject */
 	public $catalogManager;
 
-	/** @var \App\Model\BorrowManager @inject */
-	public $borrowManager;
-
 	/** @var \App\Model\CategoryManager @inject */
 	public $categoryManager;
 
@@ -27,25 +24,6 @@ class CatalogPresenter extends BasePresenter {
 			$this->redrawControl('category');
 		} else {
 			$this->redirect('this');
-		}
-	}
-
-	public function handleBookBorrow($bookId) {
-		$checkCount = $this->catalogManager->findBookById($bookId);
-		if ($checkCount->count > 0) {
-			$this->catalogManager->updateBookInfo($bookId);
-			$this->borrowManager->insertBookBorrow($this->user->id, $bookId, new DateTime(), "Vypůjčeno");
-			if ($this->isAjax()) {
-				$this->flashMessage('Informace o výpujčce byly zaslány na Váš e-mail.', 'success');
-				$this->redrawControl('flashes');
-			} else {
-				$this->flashMessage('Informace o výpujčce byly zaslány na Váš e-mail.', 'success');
-				//$this->redirect('this');
-				$this->redrawControl('flashes');
-			}
-		} else {
-			$this->flashMessage('Omlouváme se, ale požadovaná kniha není momentálně dostupná.', 'info');
-			$this->redrawControl('flashes');
 		}
 	}
 

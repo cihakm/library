@@ -2,29 +2,29 @@
 // source: C:\xampp\htdocs\library\app\FrontModule/templates/Catalog/detail.latte
 
 // prolog Latte\Macros\CoreMacros
-list($_b, $_g, $_l) = $template->initialize('8101850051', 'html')
+list($_b, $_g, $_l) = $template->initialize('8280771935', 'html')
 ;
 // prolog Latte\Macros\BlockMacros
 //
 // block content
 //
-if (!function_exists($_b->blocks['content'][] = '_lb5c3c2c9e07_content')) { function _lb5c3c2c9e07_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+if (!function_exists($_b->blocks['content'][] = '_lba0a8b9204b_content')) { function _lba0a8b9204b_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
 ?><div class="container">
 	<div class="book-detail">
 		<div class="book-about">
 			<div class="row">
 				<div class="col-md-12">
-					<div class="row">
+					<div class="row head">
 						<p class="back pull-right"><a href="javascript:history.back();" >Zpět</a></p>
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-3">
+			<div class="row first">
+				<div class="col-md-3 col-sm-3 col-xs-12 text-center">
 					<img src="<?php echo Latte\Runtime\Filters::escapeHtml(Latte\Runtime\Filters::safeUrl($basePath), ENT_COMPAT) ?>
 /<?php echo Latte\Runtime\Filters::escapeHtml(Latte\Runtime\Filters::safeUrl($book->url), ENT_COMPAT) ?>" alt="book thumbnail">
 				</div>
-				<div class="col-md-9">
+				<div class="col-md-9 col-sm-9 col-xs-12">
 					<div class="category">
 						<p><?php echo Latte\Runtime\Filters::escapeHtml($book->category->name, ENT_NOQUOTES) ?></p>
 					</div>
@@ -35,15 +35,16 @@ if (!function_exists($_b->blocks['content'][] = '_lb5c3c2c9e07_content')) { func
 
 					</div>
 					<div class="row">
-						<div class="col-md-4">
+						<div class="col-md-4 col-sm-4">
 							<p><span>Rok vydání: </span><?php echo Latte\Runtime\Filters::escapeHtml($template->date($book->year, 'Y'), ENT_NOQUOTES) ?></p>
 							<p><span>Počet stran: </span><?php echo Latte\Runtime\Filters::escapeHtml($book->page_count, ENT_NOQUOTES) ?></p>
 						</div>
-						<div class="col-md-4">
-							<p><span>Dostupnost: </span>zbývají <?php echo Latte\Runtime\Filters::escapeHtml($book->count, ENT_NOQUOTES) ?></p>
+						<div class="col-md-4 col-sm-4">
+							<div id="<?php echo $_control->getSnippetId('bookCount') ?>"><?php call_user_func(reset($_b->blocks['_bookCount']), $_b, $template->getParameters()) ?>
+</div>
 							<p><span>Vydavatel: </span><?php echo Latte\Runtime\Filters::escapeHtml($book->publisher->name, ENT_NOQUOTES) ?></p>
 						</div>
-						<div class="col-md-4">
+						<div class="col-md-4 col-sm-4">
 							<p><span>EAN: </span><?php echo Latte\Runtime\Filters::escapeHtml($book->ean, ENT_NOQUOTES) ?></p>
 							<p><span>ISBN: </span><?php echo Latte\Runtime\Filters::escapeHtml($book->isbn, ENT_NOQUOTES) ?></p>
 						</div>
@@ -52,7 +53,14 @@ if (!function_exists($_b->blocks['content'][] = '_lb5c3c2c9e07_content')) { func
 				</div>
 				<div class="col-md-12">
 					<div class="row">
-						<p class="basket pull-right"><a href="#" <?php if (!$user->loggedIn) { ?>data-toggle="modal" data-target="#pleaseLoginModal"<?php } ?>>Vypůjčit</a></p>
+						<p class="basket pull-right">
+<?php if (!$user->loggedIn) { ?>
+                        							<a href="#" data-toggle="modal" data-target="#pleaseLoginModal" class="basket-button">vypůjčit</a>
+<?php } else { ?>
+                        							<a class="basket-button ajax" href="<?php echo Latte\Runtime\Filters::escapeHtml($_control->link("bookBorrow!", array($book->id)), ENT_COMPAT) ?>
+">vypůjčit</a>
+<?php } ?>
+						</p>
 					</div>
 				</div>
 				<div class="clearfix"></div>
@@ -60,6 +68,14 @@ if (!function_exists($_b->blocks['content'][] = '_lb5c3c2c9e07_content')) { func
 		</div>
 	</div>
 </div><?php
+}}
+
+//
+// block _bookCount
+//
+if (!function_exists($_b->blocks['_bookCount'][] = '_lb79eebe1fed__bookCount')) { function _lb79eebe1fed__bookCount($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v; $_control->redrawControl('bookCount', FALSE)
+?><p><span>Dostupnost: </span>zbývají <?php echo Latte\Runtime\Filters::escapeHtml($book->count, ENT_NOQUOTES) ?>
+</p><?php
 }}
 
 //

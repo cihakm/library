@@ -74,7 +74,10 @@
 									<li {ifCurrent :Admin:Catalog:publishers}class="current"{/ifCurrent}><a n:href=":Admin:Catalog:publishers">Vydavatelé</a></li>
 								</ul>
 							</li>
-							<li class="dropdown">
+							<li>
+								<a n:href=":Admin:Borrows:default" {ifCurrent :Admin:Borrows:*}class="current"{/ifCurrent}>Výpujčky</a>
+							</li>
+								<li class="dropdown">
 								<a href="#" data-toggle="dropdown"  class="dropdown-toggle">Globální</a>
 								<ul class="dropdown-menu">
 									<li {ifCurrent :Admin:Texts:*}class="current"{/ifCurrent}><a n:href=":Admin:Texts:">Texty</a></li>

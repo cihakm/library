@@ -2,13 +2,13 @@
 // source: C:\xampp\htdocs\library\app\FrontModule/templates/Search/default.latte
 
 // prolog Latte\Macros\CoreMacros
-list($_b, $_g, $_l) = $template->initialize('0849459175', 'html')
+list($_b, $_g, $_l) = $template->initialize('5902651667', 'html')
 ;
 // prolog Latte\Macros\BlockMacros
 //
 // block content
 //
-if (!function_exists($_b->blocks['content'][] = '_lb7b35da3e1f_content')) { function _lb7b35da3e1f_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+if (!function_exists($_b->blocks['content'][] = '_lbb6bf93e6d7_content')) { function _lbb6bf93e6d7_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
 ?><div class="container">
 	<h2>Výsledky <span>vyhledávání</span></h2>
 	<div class="catalog search">
@@ -19,7 +19,7 @@ if (!function_exists($_b->blocks['content'][] = '_lb7b35da3e1f_content')) { func
 					<div class="row">
 
 <?php $iterations = 0; foreach ($books as $book) { ?>
-							<div class="book-box col-md-3">
+							<div class="book-box col-md-3 col-sm-4">
 								<img src="<?php echo Latte\Runtime\Filters::escapeHtml(Latte\Runtime\Filters::safeUrl($basePath), ENT_COMPAT) ?>
 /<?php echo Latte\Runtime\Filters::escapeHtml(Latte\Runtime\Filters::safeUrl($book->url), ENT_COMPAT) ?>" alt="">
 								<div class="infobox">

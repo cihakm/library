@@ -2,13 +2,13 @@
 // source: C:\xampp\htdocs\library\vendor\mesour\datagrid\DataGrid/Grid.latte
 
 // prolog Latte\Macros\CoreMacros
-list($_b, $_g, $_l) = $template->initialize('9668242286', 'html')
+list($_b, $_g, $_l) = $template->initialize('1493543981', 'html')
 ;
 // prolog Latte\Macros\BlockMacros
 //
 // block _dataGrid
 //
-if (!function_exists($_b->blocks['_dataGrid'][] = '_lbaa499f6080__dataGrid')) { function _lbaa499f6080__dataGrid($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v; $_control->redrawControl('dataGrid', FALSE)
+if (!function_exists($_b->blocks['_dataGrid'][] = '_lb6c599cc72d__dataGrid')) { function _lb6c599cc72d__dataGrid($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v; $_control->redrawControl('dataGrid', FALSE)
 ?>	<div class="data-grid<?php if ($control instanceof \DataGrid\GridTree) { ?> data-grid-tree<?php } ?>
 " data-mesour-grid="<?php echo Latte\Runtime\Filters::escapeHtml($control->getName(), ENT_COMPAT) ?>">
 		<div id="<?php echo $_l->dynSnippetId = $_control->getSnippetId($control->getGridName()) ?>

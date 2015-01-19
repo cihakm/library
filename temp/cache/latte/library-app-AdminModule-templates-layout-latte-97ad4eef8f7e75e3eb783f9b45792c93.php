@@ -2,20 +2,20 @@
 // source: C:\xampp\htdocs\library\app\AdminModule/templates/@layout.latte
 
 // prolog Latte\Macros\CoreMacros
-list($_b, $_g, $_l) = $template->initialize('3010061819', 'html')
+list($_b, $_g, $_l) = $template->initialize('1744799484', 'html')
 ;
 // prolog Latte\Macros\BlockMacros
 //
 // block title
 //
-if (!function_exists($_b->blocks['title'][] = '_lb2b5eeb102d_title')) { function _lb2b5eeb102d_title($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+if (!function_exists($_b->blocks['title'][] = '_lb1425aadb90_title')) { function _lb1425aadb90_title($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
 ?>Knihovna HK | Admin<?php
 }}
 
 //
 // block scripts
 //
-if (!function_exists($_b->blocks['scripts'][] = '_lb6dad1f932f_scripts')) { function _lb6dad1f932f_scripts($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+if (!function_exists($_b->blocks['scripts'][] = '_lbd72f2ce5e4_scripts')) { function _lbd72f2ce5e4_scripts($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
 ;
 }}
 
@@ -60,7 +60,7 @@ ob_start(); call_user_func(reset($_b->blocks['title']), $_b, get_defined_vars())
 		<link rel="shortcut icon" href="<?php echo Latte\Runtime\Filters::escapeHtml(Latte\Runtime\Filters::safeUrl($basePath), ENT_COMPAT) ?>/favicon.ico">
 	</head>
 	<body class="admin">
-<?php $_b->templates['3010061819']->renderChildTemplate("modal.latte", $template->getParameters()) ;$iterations = 0; foreach ($flashes as $flash) { ?>
+<?php $_b->templates['1744799484']->renderChildTemplate("modal.latte", $template->getParameters()) ;$iterations = 0; foreach ($flashes as $flash) { ?>
 			<div class="alert alert-<?php echo Latte\Runtime\Filters::escapeHtml($flash->type, ENT_COMPAT) ?> alert-dismissible fade in" role="alert"> 
 				<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
 				<div class="msg"><?php echo Latte\Runtime\Filters::escapeHtml($flash->message, ENT_NOQUOTES) ?></div> 
@@ -132,7 +132,12 @@ class="current"<?php } ?>><a href="<?php echo Latte\Runtime\Filters::escapeHtml(
 ">Vydavatelé</a></li>
 								</ul>
 							</li>
-							<li class="dropdown">
+							<li>
+								<a <?php try { $_presenter->link(":Admin:Borrows:*"); } catch (Nette\Application\UI\InvalidLinkException $e) {}; if ($_presenter->getLastCreatedRequestFlag("current")) { ?>
+class="current"<?php } ?> href="<?php echo Latte\Runtime\Filters::escapeHtml($_control->link(":Admin:Borrows:default"), ENT_COMPAT) ?>
+">Výpujčky</a>
+							</li>
+								<li class="dropdown">
 								<a href="#" data-toggle="dropdown"  class="dropdown-toggle">Globální</a>
 								<ul class="dropdown-menu">
 									<li <?php try { $_presenter->link(":Admin:Texts:*"); } catch (Nette\Application\UI\InvalidLinkException $e) {}; if ($_presenter->getLastCreatedRequestFlag("current")) { ?>

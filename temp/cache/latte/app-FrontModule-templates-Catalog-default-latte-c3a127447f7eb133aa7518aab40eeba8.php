@@ -2,13 +2,13 @@
 // source: C:\xampp\htdocs\library\app\FrontModule/templates/Catalog/default.latte
 
 // prolog Latte\Macros\CoreMacros
-list($_b, $_g, $_l) = $template->initialize('0444650066', 'html')
+list($_b, $_g, $_l) = $template->initialize('2930997401', 'html')
 ;
 // prolog Latte\Macros\BlockMacros
 //
 // block content
 //
-if (!function_exists($_b->blocks['content'][] = '_lb346e14b15b_content')) { function _lb346e14b15b_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+if (!function_exists($_b->blocks['content'][] = '_lb3126b60d91_content')) { function _lb3126b60d91_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
 ?><div class="container">
 	<div class="catalog">
 		<div class="row">
@@ -22,7 +22,7 @@ if (!function_exists($_b->blocks['content'][] = '_lb346e14b15b_content')) { func
 //
 // block _category
 //
-if (!function_exists($_b->blocks['_category'][] = '_lbad995a9fbb__category')) { function _lbad995a9fbb__category($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v; $_control->redrawControl('category', FALSE)
+if (!function_exists($_b->blocks['_category'][] = '_lb19ac3eb546__category')) { function _lb19ac3eb546__category($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v; $_control->redrawControl('category', FALSE)
 ?>				<div class="col-md-3">
 					<nav class="navbar navbar-default" role="navigation">
 						<div class="container-fluid">
@@ -33,7 +33,7 @@ if (!function_exists($_b->blocks['_category'][] = '_lbad995a9fbb__category')) { 
 									<span class="icon-bar"></span>
 									<span class="icon-bar"></span>
 								</button>
-								<a class="navbar-brand" href="#">Kategorie</a>
+								<a class="navbar-brand" data-toggle="collapse" data-target="#navbar"  href="#">Kategorie</a>
 							</div>
 							<div id="navbar" class="navbar-collapse collapse">
 								<ul class="nav navbar-nav">
@@ -50,7 +50,7 @@ if (!function_exists($_b->blocks['_category'][] = '_lbad995a9fbb__category')) { 
 					<h4><?php echo Latte\Runtime\Filters::escapeHtml($category->name, ENT_NOQUOTES) ?></h4>
 					<div class="row">
 <?php $iterations = 0; foreach ($books as $book) { ?>
-							<div class="book-box col-md-4">
+							<div class="book-box col-md-4 col-sm-4 col-xs-12">
 								<img src="<?php echo Latte\Runtime\Filters::escapeHtml(Latte\Runtime\Filters::safeUrl($basePath), ENT_COMPAT) ?>
 /<?php echo Latte\Runtime\Filters::escapeHtml(Latte\Runtime\Filters::safeUrl($book->url), ENT_COMPAT) ?>" alt="">
 								<div class="infobox">

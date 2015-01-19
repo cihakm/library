@@ -1,15 +1,15 @@
 $(document).ready(function () {
-	$('.alert').delay(5000).slideToggle('slow');
+	$('.alert').delay(5000).hide('slow');
 	$('.book-carousel').slick({
 		dots: false,
 		infinite: true,
 		arrows: true,
 		speed: 300,
-		slidesToShow: 4,
+		slidesToShow: 3,
 		slidesToScroll: 1,
 		responsive: [
 			{
-				breakpoint: 992,
+				breakpoint: 960,
 				settings: {
 					slidesToShow: 2,
 					slidesToScroll: 1
@@ -30,5 +30,5 @@ $(document).ready(function () {
 
 });
 $(document).ajaxComplete(function () {
-	$('.alert').delay(5000).slideToggle('slow');
+	$('.alert').delay(5000).hide('slow');
 });

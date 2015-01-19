@@ -2,7 +2,7 @@
 // source: C:\xampp\htdocs\library\app\FrontModule/templates/header.latte
 
 // prolog Latte\Macros\CoreMacros
-list($_b, $_g, $_l) = $template->initialize('1763881506', 'html')
+list($_b, $_g, $_l) = $template->initialize('2589330324', 'html')
 ;
 // prolog Nette\Bridges\ApplicationLatte\UIMacros
 
@@ -36,21 +36,31 @@ if (empty($_l->extends) && !empty($_control->snippetMode)) {
 				</div>
 				<div class="clearfix"></div>
 			</header>
-			<nav>
-				<ul>
-					<li <?php try { $_presenter->link(":Front:Homepage:default"); } catch (Nette\Application\UI\InvalidLinkException $e) {}; if ($_presenter->getLastCreatedRequestFlag("current")) { ?>
+			<div class="navbar-header main">
+            								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main" aria-expanded="false" aria-controls="navbar">
+            									<span class="sr-only">Toggle navigation</span>
+            									<span class="icon-bar"></span>
+            									<span class="icon-bar"></span>
+            									<span class="icon-bar"></span>
+            								</button>
+            								<a class="navbar-brand"data-toggle="collapse" data-target="#navbar-main" href="#">Menu</a>
+            							</div>
+            							<div id="navbar-main" class="navbar-collapse collapse">
+            								<ul class="nav navbar-nav">
+            									<li <?php try { $_presenter->link(":Front:Homepage:default"); } catch (Nette\Application\UI\InvalidLinkException $e) {}; if ($_presenter->getLastCreatedRequestFlag("current")) { ?>
 class="active"<?php } ?>><a href="<?php echo Latte\Runtime\Filters::escapeHtml($_control->link(":Front:Homepage:"), ENT_COMPAT) ?>
 ">Úvod</a></li>
-					<li <?php try { $_presenter->link(":Front:Catalog:default"); } catch (Nette\Application\UI\InvalidLinkException $e) {}; if ($_presenter->getLastCreatedRequestFlag("current")) { ?>
+                                                <li <?php try { $_presenter->link(":Front:Catalog:default"); } catch (Nette\Application\UI\InvalidLinkException $e) {}; if ($_presenter->getLastCreatedRequestFlag("current")) { ?>
 class="active"<?php } ?>><a href="<?php echo Latte\Runtime\Filters::escapeHtml($_control->link(":Front:Catalog:"), ENT_COMPAT) ?>
 ">Katalog</a></li>
-					<li <?php try { $_presenter->link(":Front:Tax:default"); } catch (Nette\Application\UI\InvalidLinkException $e) {}; if ($_presenter->getLastCreatedRequestFlag("current")) { ?>
+                                                <li <?php try { $_presenter->link(":Front:Tax:default"); } catch (Nette\Application\UI\InvalidLinkException $e) {}; if ($_presenter->getLastCreatedRequestFlag("current")) { ?>
 class="active"<?php } ?>><a href="<?php echo Latte\Runtime\Filters::escapeHtml($_control->link(":Front:Tax:"), ENT_COMPAT) ?>
 ">Ceník</a></li>
-					<li <?php try { $_presenter->link(":Front:News:default"); } catch (Nette\Application\UI\InvalidLinkException $e) {}; if ($_presenter->getLastCreatedRequestFlag("current")) { ?>
+                                                <li <?php try { $_presenter->link(":Front:News:default"); } catch (Nette\Application\UI\InvalidLinkException $e) {}; if ($_presenter->getLastCreatedRequestFlag("current")) { ?>
 class="active"<?php } ?>><a href="<?php echo Latte\Runtime\Filters::escapeHtml($_control->link(":Front:News:"), ENT_COMPAT) ?>
 ">Aktuality</a></li>
-				</ul>
-			</nav>
+            								</ul>
+            							</div><!--/.nav-collapse -->
+
 	</div>
 </section>

@@ -268,9 +268,6 @@ class SystemContainer extends Nette\DI\Container
 	public function createServiceFacebook__apiClient()
 	{
 		$service = new Kdyby\Facebook\Api\CurlClient;
-		if (!$service instanceof Kdyby\Facebook\ApiClient) {
-			throw new Nette\UnexpectedValueException('Unable to create service \'facebook.apiClient\', value returned by factory is not Kdyby\\Facebook\\ApiClient type.');
-		}
 		$service->curlOptions = array(
 			78 => 10,
 			13 => 60,

@@ -2,23 +2,23 @@
 // source: C:\xampp\htdocs\library\app\FrontModule/templates/MyProfile/myData.latte
 
 // prolog Latte\Macros\CoreMacros
-list($_b, $_g, $_l) = $template->initialize('5795068638', 'html')
+list($_b, $_g, $_l) = $template->initialize('6321868719', 'html')
 ;
 // prolog Latte\Macros\BlockMacros
 //
 // block content
 //
-if (!function_exists($_b->blocks['content'][] = '_lbc9541b8404_content')) { function _lbc9541b8404_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+if (!function_exists($_b->blocks['content'][] = '_lb72e1975ce3_content')) { function _lb72e1975ce3_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
 ?><div class="container account">
         <h2><span>Můj</span> účet</h2>
 	<div class="row">
 
 		<nav>
-			<div class="col-md-6 text-center">
+			<div class="col-md-6 col-sm-6 text-center">
 				<p><a class="btn orange" href="<?php echo Latte\Runtime\Filters::escapeHtml($_control->link(":Front:MyProfile:myBooks"), ENT_COMPAT) ?>
 ">Mé výpůjčky</a></p>
 			</div>
-			<div class="col-md-6 text-center">
+			<div class="col-md-6 col-sm-6 text-center">
 				<p><a class="btn orange" href="<?php echo Latte\Runtime\Filters::escapeHtml($_control->link(":Front:MyProfile:myData"), ENT_COMPAT) ?>
 ">Mé osobní údaje</a></p>
 			</div>
@@ -37,11 +37,11 @@ if (!function_exists($_b->blocks['content'][] = '_lbc9541b8404_content')) { func
 	<div class="col-md-6">
 		<div class="row">
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-6 col-sm-6">
 					<p><a class="btn orange edit" href="<?php echo Latte\Runtime\Filters::escapeHtml($_control->link(":Front:MyProfile:editMyData"), ENT_COMPAT) ?>
 ">Editovat mé údaje</a></p>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-6 col-sm-6">
 					<p><a class="btn orange editPass" href="<?php echo Latte\Runtime\Filters::escapeHtml($_control->link(":Front:MyProfile:editPassword"), ENT_COMPAT) ?>
 ">Zadat nové heslo</a></p>
 				</div>

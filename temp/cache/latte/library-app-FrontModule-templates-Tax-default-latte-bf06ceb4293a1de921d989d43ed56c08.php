@@ -2,13 +2,13 @@
 // source: C:\xampp\htdocs\library\app\FrontModule/templates/Tax/default.latte
 
 // prolog Latte\Macros\CoreMacros
-list($_b, $_g, $_l) = $template->initialize('3806589652', 'html')
+list($_b, $_g, $_l) = $template->initialize('6037404939', 'html')
 ;
 // prolog Latte\Macros\BlockMacros
 //
 // block content
 //
-if (!function_exists($_b->blocks['content'][] = '_lbe87cd9e297_content')) { function _lbe87cd9e297_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+if (!function_exists($_b->blocks['content'][] = '_lbb73e1de990_content')) { function _lbb73e1de990_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
 ?><div class="container price">
         <h2><span>Ceník služeb</span> knihovny Hradec Králové</h2>
 	<?php echo $tax->content ?>

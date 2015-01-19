@@ -4,16 +4,16 @@
 		<div class="book-about">
 			<div class="row">
 				<div class="col-md-12">
-					<div class="row">
+					<div class="row head">
 						<p class="back pull-right"><a href="javascript:history.back();" >Zpět</a></p>
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-3">
+			<div class="row first">
+				<div class="col-md-3 col-sm-3 col-xs-12 text-center">
 					<img src="{$basePath}/{$book->url}" alt="book thumbnail">
 				</div>
-				<div class="col-md-9">
+				<div class="col-md-9 col-sm-9 col-xs-12">
 					<div class="category">
 						<p>{$book->category->name}</p>
 					</div>
@@ -23,15 +23,15 @@
 						{$book->desc|noescape}
 					</div>
 					<div class="row">
-						<div class="col-md-4">
+						<div class="col-md-4 col-sm-4">
 							<p><span>Rok vydání: </span>{$book->year|date:'Y'}</p>
 							<p><span>Počet stran: </span>{$book->page_count}</p>
 						</div>
-						<div class="col-md-4">
-							<p><span>Dostupnost: </span>zbývají {$book->count}</p>
+						<div class="col-md-4 col-sm-4">
+							{snippet bookCount}<p><span>Dostupnost: </span>zbývají {$book->count}</p>{/snippet}
 							<p><span>Vydavatel: </span>{$book->publisher->name}</p>
 						</div>
-						<div class="col-md-4">
+						<div class="col-md-4 col-sm-4">
 							<p><span>EAN: </span>{$book->ean}</p>
 							<p><span>ISBN: </span>{$book->isbn}</p>
 						</div>
@@ -40,7 +40,13 @@
 				</div>
 				<div class="col-md-12">
 					<div class="row">
-						<p class="basket pull-right"><a href="#" {if !$user->loggedIn}data-toggle="modal" data-target="#pleaseLoginModal"{/if}>Vypůjčit</a></p>
+						<p class="basket pull-right">
+						{if !$user->loggedIn}
+                        							<a href="#" data-toggle="modal" data-target="#pleaseLoginModal" class="basket-button">vypůjčit</a>
+                        						{else}
+                        							<a n:href="bookBorrow! $book->id" class="basket-button ajax">vypůjčit</a>
+                        						{/if}
+						</p>
 					</div>
 				</div>
 				<div class="clearfix"></div>

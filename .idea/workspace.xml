@@ -1,0 +1,1225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="067f0405-de9b-4eb4-9b10-137e14a596d8" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\Nette.Configurator\21f3d8c8f8630370e58604a73e01e082.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\Nette.Configurator\21f3d8c8f8630370e58604a73e01e082.php.meta" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\_Nette.Database.3f3d95742cff44fb5ceff30e698d84ce\_07414f4e15ca943e6cde032dec85d92f" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\_Nette.Database.3f3d95742cff44fb5ceff30e698d84ce\_18dc48608542358a3c1b923d94520948" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\_Nette.Database.3f3d95742cff44fb5ceff30e698d84ce\_320e62362fe3957d9d7715f504704d7b" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\_Nette.Database.3f3d95742cff44fb5ceff30e698d84ce\_38da9d45c563462d0e1201e1207f943d" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\_Nette.Database.3f3d95742cff44fb5ceff30e698d84ce\_3a3bc82089f47add0af931f4c526c6a6" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\_Nette.Database.3f3d95742cff44fb5ceff30e698d84ce\_642f5986c8a34ce81687748e3040d4d1" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\_Nette.Database.3f3d95742cff44fb5ceff30e698d84ce\_76f825eab3b70c9a6e2a3642a685530a" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\_Nette.Database.3f3d95742cff44fb5ceff30e698d84ce\_77e6b40e241e6e95de92e0491c94a075" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\_Nette.Database.3f3d95742cff44fb5ceff30e698d84ce\_89d66f3f0400fdfed52829fef7ab44f7" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\_Nette.Database.3f3d95742cff44fb5ceff30e698d84ce\_90c6487ebd90d2f53808aef9595d0af7" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\_Nette.Database.3f3d95742cff44fb5ceff30e698d84ce\_aad5184d8c52b773bd73b5c7c5c819c9" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\_Nette.Database.3f3d95742cff44fb5ceff30e698d84ce\_b49b10ae415a3f1527e68c57b8d97f1d" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\_Nette.Database.3f3d95742cff44fb5ceff30e698d84ce\_b879bea5ea6868975bc3005e7728ddfa" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\_Nette.Database.3f3d95742cff44fb5ceff30e698d84ce\_bc3136afb1f2e080d9c62ad0ecd55cd2" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\_Nette.Database.3f3d95742cff44fb5ceff30e698d84ce\_bc4f6f1d7615a6071286d3db31726199" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\_Nette.Database.3f3d95742cff44fb5ceff30e698d84ce\_cd71daf3033277bf67c22afc4463aaed" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\_Nette.Database.3f3d95742cff44fb5ceff30e698d84ce\_e9fcbdfbbc07dfd1713e369bfd144ecc" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\_Nette.Database.3f3d95742cff44fb5ceff30e698d84ce\_f9f905c34b496695e8d4761143ecd1d2" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\_Nette.Database.3f3d95742cff44fb5ceff30e698d84ce\_fd1b25e1641217066d16dda28662f55e" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\_Nette.Database.3f3d95742cff44fb5ceff30e698d84ce\_fdc8154a95bcea502b9b60ca0462963c" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\_Nette.RobotLoader\_6a152334aa88e082055079577dbdaf49" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\latte\FrontModule-templates-MyProfile-editMyData-latte-2c7087ee285dc01486840a857126cdee.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\latte\FrontModule-templates-MyProfile-editPassword-latte-92168c31d3a0323ea091480d4f2e36b2.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\latte\app-AdminModule-templates-Catalog-books-latte-78fec911659ea69ffe855e653fbfaa95.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\latte\app-AdminModule-templates-Catalog-editBook-latte-c213a98ffca74ede77a4219108696a67.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\latte\app-AdminModule-templates-Default-default-latte-5fb26324f0e78614d5a7c4054590e3d9.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\latte\app-AdminModule-templates-News-default-latte-2bf6c0be29c2784822162ed245c9fe10.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\latte\app-FrontModule-templates-Catalog-default-latte-c3a127447f7eb133aa7518aab40eeba8.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\latte\app-FrontModule-templates-Catalog-detail-latte-c24705ef06d14c10838bf9719ded8824.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\latte\app-FrontModule-templates-Homepage-default-latte-4ca247bca8f9f980baa114dc87c5b9c6.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\latte\app-FrontModule-templates-MyProfile-default-latte-7a96b97b501f87ddd8c9f1f7a35eabee.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\latte\app-FrontModule-templates-MyProfile-myBooks-latte-656d68114935417e4eb147218740ed07.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\latte\app-FrontModule-templates-MyProfile-myData-latte-e5450b42d32495db20ef0ff33ffd9f81.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\latte\app-FrontModule-templates-Search-default-latte-aef9186b9f194e25f73465ced5d6df73.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\latte\library-app-AdminModule-templates-layout-latte-97ad4eef8f7e75e3eb783f9b45792c93.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\latte\library-app-AdminModule-templates-modal-latte-009e86969d14beb28fd8e1ad816bc628.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\latte\library-app-FrontModule-templates-Tax-default-latte-bf06ceb4293a1de921d989d43ed56c08.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\latte\library-app-FrontModule-templates-footer-latte-13d6f271f9bc2f933ba2c35869257e33.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\latte\library-app-FrontModule-templates-header-latte-ab4846ec05a55df04da43756ca0f8399.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\latte\library-app-FrontModule-templates-layout-latte-a3c2ae73680ad65b8dce8622a0ece71e.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\latte\library-app-FrontModule-templates-modals-latte-81a038180f1902703508c4a26c7a146e.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\latte\library-vendor-mesour-datagrid-DataGrid-Grid-latte-bb3cbe4e7a6269ee4461903b3707e500.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/btfj.dat" afterPath="$PROJECT_DIR$/temp/btfj.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/nette/tools/Requirements-Checker/assets/denied/.htaccess" afterPath="$PROJECT_DIR$/vendor/nette/nette/tools/Requirements-Checker/assets/denied/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/nette/tools/Requirements-Checker/assets/rewrite/.htaccess" afterPath="$PROJECT_DIR$/vendor/nette/nette/tools/Requirements-Checker/assets/rewrite/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AdminModule/templates/@layout.latte" afterPath="$PROJECT_DIR$/app/AdminModule/templates/@layout.latte" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/FrontModule/templates/@layout.latte" afterPath="$PROJECT_DIR$/app/FrontModule/templates/@layout.latte" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/application/src/Application/Application.php" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/Application.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/ArrayHash.php" afterPath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/ArrayHash.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/ArrayList.php" afterPath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/ArrayList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/Arrays.php" afterPath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/Arrays.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/security/src/Security/AuthenticationException.php" afterPath="$PROJECT_DIR$/vendor/nette/security/src/Security/AuthenticationException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/application/src/Application/UI/BadSignalException.php" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/UI/BadSignalException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/Bar.php" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/Bar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/BaseControl.php" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/BaseControl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/FrontModule/presenters/BasePresenter.php" afterPath="$PROJECT_DIR$/app/FrontModule/presenters/BasePresenter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/BlueScreen.php" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/BlueScreen.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/model/BorrowManager.php" afterPath="$PROJECT_DIR$/app/model/BorrowManager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/Button.php" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/Button.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/caching/src/Caching/Cache.php" afterPath="$PROJECT_DIR$/vendor/nette/caching/src/Caching/Cache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/caching/src/Bridges/CacheLatte/CacheMacro.php" afterPath="$PROJECT_DIR$/vendor/nette/caching/src/Bridges/CacheLatte/CacheMacro.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/utils/src/Iterators/CachingIterator.php" afterPath="$PROJECT_DIR$/vendor/nette/utils/src/Iterators/CachingIterator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/nette/Nette/deprecated/Callback.php" afterPath="$PROJECT_DIR$/vendor/nette/nette/Nette/deprecated/Callback.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/Callback.php" afterPath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/Callback.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/finder/src/Finder/CallbackFilterIterator.php" afterPath="$PROJECT_DIR$/vendor/nette/finder/src/Finder/CallbackFilterIterator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/model/CatalogManager.php" afterPath="$PROJECT_DIR$/app/model/CatalogManager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/FrontModule/presenters/CatalogPresenter.php" afterPath="$PROJECT_DIR$/app/FrontModule/presenters/CatalogPresenter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/Checkbox.php" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/Checkbox.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/CheckboxList.php" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/CheckboxList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/ChoiceControl.php" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/ChoiceControl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/application/src/Application/Routers/CliRouter.php" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/Routers/CliRouter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/di/src/DI/Compiler.php" afterPath="$PROJECT_DIR$/vendor/nette/di/src/DI/Compiler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/di/src/DI/CompilerExtension.php" afterPath="$PROJECT_DIR$/vendor/nette/di/src/DI/CompilerExtension.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/di/src/DI/Extensions/ConstantsExtension.php" afterPath="$PROJECT_DIR$/vendor/nette/di/src/DI/Extensions/ConstantsExtension.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/di/src/DI/Container.php" afterPath="$PROJECT_DIR$/vendor/nette/di/src/DI/Container.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Container.php" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Container.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/di/src/DI/ContainerBuilder.php" afterPath="$PROJECT_DIR$/vendor/nette/di/src/DI/ContainerBuilder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/di/src/DI/ContainerFactory.php" afterPath="$PROJECT_DIR$/vendor/nette/di/src/DI/ContainerFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/di/src/Bridges/DITracy/templates/ContainerPanel.panel.phtml" afterPath="$PROJECT_DIR$/vendor/nette/di/src/Bridges/DITracy/templates/ContainerPanel.panel.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/di/src/Bridges/DITracy/ContainerPanel.php" afterPath="$PROJECT_DIR$/vendor/nette/di/src/Bridges/DITracy/ContainerPanel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/di/src/Bridges/DITracy/templates/ContainerPanel.tab.phtml" afterPath="$PROJECT_DIR$/vendor/nette/di/src/Bridges/DITracy/templates/ContainerPanel.tab.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/http/src/Http/Context.php" afterPath="$PROJECT_DIR$/vendor/nette/http/src/Http/Context.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/application/src/Application/UI/Control.php" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/UI/Control.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/ControlGroup.php" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/ControlGroup.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/CsrfProtection.php" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/CsrfProtection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/DateTime.php" afterPath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/DateTime.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/nette/Nette/deprecated/Diagnostics/Debugger.php" afterPath="$PROJECT_DIR$/vendor/nette/nette/Nette/deprecated/Diagnostics/Debugger.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/Debugger.php" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/Debugger.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/neon/src/Neon/Decoder.php" afterPath="$PROJECT_DIR$/vendor/nette/neon/src/Neon/Decoder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/DefaultBarPanel.php" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/DefaultBarPanel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Rendering/DefaultFormRenderer.php" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Rendering/DefaultFormRenderer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/caching/src/Caching/Storages/DevNullStorage.php" afterPath="$PROJECT_DIR$/vendor/nette/caching/src/Caching/Storages/DevNullStorage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/Dumper.php" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/Dumper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/neon/src/Neon/Encoder.php" afterPath="$PROJECT_DIR$/vendor/nette/neon/src/Neon/Encoder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/nette/Nette/deprecated/Latte/Engine.php" afterPath="$PROJECT_DIR$/vendor/nette/nette/Nette/deprecated/Latte/Engine.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/neon/src/Neon/Entity.php" afterPath="$PROJECT_DIR$/vendor/nette/neon/src/Neon/Entity.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/nette/Nette/deprecated/Environment.php" afterPath="$PROJECT_DIR$/vendor/nette/nette/Nette/deprecated/Environment.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/application/src/Application/ErrorPresenter.php" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/ErrorPresenter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/neon/src/Neon/Exception.php" afterPath="$PROJECT_DIR$/vendor/nette/neon/src/Neon/Exception.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/di/src/DI/Extensions/ExtensionsExtension.php" afterPath="$PROJECT_DIR$/vendor/nette/di/src/DI/Extensions/ExtensionsExtension.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/caching/src/Caching/Storages/FileJournal.php" afterPath="$PROJECT_DIR$/vendor/nette/caching/src/Caching/Storages/FileJournal.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/application/src/Application/Responses/FileResponse.php" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/Responses/FileResponse.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/caching/src/Caching/Storages/FileStorage.php" afterPath="$PROJECT_DIR$/vendor/nette/caching/src/Caching/Storages/FileStorage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/FileSystem.php" afterPath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/FileSystem.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/nette/Nette/deprecated/Templating/FileTemplate.php" afterPath="$PROJECT_DIR$/vendor/nette/nette/Nette/deprecated/Templating/FileTemplate.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/http/src/Http/FileUpload.php" afterPath="$PROJECT_DIR$/vendor/nette/http/src/Http/FileUpload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/utils/src/Iterators/Filter.php" afterPath="$PROJECT_DIR$/vendor/nette/utils/src/Iterators/Filter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/finder/src/Finder/Finder.php" afterPath="$PROJECT_DIR$/vendor/nette/finder/src/Finder/Finder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/FireLogger.php" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/FireLogger.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/tracy/tracy/examples/Firebug-dump.php" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/examples/Firebug-dump.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/application/src/Application/UI/Form.php" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/UI/Form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Form.php" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Bridges/FormsLatte/FormMacros.php" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Bridges/FormsLatte/FormMacros.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/application/src/Application/Responses/ForwardResponse.php" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/Responses/ForwardResponse.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/nette/Nette/Framework.php" afterPath="$PROJECT_DIR$/vendor/nette/nette/Nette/Framework.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/nette/Nette/deprecated/FreezableObject.php" afterPath="$PROJECT_DIR$/vendor/nette/nette/Nette/deprecated/FreezableObject.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/di/src/DI/Helpers.php" afterPath="$PROJECT_DIR$/vendor/nette/di/src/DI/Helpers.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/di/src/DI/Config/Helpers.php" afterPath="$PROJECT_DIR$/vendor/nette/di/src/DI/Config/Helpers.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Helpers.php" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Helpers.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/http/src/Http/Helpers.php" afterPath="$PROJECT_DIR$/vendor/nette/http/src/Http/Helpers.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/nette/Nette/deprecated/Diagnostics/Helpers.php" afterPath="$PROJECT_DIR$/vendor/nette/nette/Nette/deprecated/Diagnostics/Helpers.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/nette/Nette/deprecated/Templating/Helpers.php" afterPath="$PROJECT_DIR$/vendor/nette/nette/Nette/deprecated/Templating/Helpers.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/Helpers.php" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/Helpers.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/HiddenField.php" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/HiddenField.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/FrontModule/presenters/HomepagePresenter.php" afterPath="$PROJECT_DIR$/app/FrontModule/presenters/HomepagePresenter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/Html.php" afterPath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/Html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/di/src/DI/Config/IAdapter.php" afterPath="$PROJECT_DIR$/vendor/nette/di/src/DI/Config/IAdapter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/security/src/Security/IAuthenticator.php" afterPath="$PROJECT_DIR$/vendor/nette/security/src/Security/IAuthenticator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/security/src/Security/IAuthorizator.php" afterPath="$PROJECT_DIR$/vendor/nette/security/src/Security/IAuthorizator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/nette/Nette/deprecated/Diagnostics/IBarPanel.php" afterPath="$PROJECT_DIR$/vendor/nette/nette/Nette/deprecated/Diagnostics/IBarPanel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/IBarPanel.php" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/IBarPanel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/IControl.php" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/IControl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/nette/Nette/deprecated/Templating/IFileTemplate.php" afterPath="$PROJECT_DIR$/vendor/nette/nette/Nette/deprecated/Templating/IFileTemplate.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/IFormRenderer.php" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/IFormRenderer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/nette/Nette/deprecated/IFreezable.php" afterPath="$PROJECT_DIR$/vendor/nette/nette/Nette/deprecated/IFreezable.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/IHtmlString.php" afterPath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/IHtmlString.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/security/src/Security/IIdentity.php" afterPath="$PROJECT_DIR$/vendor/nette/security/src/Security/IIdentity.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/caching/src/Caching/Storages/IJournal.php" afterPath="$PROJECT_DIR$/vendor/nette/caching/src/Caching/Storages/IJournal.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/application/src/Bridges/ApplicationLatte/ILatteFactory.php" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Bridges/ApplicationLatte/ILatteFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/application/src/Application/IPresenter.php" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/IPresenter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/application/src/Application/IPresenterFactory.php" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/IPresenterFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/application/src/Application/UI/IRenderable.php" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/UI/IRenderable.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/http/src/Http/IRequest.php" afterPath="$PROJECT_DIR$/vendor/nette/http/src/Http/IRequest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/security/src/Security/IResource.php" afterPath="$PROJECT_DIR$/vendor/nette/security/src/Security/IResource.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/application/src/Application/IResponse.php" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/IResponse.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/http/src/Http/IResponse.php" afterPath="$PROJECT_DIR$/vendor/nette/http/src/Http/IResponse.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/security/src/Security/IRole.php" afterPath="$PROJECT_DIR$/vendor/nette/security/src/Security/IRole.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/application/src/Application/IRouter.php" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/IRouter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/http/src/Http/ISessionStorage.php" afterPath="$PROJECT_DIR$/vendor/nette/http/src/Http/ISessionStorage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/application/src/Application/UI/ISignalReceiver.php" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/UI/ISignalReceiver.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/application/src/Application/UI/IStatePersistent.php" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/UI/IStatePersistent.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/caching/src/Caching/IStorage.php" afterPath="$PROJECT_DIR$/vendor/nette/caching/src/Caching/IStorage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/ISubmitterControl.php" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/ISubmitterControl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/application/src/Application/UI/ITemplate.php" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/UI/ITemplate.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/nette/Nette/deprecated/Templating/ITemplate.php" afterPath="$PROJECT_DIR$/vendor/nette/nette/Nette/deprecated/Templating/ITemplate.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/application/src/Application/UI/ITemplateFactory.php" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/UI/ITemplateFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/ITranslator.php" afterPath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/ITranslator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/security/src/Security/IUserStorage.php" afterPath="$PROJECT_DIR$/vendor/nette/security/src/Security/IUserStorage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/security/src/Security/Identity.php" afterPath="$PROJECT_DIR$/vendor/nette/security/src/Security/Identity.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/Image.php" afterPath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/Image.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/ImageButton.php" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/ImageButton.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/di/src/DI/Config/Adapters/IniAdapter.php" afterPath="$PROJECT_DIR$/vendor/nette/di/src/DI/Config/Adapters/IniAdapter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/application/src/Application/UI/InvalidLinkException.php" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/UI/InvalidLinkException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/Json.php" afterPath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/Json.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/application/src/Application/Responses/JsonResponse.php" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/Responses/JsonResponse.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/nette/Nette/deprecated/Utils/LimitedScope.php" afterPath="$PROJECT_DIR$/vendor/nette/nette/Nette/deprecated/Utils/LimitedScope.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/application/src/Application/UI/Link.php" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/UI/Link.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/application/src/Bridges/ApplicationLatte/Loader.php" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Bridges/ApplicationLatte/Loader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/di/src/DI/Config/Loader.php" afterPath="$PROJECT_DIR$/vendor/nette/di/src/DI/Config/Loader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/Logger.php" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/Logger.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/utils/src/Iterators/Mapper.php" afterPath="$PROJECT_DIR$/vendor/nette/utils/src/Iterators/Mapper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/caching/src/Caching/Storages/MemcachedStorage.php" afterPath="$PROJECT_DIR$/vendor/nette/caching/src/Caching/Storages/MemcachedStorage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/caching/src/Caching/Storages/MemoryStorage.php" afterPath="$PROJECT_DIR$/vendor/nette/caching/src/Caching/Storages/MemoryStorage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/application/src/Application/MicroPresenter.php" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/MicroPresenter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/nette/Nette/deprecated/Utils/MimeTypeDetector.php" afterPath="$PROJECT_DIR$/vendor/nette/nette/Nette/deprecated/Utils/MimeTypeDetector.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/MultiChoiceControl.php" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/MultiChoiceControl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/MultiSelectBox.php" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/MultiSelectBox.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/application/src/Application/UI/Multiplier.php" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/UI/Multiplier.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/neon/src/Neon/Neon.php" afterPath="$PROJECT_DIR$/vendor/nette/neon/src/Neon/Neon.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/di/src/DI/Config/Adapters/NeonAdapter.php" afterPath="$PROJECT_DIR$/vendor/nette/di/src/DI/Config/Adapters/NeonAdapter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/nette/Nette/Loaders/NetteLoader.php" afterPath="$PROJECT_DIR$/vendor/nette/nette/Nette/Loaders/NetteLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/Object.php" afterPath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/Object.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/ObjectMixin.php" afterPath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/ObjectMixin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/OutputDebugger.php" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/OutputDebugger.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/caching/src/Caching/OutputHelper.php" afterPath="$PROJECT_DIR$/vendor/nette/caching/src/Caching/OutputHelper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/Paginator.php" afterPath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/Paginator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/security/src/Security/Passwords.php" afterPath="$PROJECT_DIR$/vendor/nette/security/src/Security/Passwords.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/security/src/Security/Permission.php" afterPath="$PROJECT_DIR$/vendor/nette/security/src/Security/Permission.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/di/src/DI/Config/Adapters/PhpAdapter.php" afterPath="$PROJECT_DIR$/vendor/nette/di/src/DI/Config/Adapters/PhpAdapter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/di/src/DI/Extensions/PhpExtension.php" afterPath="$PROJECT_DIR$/vendor/nette/di/src/DI/Extensions/PhpExtension.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/nette/Nette/deprecated/Caching/PhpFileStorage.php" afterPath="$PROJECT_DIR$/vendor/nette/nette/Nette/deprecated/Caching/PhpFileStorage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/application/src/Application/UI/Presenter.php" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/UI/Presenter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/application/src/Application/UI/PresenterComponent.php" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/UI/PresenterComponent.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/application/src/Application/UI/PresenterComponentReflection.php" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/UI/PresenterComponentReflection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/application/src/Application/PresenterFactory.php" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/PresenterFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/RadioList.php" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/RadioList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/Random.php" afterPath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/Random.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/finder/src/Finder/RecursiveCallbackFilterIterator.php" afterPath="$PROJECT_DIR$/vendor/nette/finder/src/Finder/RecursiveCallbackFilterIterator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/utils/src/Iterators/RecursiveFilter.php" afterPath="$PROJECT_DIR$/vendor/nette/utils/src/Iterators/RecursiveFilter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/application/src/Application/Responses/RedirectResponse.php" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/Responses/RedirectResponse.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/application/src/Application/Request.php" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/Request.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/http/src/Http/Request.php" afterPath="$PROJECT_DIR$/vendor/nette/http/src/Http/Request.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/http/src/Http/RequestFactory.php" afterPath="$PROJECT_DIR$/vendor/nette/http/src/Http/RequestFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/http/src/Http/Response.php" afterPath="$PROJECT_DIR$/vendor/nette/http/src/Http/Response.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/application/src/Application/Routers/Route.php" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/Routers/Route.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/application/src/Application/Routers/RouteList.php" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/Routers/RouteList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/application/src/Bridges/ApplicationTracy/templates/RoutingPanel.panel.phtml" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Bridges/ApplicationTracy/templates/RoutingPanel.panel.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/application/src/Bridges/ApplicationTracy/RoutingPanel.php" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Bridges/ApplicationTracy/RoutingPanel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/application/src/Bridges/ApplicationTracy/templates/RoutingPanel.tab.phtml" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Bridges/ApplicationTracy/templates/RoutingPanel.tab.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Rule.php" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Rule.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Rules.php" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Rules.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/caching/src/Caching/Storages/SQLiteStorage.php" afterPath="$PROJECT_DIR$/vendor/nette/caching/src/Caching/Storages/SQLiteStorage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/SelectBox.php" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/SelectBox.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/di/src/DI/ServiceDefinition.php" afterPath="$PROJECT_DIR$/vendor/nette/di/src/DI/ServiceDefinition.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/http/src/Http/Session.php" afterPath="$PROJECT_DIR$/vendor/nette/http/src/Http/Session.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/http/src/Bridges/HttpTracy/templates/SessionPanel.panel.phtml" afterPath="$PROJECT_DIR$/vendor/nette/http/src/Bridges/HttpTracy/templates/SessionPanel.panel.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/http/src/Bridges/HttpTracy/SessionPanel.php" afterPath="$PROJECT_DIR$/vendor/nette/http/src/Bridges/HttpTracy/SessionPanel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/http/src/Bridges/HttpTracy/templates/SessionPanel.tab.phtml" afterPath="$PROJECT_DIR$/vendor/nette/http/src/Bridges/HttpTracy/templates/SessionPanel.tab.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/http/src/Http/SessionSection.php" afterPath="$PROJECT_DIR$/vendor/nette/http/src/Http/SessionSection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/security/src/Security/SimpleAuthenticator.php" afterPath="$PROJECT_DIR$/vendor/nette/security/src/Security/SimpleAuthenticator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/application/src/Application/Routers/SimpleRouter.php" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/Routers/SimpleRouter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/di/src/DI/Statement.php" afterPath="$PROJECT_DIR$/vendor/nette/di/src/DI/Statement.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/Strings.php" afterPath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/Strings.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/SubmitButton.php" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/SubmitButton.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/application/src/Bridges/ApplicationLatte/Template.php" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Bridges/ApplicationLatte/Template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/nette/Nette/deprecated/Templating/Template.php" afterPath="$PROJECT_DIR$/vendor/nette/nette/Nette/deprecated/Templating/Template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/application/src/Bridges/ApplicationLatte/TemplateFactory.php" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Bridges/ApplicationLatte/TemplateFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/TextArea.php" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/TextArea.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/TextBase.php" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/TextBase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/TextInput.php" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/TextInput.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/application/src/Application/Responses/TextResponse.php" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/Responses/TextResponse.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/application/src/Bridges/ApplicationLatte/UIMacros.php" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Bridges/ApplicationLatte/UIMacros.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/UploadControl.php" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/UploadControl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/http/src/Http/Url.php" afterPath="$PROJECT_DIR$/vendor/nette/http/src/Http/Url.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/http/src/Http/UrlScript.php" afterPath="$PROJECT_DIR$/vendor/nette/http/src/Http/UrlScript.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/security/src/Security/User.php" afterPath="$PROJECT_DIR$/vendor/nette/security/src/Security/User.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/security/src/Bridges/SecurityTracy/templates/UserPanel.panel.phtml" afterPath="$PROJECT_DIR$/vendor/nette/security/src/Bridges/SecurityTracy/templates/UserPanel.panel.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/security/src/Bridges/SecurityTracy/UserPanel.php" afterPath="$PROJECT_DIR$/vendor/nette/security/src/Bridges/SecurityTracy/UserPanel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/security/src/Bridges/SecurityTracy/templates/UserPanel.tab.phtml" afterPath="$PROJECT_DIR$/vendor/nette/security/src/Bridges/SecurityTracy/templates/UserPanel.tab.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/http/src/Http/UserStorage.php" afterPath="$PROJECT_DIR$/vendor/nette/http/src/Http/UserStorage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/Validators.php" afterPath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/Validators.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/templates/bar.css" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/templates/bar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/templates/bar.dumps.panel.phtml" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/templates/bar.dumps.panel.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/templates/bar.dumps.tab.phtml" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/templates/bar.dumps.tab.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/templates/bar.errors.panel.phtml" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/templates/bar.errors.panel.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/templates/bar.errors.tab.phtml" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/templates/bar.errors.tab.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/templates/bar.js" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/templates/bar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/templates/bar.memory.tab.phtml" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/templates/bar.memory.tab.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/templates/bar.phtml" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/templates/bar.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/templates/bar.time.tab.phtml" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/templates/bar.time.tab.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/tracy/tracy/examples/barDump.php" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/examples/barDump.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/forms/examples/basic-example.php" afterPath="$PROJECT_DIR$/vendor/nette/forms/examples/basic-example.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/templates/bluescreen.css" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/templates/bluescreen.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/templates/bluescreen.phtml" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/templates/bluescreen.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/forms/examples/bootstrap2-rendering.php" afterPath="$PROJECT_DIR$/vendor/nette/forms/examples/bootstrap2-rendering.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/forms/examples/bootstrap3-rendering.php" afterPath="$PROJECT_DIR$/vendor/nette/forms/examples/bootstrap3-rendering.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/forms/bower.json" afterPath="$PROJECT_DIR$/vendor/nette/forms/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/src/less/buttons.less" afterPath="$PROJECT_DIR$/www/src/less/buttons.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/nette/tools/Requirements-Checker/assets/denied/checker.js" afterPath="$PROJECT_DIR$/vendor/nette/nette/tools/Requirements-Checker/assets/denied/checker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/nette/tools/Requirements-Checker/assets/rewrite/checker.js" afterPath="$PROJECT_DIR$/vendor/nette/nette/tools/Requirements-Checker/assets/rewrite/checker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/nette/tools/Requirements-Checker/checker.php" afterPath="$PROJECT_DIR$/vendor/nette/nette/tools/Requirements-Checker/checker.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/nette/tools/Requirements-Checker/assets/checker.phtml" afterPath="$PROJECT_DIR$/vendor/nette/nette/tools/Requirements-Checker/assets/checker.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/application/composer.json" afterPath="$PROJECT_DIR$/vendor/nette/application/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/caching/composer.json" afterPath="$PROJECT_DIR$/vendor/nette/caching/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/di/composer.json" afterPath="$PROJECT_DIR$/vendor/nette/di/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/finder/composer.json" afterPath="$PROJECT_DIR$/vendor/nette/finder/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/forms/composer.json" afterPath="$PROJECT_DIR$/vendor/nette/forms/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/http/composer.json" afterPath="$PROJECT_DIR$/vendor/nette/http/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/neon/composer.json" afterPath="$PROJECT_DIR$/vendor/nette/neon/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/nette/composer.json" afterPath="$PROJECT_DIR$/vendor/nette/nette/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/security/composer.json" afterPath="$PROJECT_DIR$/vendor/nette/security/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/utils/composer.json" afterPath="$PROJECT_DIR$/vendor/nette/utils/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/tracy/tracy/composer.json" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/forms/examples/containers.php" afterPath="$PROJECT_DIR$/vendor/nette/forms/examples/containers.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/src/less/content.less" afterPath="$PROJECT_DIR$/www/src/less/content.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/tracy/tracy/contributing.md" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/contributing.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/tracy/tracy/tools/create-phar/create-phar.php" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/tools/create-phar/create-phar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/forms/examples/custom-control.php" afterPath="$PROJECT_DIR$/vendor/nette/forms/examples/custom-control.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/forms/examples/custom-rendering.php" afterPath="$PROJECT_DIR$/vendor/nette/forms/examples/custom-rendering.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/forms/examples/custom-validator.php" afterPath="$PROJECT_DIR$/vendor/nette/forms/examples/custom-validator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/FrontModule/templates/Catalog/default.latte" afterPath="$PROJECT_DIR$/app/FrontModule/templates/Catalog/default.latte" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/FrontModule/templates/Homepage/default.latte" afterPath="$PROJECT_DIR$/app/FrontModule/templates/Homepage/default.latte" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/FrontModule/templates/MyProfile/default.latte" afterPath="$PROJECT_DIR$/app/FrontModule/templates/MyProfile/default.latte" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/FrontModule/templates/Search/default.latte" afterPath="$PROJECT_DIR$/app/FrontModule/templates/Search/default.latte" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/FrontModule/templates/Catalog/detail.latte" afterPath="$PROJECT_DIR$/app/FrontModule/templates/Catalog/detail.latte" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/tracy/tracy/examples/dump.php" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/examples/dump.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/templates/dumper.css" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/templates/dumper.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/templates/dumper.js" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/templates/dumper.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/application/src/Application/templates/error.phtml" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/templates/error.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/templates/error.phtml" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/templates/error.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/tracy/tracy/examples/exception.php" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/examples/exception.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/application/src/Application/exceptions.php" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/exceptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/di/src/DI/exceptions.php" afterPath="$PROJECT_DIR$/vendor/nette/di/src/DI/exceptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/exceptions.php" afterPath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/exceptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/tracy/tracy/examples/fatal-error.php" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/examples/fatal-error.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/src/less/flashes.less" afterPath="$PROJECT_DIR$/www/src/less/flashes.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/FrontModule/templates/header.latte" afterPath="$PROJECT_DIR$/app/FrontModule/templates/header.latte" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/src/less/header.less" afterPath="$PROJECT_DIR$/www/src/less/header.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/forms/examples/html5.php" afterPath="$PROJECT_DIR$/vendor/nette/forms/examples/html5.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/tracy/tracy/tools/open-in-editor/install.cmd" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/tools/open-in-editor/install.cmd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/application/license.md" afterPath="$PROJECT_DIR$/vendor/nette/application/license.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/caching/license.md" afterPath="$PROJECT_DIR$/vendor/nette/caching/license.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/di/license.md" afterPath="$PROJECT_DIR$/vendor/nette/di/license.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/finder/license.md" afterPath="$PROJECT_DIR$/vendor/nette/finder/license.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/forms/license.md" afterPath="$PROJECT_DIR$/vendor/nette/forms/license.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/http/license.md" afterPath="$PROJECT_DIR$/vendor/nette/http/license.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/neon/license.md" afterPath="$PROJECT_DIR$/vendor/nette/neon/license.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/nette/license.md" afterPath="$PROJECT_DIR$/vendor/nette/nette/license.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/security/license.md" afterPath="$PROJECT_DIR$/vendor/nette/security/license.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/utils/license.md" afterPath="$PROJECT_DIR$/vendor/nette/utils/license.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/tracy/tracy/license.md" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/license.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/nette/Nette/loader.php" afterPath="$PROJECT_DIR$/vendor/nette/nette/Nette/loader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/forms/examples/localization.ini" afterPath="$PROJECT_DIR$/vendor/nette/forms/examples/localization.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/forms/examples/localization.php" afterPath="$PROJECT_DIR$/vendor/nette/forms/examples/localization.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/main.js" afterPath="$PROJECT_DIR$/www/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/forms/examples/manual-rendering.php" afterPath="$PROJECT_DIR$/vendor/nette/forms/examples/manual-rendering.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/FrontModule/templates/MyProfile/myBooks.latte" afterPath="$PROJECT_DIR$/app/FrontModule/templates/MyProfile/myBooks.latte" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/FrontModule/templates/MyProfile/myData.latte" afterPath="$PROJECT_DIR$/app/FrontModule/templates/MyProfile/myData.latte" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/neon/src/neon.php" afterPath="$PROJECT_DIR$/vendor/nette/neon/src/neon.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/forms/src/assets/netteForms.js" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/assets/netteForms.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/tracy/tracy/tools/open-in-editor/open-editor.js" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/tools/open-in-editor/open-editor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/tracy/tracy/examples/output-debugger.php" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/examples/output-debugger.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/src/less/prepros.cfg" afterPath="$PROJECT_DIR$/www/src/less/prepros.cfg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/application/readme.md" afterPath="$PROJECT_DIR$/vendor/nette/application/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/caching/readme.md" afterPath="$PROJECT_DIR$/vendor/nette/caching/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/di/readme.md" afterPath="$PROJECT_DIR$/vendor/nette/di/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/finder/readme.md" afterPath="$PROJECT_DIR$/vendor/nette/finder/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/forms/readme.md" afterPath="$PROJECT_DIR$/vendor/nette/forms/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/http/readme.md" afterPath="$PROJECT_DIR$/vendor/nette/http/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/neon/readme.md" afterPath="$PROJECT_DIR$/vendor/nette/neon/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/nette/readme.md" afterPath="$PROJECT_DIR$/vendor/nette/nette/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/security/readme.md" afterPath="$PROJECT_DIR$/vendor/nette/security/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/utils/readme.md" afterPath="$PROJECT_DIR$/vendor/nette/utils/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/tracy/tracy/readme.md" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/src/less/responsive.less" afterPath="$PROJECT_DIR$/www/src/less/responsive.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/nette/Nette/shortcuts.php" afterPath="$PROJECT_DIR$/vendor/nette/nette/Nette/shortcuts.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/tracy/tracy/src/shortcuts.php" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/shortcuts.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/forms/examples/assets/style.css" afterPath="$PROJECT_DIR$/vendor/nette/forms/examples/assets/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/tracy/tracy/examples/assets/style.css" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/examples/assets/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/styles.css" afterPath="$PROJECT_DIR$/www/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/neon/syntax.txt" afterPath="$PROJECT_DIR$/vendor/nette/neon/syntax.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/tracy/tracy/src/tracy.php" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/tracy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/templates/tracyQ.js" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/templates/tracyQ.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/nette/tools/Requirements-Checker/assets/denied/web.config" afterPath="$PROJECT_DIR$/vendor/nette/nette/tools/Requirements-Checker/assets/denied/web.config" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nette/nette/tools/Requirements-Checker/assets/rewrite/web.config" afterPath="$PROJECT_DIR$/vendor/nette/nette/tools/Requirements-Checker/assets/rewrite/web.config" />
+    </list>
+    <ignored path="library.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="library" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="header.latte" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/header.latte">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="774">
+              <caret line="25" column="117" selection-start-line="25" selection-start-column="117" selection-end-line="25" selection-end-column="117" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.latte" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/Catalog/default.latte">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="98" max-vertical-offset="1044">
+              <caret line="15" column="99" selection-start-line="15" selection-start-column="99" selection-end-line="15" selection-end-column="99" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.latte" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/Search/default.latte">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+              <caret line="11" column="66" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/src/less/header.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.0" vertical-offset="162" max-vertical-offset="1116">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="responsive.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/src/less/responsive.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-25.851852" vertical-offset="1912" max-vertical-offset="4320">
+              <caret line="145" column="26" selection-start-line="145" selection-start-column="26" selection-end-line="145" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myData.latte" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/MyProfile/myData.latte">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4692388" vertical-offset="0" max-vertical-offset="959">
+              <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/www/src/less/buttons.less" />
+        <option value="$PROJECT_DIR$/www/src/less/content.less" />
+        <option value="$PROJECT_DIR$/../creox/jobclipr/www/html-templates/homepage.php" />
+        <option value="$PROJECT_DIR$/app/model/BorrowsManager.php" />
+        <option value="$PROJECT_DIR$/app/AdminModule/templates/@layout.latte" />
+        <option value="$PROJECT_DIR$/app/AdminModule/templates/Borrows/default.latte" />
+        <option value="$PROJECT_DIR$/app/model/CatalogManager.php" />
+        <option value="$PROJECT_DIR$/www/src/less/flashes.less" />
+        <option value="$PROJECT_DIR$/app/model/BorrowManager.php" />
+        <option value="$PROJECT_DIR$/app/AdminModule/presenters/BorrowsPresenter.php" />
+        <option value="$PROJECT_DIR$/www/js/main.js" />
+        <option value="$PROJECT_DIR$/app/FrontModule/presenters/HomepagePresenter.php" />
+        <option value="$PROJECT_DIR$/app/FrontModule/presenters/BasePresenter.php" />
+        <option value="$PROJECT_DIR$/app/FrontModule/presenters/CatalogPresenter.php" />
+        <option value="$PROJECT_DIR$/app/FrontModule/templates/Homepage/default.latte" />
+        <option value="$PROJECT_DIR$/app/FrontModule/templates/@layout.latte" />
+        <option value="$PROJECT_DIR$/app/FrontModule/templates/Catalog/detail.latte" />
+        <option value="$PROJECT_DIR$/app/FrontModule/templates/MyProfile/default.latte" />
+        <option value="$PROJECT_DIR$/app/FrontModule/templates/MyProfile/myBooks.latte" />
+        <option value="$PROJECT_DIR$/www/src/less/header.less" />
+        <option value="$PROJECT_DIR$/app/FrontModule/templates/header.latte" />
+        <option value="$PROJECT_DIR$/app/FrontModule/templates/Catalog/default.latte" />
+        <option value="$PROJECT_DIR$/app/FrontModule/templates/Search/default.latte" />
+        <option value="$PROJECT_DIR$/www/src/less/responsive.less" />
+        <option value="$PROJECT_DIR$/app/FrontModule/templates/MyProfile/myData.latte" />
+      </list>
+    </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1592" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="1" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="less" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FrontModule" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FrontModule" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Search" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FrontModule" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyProfile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FrontModule" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Homepage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FrontModule" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FrontModule" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="FullScreen" value="false" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.PHP" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="282" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="310" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="312" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="986" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="304" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="303" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="304" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="979" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\library\app\AdminModule\templates" />
+      <recent name="C:\xampp\htdocs\library\app\model" />
+      <recent name="C:\xampp\htdocs\library\app\AdminModule\presenters" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="067f0405-de9b-4eb4-9b10-137e14a596d8" name="Default" comment="" />
+      <created>1421267926173</created>
+      <option name="number" value="Default" />
+      <updated>1421267926173</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1592" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.259375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928064" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/Homepage/default.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="1278">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/Catalog/detail.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="1098">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/Catalog/default.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="1044">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/FrontModule/presenters/CatalogPresenter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="846">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/FrontModule/presenters/HomepagePresenter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="558">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/FrontModule/presenters/BasePresenter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3618" max-vertical-offset="4572">
+          <caret line="235" column="47" selection-start-line="235" selection-start-column="47" selection-end-line="235" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/footer.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/@layout.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="1314">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="720">
+          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../creox/jobclipr/www/html-templates/homepage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5508">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../creox/jobclipr/www/html-templates/homepage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5202">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../creox/jobclipr/www/html-templates/homepage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/less/buttons.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/less/buttons.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.04255319" vertical-offset="310" max-vertical-offset="1062">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../creox/jobclipr/www/html-templates/homepage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.024357239" vertical-offset="270" max-vertical-offset="6804">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/@layout.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="959">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/model/BookManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="959">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.neon">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8163717" vertical-offset="0" max-vertical-offset="904">
+          <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AdminModule/templates/@layout.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="810" max-vertical-offset="2268">
+          <caret line="77" column="58" selection-start-line="77" selection-start-column="58" selection-end-line="77" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AdminModule/presenters/TextsPresenter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2106">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/FrontModule/presenters/MyProfilePresenter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2700">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AdminModule/templates/Borrows/edit.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="959">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AdminModule/templates/Borrows/default.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/less/content.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="1931" max-vertical-offset="6750">
+          <caret line="124" column="6" selection-start-line="124" selection-start-column="4" selection-end-line="124" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AdminModule/presenters/CatalogPresenter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.115879826" vertical-offset="5454" max-vertical-offset="11574">
+          <caret line="309" column="56" selection-start-line="309" selection-start-column="56" selection-end-line="309" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/less/flashes.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17381974" vertical-offset="0" max-vertical-offset="932">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/less/globals.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="419" max-vertical-offset="3420">
+          <caret line="40" column="11" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/model/CatalogManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34276387" vertical-offset="2097" max-vertical-offset="3852">
+          <caret line="134" column="4" selection-start-line="134" selection-start-column="4" selection-end-line="139" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/model/BorrowManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.703704" vertical-offset="161" max-vertical-offset="1098">
+          <caret line="28" column="257" selection-start-line="28" selection-start-column="257" selection-end-line="28" selection-end-column="257" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AdminModule/presenters/BorrowsPresenter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18884121" vertical-offset="526" max-vertical-offset="2718">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/footer.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="959">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.018769551" vertical-offset="0" max-vertical-offset="959">
+          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/FrontModule/presenters/BasePresenter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.65665233" vertical-offset="3618" max-vertical-offset="4572">
+          <caret line="235" column="47" selection-start-line="235" selection-start-column="47" selection-end-line="235" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/FrontModule/presenters/HomepagePresenter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.057939913" vertical-offset="0" max-vertical-offset="932">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/FrontModule/presenters/CatalogPresenter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28969958" vertical-offset="0" max-vertical-offset="932">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/Homepage/default.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1449426" vertical-offset="0" max-vertical-offset="1278">
+          <caret line="61" column="37" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/Catalog/detail.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33785194" vertical-offset="0" max-vertical-offset="1098">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/MyProfile/editPassword.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="959">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/MyProfile/editMyData.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="959">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/MyProfile/default.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15015641" vertical-offset="0" max-vertical-offset="959">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/MyProfile/myBooks.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15015641" vertical-offset="0" max-vertical-offset="959">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/@layout.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.52554744" vertical-offset="162" max-vertical-offset="1314">
+          <caret line="37" column="108" selection-start-line="37" selection-start-column="108" selection-end-line="37" selection-end-column="108" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/less/header.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.0" vertical-offset="162" max-vertical-offset="1116">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/Catalog/default.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="98" max-vertical-offset="1044">
+          <caret line="15" column="99" selection-start-line="15" selection-start-column="99" selection-end-line="15" selection-end-column="99" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/header.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="774">
+          <caret line="25" column="117" selection-start-line="25" selection-start-column="117" selection-end-line="25" selection-end-column="117" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/Search/default.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+          <caret line="11" column="66" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/less/responsive.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-25.851852" vertical-offset="1912" max-vertical-offset="4320">
+          <caret line="145" column="26" selection-start-line="145" selection-start-column="26" selection-end-line="145" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/MyProfile/myData.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4692388" vertical-offset="0" max-vertical-offset="959">
+          <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

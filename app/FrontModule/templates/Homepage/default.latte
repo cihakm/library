@@ -3,15 +3,15 @@
 	<div class="container">
 		<h2>Knihovna HK <span>v číslech</span></h2>
 		<div class="list">
-			<div class="col-md-4 daily">
+			<div class="col-md-4 col-sm-4 daily">
 				<p><span>Výpujček</span> deně</p>
 				<p class="number">1500</p>
 			</div>
-			<div class="col-md-4 users">
+			<div class="col-md-4 col-sm-4 users">
 				<p><span>Uživatelů</span></p>
 				<p class="number">10555</p>
 			</div>
-			<div class="col-md-4 books">
+			<div class="col-md-4 col-sm-4 books">
 				<p>Knih <span>k vypůjčení</span></span>
 				<p class="number">253242</p>
 			</div>
@@ -36,7 +36,11 @@
 						<p class="title">{$book->title}</p>
 						<p class="author">{$book->author->name}</p>
 						<a n:href=':Front:Catalog:detail $book->id' class="info-button">info</a>
-						<a href="#" class="basket-button" {if !$user->loggedIn}data-toggle="modal" data-target="#pleaseLoginModal"{/if}>vypůjčit</a>
+						{if !$user->loggedIn}
+							<a href="#" data-toggle="modal" data-target="#pleaseLoginModal" class="basket-button">vypůjčit</a>
+						{else}
+							<a n:href="bookBorrow! $book->id" class="basket-button ajax">vypůjčit</a>
+						{/if}
 					</div>
 				</div>
 
@@ -52,10 +56,10 @@
 			{$registration->text|noescape}
 
 		</div>
-		<div class="col-md-6 right">
+		<div class="col-md-6 col-sm-6 right">
 			<p><a href="#" class="btn reg orange" data-toggle="modal" data-target="#registrationModal">Běžná registrace</a></p>
 		</div>
-		<div class="col-md-6">
+		<div class="col-md-6 col-sm-6">
 			<p><a n:href="fbLogin-open!" class="btn fb blue">Facebook přihlášení</a></p>
 		</div>
 	</div>

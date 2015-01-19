@@ -1,19 +1,16 @@
 <?php
-// source: C:\xampp\htdocs\library\app\AdminModule/templates/News/default.latte
+// source: C:\xampp\htdocs\library\app\AdminModule/templates/Borrows/default.latte
 
 // prolog Latte\Macros\CoreMacros
-list($_b, $_g, $_l) = $template->initialize('9914175751', 'html')
+list($_b, $_g, $_l) = $template->initialize('5656086127', 'html')
 ;
 // prolog Latte\Macros\BlockMacros
 //
 // block content
 //
-if (!function_exists($_b->blocks['content'][] = '_lb5569e1a170_content')) { function _lb5569e1a170_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
-?><h2 class="pull-left">Aktuality</h2>
-<div class="pull-right">
-	<a class="btn" href="<?php echo Latte\Runtime\Filters::escapeHtml($_control->link(":Admin:News:add"), ENT_COMPAT) ?>
-">Přidat aktualitu</a>
-</div>
+if (!function_exists($_b->blocks['content'][] = '_lbd887e004f2_content')) { function _lbd887e004f2_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+?><h2 class="pull-left">Výpujčky</h2>
+
 <div class="clearfix"></div>
 <div id="<?php echo $_control->getSnippetId('dataGrid') ?>"><?php call_user_func(reset($_b->blocks['_dataGrid']), $_b, $template->getParameters()) ?>
 </div>
@@ -23,8 +20,8 @@ if (!function_exists($_b->blocks['content'][] = '_lb5569e1a170_content')) { func
 //
 // block _dataGrid
 //
-if (!function_exists($_b->blocks['_dataGrid'][] = '_lb211d5fd6c9__dataGrid')) { function _lb211d5fd6c9__dataGrid($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v; $_control->redrawControl('dataGrid', FALSE)
-;$_l->tmp = $_control->getComponent("newsDataGrid"); if ($_l->tmp instanceof Nette\Application\UI\IRenderable) $_l->tmp->redrawControl(NULL, FALSE); $_l->tmp->render() ;
+if (!function_exists($_b->blocks['_dataGrid'][] = '_lbf041f20c47__dataGrid')) { function _lbf041f20c47__dataGrid($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v; $_control->redrawControl('dataGrid', FALSE)
+;$_l->tmp = $_control->getComponent("borrowDataGrid"); if ($_l->tmp instanceof Nette\Application\UI\IRenderable) $_l->tmp->redrawControl(NULL, FALSE); $_l->tmp->render() ;
 }}
 
 //
