@@ -30,8 +30,7 @@ class TaxPresenter extends BasePresenter {
 		$form = new Form();
 		$form->addTextarea('content', 'Obsah:')
 			->setAttribute("class", "ckeditor")
-			->setRequired("Vyplňte prosím toto pole.");
-
+			->addRule(Form::FILLED, "Vyplňte prosím obsah.");
 
 		$presenter = $this;
 		$form->addSubmit('submit', 'Uložit')
@@ -52,7 +51,7 @@ class TaxPresenter extends BasePresenter {
 		try {
 			$this->taxManager->updatetax($values);
 
-			$this->flashMessage('Data were successfully updated.', 'success');
+			$this->flashMessage('Data byla uložena.', 'success');
 			$this->redirect(':Admin:Tax:');
 		} catch (Nette\Security\AuthenticationException $e) {
 			$this->getPresenter()->flashMessage($e, "error");

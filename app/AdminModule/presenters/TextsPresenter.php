@@ -68,7 +68,7 @@ class TextsPresenter extends BasePresenter {
 		$form = $this['textForm'];
 		$row = $this->textManager->findById(array('id' => $id))->fetch();
 		if (!$row) {
-			$this->error('No data found');
+			$this->error('Data nenalezena.');
 		}
 		$form->setDefaults($row);
 	}
@@ -76,6 +76,7 @@ class TextsPresenter extends BasePresenter {
 	protected function createComponentTextForm() {
 		$form = new Form();
 		$form->addTextarea('text', 'Text:')
+			->addRule(Form::FILLED, "Vyplňte prosím text.")
 			->setAttribute("class", "ckeditor");
 
 		$presenter = $this;
@@ -100,7 +101,7 @@ class TextsPresenter extends BasePresenter {
 			try {
 				$this->textManager->updateText($id, $values);
 
-				$this->flashMessage('Data were successfully updated.', 'success');
+				$this->flashMessage('Data byla uložena.', 'success');
 				$this->redirect(':Admin:Texts:');
 			} catch (Nette\Security\AuthenticationException $e) {
 				$this->getPresenter()->flashMessage($e, "error");

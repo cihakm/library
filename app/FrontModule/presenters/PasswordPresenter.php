@@ -27,8 +27,8 @@ class PasswordPresenter extends BasePresenter
 	{
 		$form = new Form();
 
-		$form->addText('email', "Seu e-mail *")
-		    ->setAttribute("placeholder", "Seu e-mail *")
+		$form->addText('email', "Váš e-mail: *")
+		    ->setAttribute("placeholder", "Váš e-mail")
 		    ->setAttribute("class", "form-control")
 		    ->addRule(Form::EMAIL, "Špatný formát e-mailu.");
 
@@ -41,7 +41,6 @@ class PasswordPresenter extends BasePresenter
 	public function passwordFormSubmitted(Form $form)
 	{
 		$mail = new Message;
-		$mailer = new SendmailMailer;
 		$values = $form->getValues();
 
 		$fromDb = $this->person->findUserMail($values->email);
@@ -66,7 +65,7 @@ class PasswordPresenter extends BasePresenter
 			    ->setSubject("Nové heslo")
 			    ->setBody($template);
 
-			//$mailer->send($mail);
+			$mailer->send($mail);
 
 			$this->flashMessage("Nové heslo bylo zasláno na Váš e-mail.", 'success');
 			$this->redirect(':Front:Homepage:default');

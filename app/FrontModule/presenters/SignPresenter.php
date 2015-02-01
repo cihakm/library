@@ -7,7 +7,7 @@ namespace App\FrontModule\Presenters;
 class SignPresenter extends BasePresenter {
 	public function actionOut() {
 		$this->getUser()->logout();
-		$this->flashMessage('Ohlášení proběhlo úspěšně.', 'info');
+		$this->flashMessage('Odhlášení proběhlo úspěšně.', 'info');
 		$this->redirect(':Front:Homepage:default');
 	}
 

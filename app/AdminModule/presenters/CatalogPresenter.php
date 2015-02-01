@@ -367,7 +367,7 @@ class CatalogPresenter extends BasePresenter {
 		$values = $form->getValues();
 
 		$this->catalogManager->removeBook($id);
-		$this->flashMessage('Data were deleted.', 'success');
+		$this->flashMessage('Data smazána.', 'success');
 		$this->redirect(':Admin:Catalog:books');
 	}
 
@@ -375,7 +375,7 @@ class CatalogPresenter extends BasePresenter {
 		$form = $this['publisherForm'];
 		$row = $this->catalogManager->findPublisherById(array('id' => $id));
 		if (!$row) {
-			$this->error('No data found');
+			$this->error('Data nenalezena.');
 		}
 		$form->setDefaults($row);
 	}
@@ -384,7 +384,7 @@ class CatalogPresenter extends BasePresenter {
 		$form = $this['categoryForm'];
 		$row = $this->catalogManager->findCategoryById(array('id' => $id));
 		if (!$row) {
-			$this->error('No data found');
+			$this->error('Data nenalezena.');
 		}
 		$form->setDefaults($row);
 	}
@@ -393,7 +393,7 @@ class CatalogPresenter extends BasePresenter {
 		$form = $this['authorForm'];
 		$row = $this->catalogManager->findAuthorById(array('id' => $id));
 		if (!$row) {
-			$this->error('No data found');
+			$this->error('Data nenalezena.');
 		}
 		$form->setDefaults($row);
 	}
@@ -409,7 +409,8 @@ class CatalogPresenter extends BasePresenter {
 
 	protected function createComponentPublisherForm() {
 		$form = new Form();
-		$form->addText('name', 'Jméno:');
+		$form->addText('name', 'Jméno:')
+			->addRule(Form::FILLED, "Vyplňte prosím jméno.");
 
 		$presenter = $this;
 		$form->addSubmit('submit', 'Uložit')
@@ -427,7 +428,8 @@ class CatalogPresenter extends BasePresenter {
 
 	protected function createComponentCategoryForm() {
 		$form = new Form();
-		$form->addText('name', 'Název kategorie:');
+		$form->addText('name', 'Název kategorie:')
+			->addRule(Form::FILLED, "Vyplňte prosím název.");
 
 		$presenter = $this;
 		$form->addSubmit('submit', 'Uložit')
@@ -445,7 +447,8 @@ class CatalogPresenter extends BasePresenter {
 
 	protected function createComponentAuthorForm() {
 		$form = new Form();
-		$form->addText('name', 'Jméno autora:');
+		$form->addText('name', 'Jméno autora:')
+			->addRule(Form::FILLED, "Vyplňte prosím jméno.");
 
 		$presenter = $this;
 		$form->addSubmit('submit', 'Uložit')
@@ -467,18 +470,28 @@ class CatalogPresenter extends BasePresenter {
 		$category = $this->catalogManager->getCategories();
 
 		$form = new Form();
-		$form->addText('title', 'Název knihy:');
-		$form->addText('isbn', 'ISBN:');
-		$form->addText('ean', 'EAN:');
-		$form->addText('year', 'Datum vydání:')
-			->setAttribute('placeholder', 'YYYY-MM-DD');
-		$form->addSelect('author_id', 'Autor:', $author);
-		$form->addSelect('publisher_id', 'Vydavatel:', $publisher);
-		$form->addSelect('category_id', 'Kategorie:', $category);
-		$form->addText('page_count', 'Počet stran:');
+		$form->addText('title', 'Název knihy:')
+			->addRule(Form::FILLED, "Vyplňte prosím.");
+		$form->addText('isbn', 'ISBN:')
+			->addRule(Form::FILLED, "Vyplňte prosím.");
+		$form->addText('ean', 'EAN:')
+			->addRule(Form::FILLED, "Vyplňte prosím.");
+		$form->addText('year', 'Rok vydání:')
+			->setAttribute('placeholder', 'YYYY')
+			->addRule(Form::FILLED, "Vyplňte prosím.");
+		$form->addSelect('author_id', 'Autor:', $author)
+			->addRule(Form::FILLED, "Vyplňte prosím.");
+		$form->addSelect('publisher_id', 'Vydavatel:', $publisher)
+			->addRule(Form::FILLED, "Vyplňte prosím.");
+		$form->addSelect('category_id', 'Kategorie:', $category)
+			->addRule(Form::FILLED, "Vyplňte prosím.");
+		$form->addText('page_count', 'Počet stran:')
+			->addRule(Form::FILLED, "Vyplňte prosím.");
 		$form->addTextArea('desc', 'Popis:')
-			->setAttribute('class', 'ckeditor');
-		$form->addText('count', 'Počet:');
+			->setAttribute('class', 'ckeditor')
+			->addRule(Form::FILLED, "Vyplňte prosím.");
+		$form->addText('count', 'Počet:')
+			->addRule(Form::FILLED, "Vyplňte prosím.");
 		$form->addUpload('url', 'Obrázek:');
 
 		$presenter = $this;
@@ -503,7 +516,7 @@ class CatalogPresenter extends BasePresenter {
 			if ($id > 0) {
 				try {
 					$this->catalogManager->updatePublisher($id, $values);
-					$this->flashMessage('Data were successfully updated.', 'success');
+					$this->flashMessage('Data byla uložena.', 'success');
 					$this->redirect(':Admin:Catalog:publishers');
 				} catch (Nette\Security\AuthenticationException $e) {
 					$this->getPresenter()->flashMessage($e, "error");
@@ -512,7 +525,7 @@ class CatalogPresenter extends BasePresenter {
 				try {
 					$this->catalogManager->insertPublisher($values);
 
-					$this->flashMessage('Data were successfully inserted.', 'success');
+					$this->flashMessage('Data byla uložena.', 'success');
 					$this->redirect(':Admin:Catalog:publishers');
 				} catch (Nette\Security\AuthenticationException $e) {
 					$this->getPresenter()->flashMessage($e, "error");
@@ -529,7 +542,7 @@ class CatalogPresenter extends BasePresenter {
 			if ($id > 0) {
 				try {
 					$this->catalogManager->updateCategory($id, $values);
-					$this->flashMessage('Data were successfully updated.', 'success');
+					$this->flashMessage('Data byla uložena.', 'success');
 					$this->redirect(':Admin:Catalog:categories');
 				} catch (Nette\Security\AuthenticationException $e) {
 					$this->getPresenter()->flashMessage($e, "error");
@@ -537,7 +550,7 @@ class CatalogPresenter extends BasePresenter {
 			} else {
 				try {
 					$this->catalogManager->insertCategory($values);
-					$this->flashMessage('Data were successfully inserted.', 'success');
+					$this->flashMessage('Data byla uložena.', 'success');
 					$this->redirect(':Admin:Catalog:categories');
 				} catch (Nette\Security\AuthenticationException $e) {
 					$this->getPresenter()->flashMessage($e, "error");
@@ -555,7 +568,7 @@ class CatalogPresenter extends BasePresenter {
 				try {
 					$this->catalogManager->updateAuthor($id, $values);
 
-					$this->flashMessage('Data were successfully updated.', 'success');
+					$this->flashMessage('Data byla uložena.', 'success');
 					$this->redirect(':Admin:Catalog:authors');
 				} catch (Nette\Security\AuthenticationException $e) {
 					$this->getPresenter()->flashMessage($e, "error");
@@ -564,7 +577,7 @@ class CatalogPresenter extends BasePresenter {
 				try {
 					$this->catalogManager->insertAuthor($values);
 
-					$this->flashMessage('Data were successfully inserted.', 'success');
+					$this->flashMessage('Data byla uložena.', 'success');
 					$this->redirect(':Admin:Catalog:authors');
 				} catch (Nette\Security\AuthenticationException $e) {
 					$this->getPresenter()->flashMessage($e, "error");
@@ -604,7 +617,7 @@ class CatalogPresenter extends BasePresenter {
 					}
 					$this->catalogManager->updatebook($id, $values);
 
-					$this->flashMessage('Data were successfully updated.', 'success');
+					$this->flashMessage('Data byla uložena.', 'success');
 					$this->redirect(':Admin:Catalog:books');
 				} catch (Nette\Security\AuthenticationException $e) {
 					$this->getPresenter()->flashMessage($e, "error");
@@ -625,7 +638,7 @@ class CatalogPresenter extends BasePresenter {
 					$values['url'] = $imgUrl;
 					$values['borrow'] = 0;
 					$this->catalogManager->insertBook($values);
-					$this->flashMessage('Data were successfully inserted.', 'success');
+					$this->flashMessage('Data byla uložena.', 'success');
 					$this->redirect(':Admin:Catalog:books');
 				} catch (Nette\Security\AuthenticationException $e) {
 					$this->getPresenter()->flashMessage($e, "error");

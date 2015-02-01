@@ -3,28 +3,32 @@
 namespace App\AdminModule\Presenters;
 
 use \Nette\Application\UI\Form,
-    \Nette\Utils\DateTime,
-    \DataGrid\NetteDbDataSource,
-    \DataGrid\Grid,
-    \DataGrid\Column,
-    \DataGrid\Components\ButtonsContainer,
-    \DataGrid\Components\Button,
-    \DataGrid\Components\Link;
+	\Nette\Utils\DateTime,
+	\DataGrid\NetteDbDataSource,
+	\DataGrid\Grid,
+	\DataGrid\Column,
+	\DataGrid\Components\ButtonsContainer,
+	\DataGrid\Components\Button,
+	\DataGrid\Components\Link;
 
-class NewsPresenter extends BasePresenter {
+class NewsPresenter extends BasePresenter
+{
 
 	/** @var \App\Model\NewsManager @inject */
 	public $newsManager;
 
-	public function startup() {
+	public function startup()
+	{
 		parent::startup();
 	}
 
-	public function renderDefault() {
-		
+	public function renderDefault()
+	{
+
 	}
 
-	public function createComponentNewsDataGrid($name) {
+	public function createComponentNewsDataGrid($name)
+	{
 		$source = new NetteDbDataSource($this->newsManager->getNewsSource());
 		$table_id = 'id';
 		$grid = new Grid($source, $this, $name);
@@ -45,7 +49,7 @@ class NewsPresenter extends BasePresenter {
 		$grid->column(new Column\Text(array(
 			Column\Text::ID => 'content',
 			Column\Text::TEXT => 'text',
-			Column\Text::CALLBACK => function($data) {
+			Column\Text::CALLBACK => function ($data) {
 				return strlen($data['content']) > 80 ? (substr($data['content'], 0, 80) . '...') : $data['content'];
 			},
 			Column\Text::ORDERING => FALSE
@@ -62,7 +66,7 @@ class NewsPresenter extends BasePresenter {
 				Link::PARAMS => array(
 					'id' => '{' . $table_id . '}'
 				)
-		)));
+			)));
 		$buttons_container->addButton($first_button);
 
 		$second_button = new Button();
@@ -76,7 +80,7 @@ class NewsPresenter extends BasePresenter {
 					'id' => '{' . $table_id . '}'
 				)
 			)))
-			->addAttribute('data-confirm', 'Realy want to delete this item?');
+			->addAttribute('data-confirm', 'Opravdu chcete zmazat záznam?');
 		$buttons_container->addButton($second_button);
 
 
@@ -88,32 +92,37 @@ class NewsPresenter extends BasePresenter {
 		return $grid;
 	}
 
-	public function handleDeleteNew($id) {
+	public function handleDeleteNew($id)
+	{
 		$this->newsManager->removeNew($id);
-		$this->flashMessage('Data were deleted.', 'success');
+		$this->flashMessage('Data byla smazána.', 'success');
 		$this->redrawControl();
 	}
 
-	public function renderEdit($id = 0) {
+	public function renderEdit($id = 0)
+	{
 		$form = $this['newForm'];
 		$row = $this->newsManager->findById(array('id' => $id));
 		if (!$row) {
-			$this->error('No data found');
+			$this->error('Data nenalezena.');
 		}
 		$form->setDefaults($row);
 	}
 
-	protected function createComponentNewForm() {
+	protected function createComponentNewForm()
+	{
 		$form = new Form();
-		$form->addText('title', 'Nadpis:');
-		$form->addTextarea('content', 'Text:');
+		$form->addText('title', 'Nadpis:')
+			->addRule(Form::FILLED, "Vyplňte prosím nadpis.");
+		$form->addTextarea('content', 'Text:')
+			->addRule(Form::FILLED, "Vyplňte prosím text.");
 
 		$presenter = $this;
 		$form->addSubmit('submit', 'Uložit')
 			->setAttribute('class', 'button submit');
 		$form->addSubmit('cancel', 'Zrušit')
-				->setAttribute('class', 'button cancel')
-				->setValidationScope(FALSE)
+			->setAttribute('class', 'button cancel')
+			->setValidationScope(FALSE)
 			->onClick[] = function () use ($presenter) {
 			$presenter->redirect(':Admin:News:');
 		};
@@ -122,8 +131,9 @@ class NewsPresenter extends BasePresenter {
 		return $form;
 	}
 
-	public function newFormSubmitted(Form $form) {
-		$id = (int) $this->getParameter('id');
+	public function newFormSubmitted(Form $form)
+	{
+		$id = (int)$this->getParameter('id');
 		$values = $form->getValues();
 
 		if ($form->isSuccess()) {

@@ -8,7 +8,9 @@ use Nette,
     Kdyby\Facebook\Dialog\LoginDialog,
     Kdyby\Facebook\FacebookApiException,
     Nette\Diagnostics\Debugger,
-    Nette\Security\User;
+    Nette\Security\User,
+	Nette\Mail\Message,
+	Nette\Mail\SendmailMailer;
 
 use \Nette\Utils\DateTime;
 
@@ -230,15 +232,26 @@ abstract class BasePresenter extends \Nette\Application\UI\Presenter {
 		if ($checkCount->count > 0) {
 			$this->catalogManager->updateBookInfo($bookId);
 			$this->borrowManager->insertBookBorrow($this->user->id, $bookId, new DateTime(), "Vypůjčeno");
+			$userMail = $this->getUser()->getIdentity()->email;
+			$book = $this->catalogManager->findBookById($bookId);
+			$bookTitle = $book->title;
 			if ($this->isAjax()) {
 				$this->flashMessage('Informace o výpujčce byly zaslány na Váš e-mail.', 'success');
 				$this->redrawControl('flashes');
 				$this->redrawControl('bookCount');
+
 			} else {
 				$this->flashMessage('Informace o výpujčce byly zaslány na Váš e-mail.', 'success');
 				$this->redirect('this');
 				//$this->redrawControl('flashes');
 			}
+			$mail = new Message;
+			$mail->setFrom('Podpora Knihovny HK <podpora@khk.cz>')
+				->addTo($userMail)
+				->setSubject('Potvrzení výpůjčky')
+				->setBody("Dobrý den,\nvaše výpujčka byla uložena.Vyzvedněte si ji nejpozději do 5 pracovních dní.\n\nVypůjčený titul: $bookTitle");
+			$mailer = new SendmailMailer;
+			$mailer->send($mail);
 		} else {
 			$this->flashMessage('Omlouváme se, ale požadovaná kniha není momentálně dostupná.', 'info');
 			$this->redrawControl('flashes');

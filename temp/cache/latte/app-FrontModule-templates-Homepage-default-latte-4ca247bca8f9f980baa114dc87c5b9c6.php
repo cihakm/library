@@ -2,13 +2,13 @@
 // source: C:\xampp\htdocs\library\app\FrontModule/templates/Homepage/default.latte
 
 // prolog Latte\Macros\CoreMacros
-list($_b, $_g, $_l) = $template->initialize('1492148040', 'html')
+list($_b, $_g, $_l) = $template->initialize('2361591043', 'html')
 ;
 // prolog Latte\Macros\BlockMacros
 //
 // block content
 //
-if (!function_exists($_b->blocks['content'][] = '_lbd286e3b6cf_content')) { function _lbd286e3b6cf_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+if (!function_exists($_b->blocks['content'][] = '_lb54a6dd4a7b_content')) { function _lb54a6dd4a7b_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
 ?><section class="numbers">
 	<div class="container">
 		<h2>Knihovna HK <span>v číslech</span></h2>
@@ -22,7 +22,7 @@ if (!function_exists($_b->blocks['content'][] = '_lbd286e3b6cf_content')) { func
 				<p class="number">10555</p>
 			</div>
 			<div class="col-md-4 col-sm-4 books">
-				<p>Knih <span>k vypůjčení</span></span>
+				<p>Knih <span>k vypůjčení</span></p>
 				<p class="number">253242</p>
 			</div>
 			<div class="clearfix"></div>
@@ -102,7 +102,5 @@ if (empty($_l->extends) && !empty($_control->snippetMode)) {
 //
 // main template
 //
-?>
-[
-<?php if ($_l->extends) { ob_end_clean(); return $template->renderChildTemplate($_l->extends, get_defined_vars()); }
+if ($_l->extends) { ob_end_clean(); return $template->renderChildTemplate($_l->extends, get_defined_vars()); }
 call_user_func(reset($_b->blocks['content']), $_b, get_defined_vars()) ; 

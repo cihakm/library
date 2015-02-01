@@ -15,6 +15,7 @@ class BasePresenter extends \Nette\Application\UI\Presenter {
 
 		// kontrola prihlaseni
 		if (!$user->isLoggedIn()) {
+			$this->flashMessage('Musíte se nejprve přihlásit.', 'info');
 			$this->redirect(':Admin:Sign:in');
 		}
 	}

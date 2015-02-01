@@ -52,8 +52,8 @@ class SignPresenter extends \Nette\Application\UI\Presenter {
 		if ($form->isSuccess()) {
 			try {
 				$this->adminUserManager->login($values->username, $values->password);
-				$this->flashMessage('You have been successfully loged in.', 'success');
-				$this->redirect(':Admin:Default:default');
+				$this->flashMessage('Byl jste úspěšně přihlášen.', 'success');
+				$this->redirect(':Admin:Borrows:default');
 			} catch (Nette\Security\AuthenticationException $e) {
 				$this->getPresenter()->flashMessage($e->getMessage(), "warning");
 			}
@@ -62,7 +62,7 @@ class SignPresenter extends \Nette\Application\UI\Presenter {
 
 	public function actionOut() {
 		$this->getUser()->logout();
-		$this->flashMessage('You have been successfully sign out.', 'info');
+			$this->flashMessage('Byl jste úspěšně odhlášen.', 'info');
 		$this->redirect(':Admin:Sign:in');
 	}
 

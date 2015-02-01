@@ -2,7 +2,7 @@
 // source: C:\xampp\htdocs\library\app\FrontModule/templates/header.latte
 
 // prolog Latte\Macros\CoreMacros
-list($_b, $_g, $_l) = $template->initialize('2589330324', 'html')
+list($_b, $_g, $_l) = $template->initialize('6796927506', 'html')
 ;
 // prolog Nette\Bridges\ApplicationLatte\UIMacros
 
@@ -37,13 +37,13 @@ if (empty($_l->extends) && !empty($_control->snippetMode)) {
 				<div class="clearfix"></div>
 			</header>
 			<div class="navbar-header main">
-            								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main" aria-expanded="false" aria-controls="navbar">
+            								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main" aria-expanded="false">
             									<span class="sr-only">Toggle navigation</span>
             									<span class="icon-bar"></span>
             									<span class="icon-bar"></span>
             									<span class="icon-bar"></span>
             								</button>
-            								<a class="navbar-brand"data-toggle="collapse" data-target="#navbar-main" href="#">Menu</a>
+            								<a class="navbar-brand" data-toggle="collapse" data-target="#navbar-main" href="#">Menu</a>
             							</div>
             							<div id="navbar-main" class="navbar-collapse collapse">
             								<ul class="nav navbar-nav">

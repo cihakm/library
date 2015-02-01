@@ -1,0 +1,44 @@
+#
+# SECURITY WARNING: it is CRITICAL that this file & directory are NOT accessible directly via a web browser!
+#
+# If you don't protect this directory from direct web access, anybody will be able to see your passwords.
+# http://nette.org/security-warning
+#
+parameters:
+
+
+php:
+	date.timezone: Europe/Prague
+
+
+nette:
+	application:
+		errorPresenter: Error
+		mapping:
+			*: App\*Module\Presenters\*Presenter
+
+	session:
+		expiration: 14 days
+
+extensions:
+	facebook: Kdyby\Facebook\DI\FacebookExtension
+
+facebook:
+	appId: "338832029575373"
+	appSecret: "1d950df241ca1bf88dd30ceaa6bc66b3"
+	permissions: [email]
+
+
+
+services:
+	- App\Model\UserManager
+	- App\Model\AdminUserManager
+	- App\Model\NewsManager
+	- App\Model\TaxManager
+	- App\Model\CatalogManager
+	- App\Model\BookManager
+	- App\Model\CategoryManager
+	- App\Model\TextManager
+	- App\Model\BorrowManager
+	- App\RouterFactory
+	router: @App\RouterFactory::createRouter
