@@ -18,10 +18,10 @@ class BorrowManager
 		$this->database = $database;
 	}
 
-	public function getMyBooksSource()
+	public function getMyBooksSource($user_id)
 	{
 		//return $this->database->table('book_borrow');
-		return $this->database->table('book_borrow')->select('book.title AS booktitle, book_borrow.*')->where('book.id = book_borrow.book_id')->order('date');
+		return $this->database->table('book_borrow')->select('book.title AS booktitle, book_borrow.*')->where('book.id = book_borrow.book_id')->where('book_borrow.user_id = ?', $user_id)->order('date');
 	}
 
 	public function getBorrowSource()

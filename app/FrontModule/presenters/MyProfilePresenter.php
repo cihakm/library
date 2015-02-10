@@ -150,7 +150,7 @@ class MyProfilePresenter extends BasePresenter
 
 	public function createComponentMyBooksDataGrid($name)
 	{
-		$source = new NetteDbDataSource($this->borrowManager->getMyBooksSource());
+		$source = new NetteDbDataSource($this->borrowManager->getMyBooksSource($this->user->id));
 		$grid = new Grid($source, $this, $name);
 
 		$grid->column(new Column\Date(array(
