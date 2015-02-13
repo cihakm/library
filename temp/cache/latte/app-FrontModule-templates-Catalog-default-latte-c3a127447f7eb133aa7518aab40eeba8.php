@@ -2,13 +2,13 @@
 // source: C:\xampp\htdocs\library\app\FrontModule/templates/Catalog/default.latte
 
 // prolog Latte\Macros\CoreMacros
-list($_b, $_g, $_l) = $template->initialize('1279291009', 'html')
+list($_b, $_g, $_l) = $template->initialize('9356050434', 'html')
 ;
 // prolog Latte\Macros\BlockMacros
 //
 // block content
 //
-if (!function_exists($_b->blocks['content'][] = '_lb386a14fb87_content')) { function _lb386a14fb87_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+if (!function_exists($_b->blocks['content'][] = '_lb10fdc1fc55_content')) { function _lb10fdc1fc55_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
 ?><div class="container">
 	<div class="catalog">
 		<div class="row">
@@ -22,7 +22,7 @@ if (!function_exists($_b->blocks['content'][] = '_lb386a14fb87_content')) { func
 //
 // block _category
 //
-if (!function_exists($_b->blocks['_category'][] = '_lb17b4637bfa__category')) { function _lb17b4637bfa__category($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v; $_control->redrawControl('category', FALSE)
+if (!function_exists($_b->blocks['_category'][] = '_lb199d4d03b6__category')) { function _lb199d4d03b6__category($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v; $_control->redrawControl('category', FALSE)
 ?>				<div class="col-md-3">
 					<nav class="navbar navbar-default" role="navigation">
 						<div class="container-fluid">

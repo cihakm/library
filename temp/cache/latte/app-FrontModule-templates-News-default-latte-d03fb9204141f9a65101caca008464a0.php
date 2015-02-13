@@ -2,13 +2,13 @@
 // source: C:\xampp\htdocs\library\app\FrontModule/templates/News/default.latte
 
 // prolog Latte\Macros\CoreMacros
-list($_b, $_g, $_l) = $template->initialize('0088975697', 'html')
+list($_b, $_g, $_l) = $template->initialize('9228888885', 'html')
 ;
 // prolog Latte\Macros\BlockMacros
 //
 // block content
 //
-if (!function_exists($_b->blocks['content'][] = '_lb818fe8a262_content')) { function _lb818fe8a262_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+if (!function_exists($_b->blocks['content'][] = '_lb7f097a48cf_content')) { function _lb7f097a48cf_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
 ?><div class="container">
         <h2><span>Aktuality</span> z knihovny</h2>
 <?php $iterations = 0; foreach ($news as $new) { ?>

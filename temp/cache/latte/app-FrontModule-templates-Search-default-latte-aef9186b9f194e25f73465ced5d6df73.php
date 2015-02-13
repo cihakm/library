@@ -2,13 +2,13 @@
 // source: C:\xampp\htdocs\library\app\FrontModule/templates/Search/default.latte
 
 // prolog Latte\Macros\CoreMacros
-list($_b, $_g, $_l) = $template->initialize('5902651667', 'html')
+list($_b, $_g, $_l) = $template->initialize('1576878732', 'html')
 ;
 // prolog Latte\Macros\BlockMacros
 //
 // block content
 //
-if (!function_exists($_b->blocks['content'][] = '_lbb6bf93e6d7_content')) { function _lbb6bf93e6d7_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+if (!function_exists($_b->blocks['content'][] = '_lb0d37cf370d_content')) { function _lb0d37cf370d_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
 ?><div class="container">
 	<h2>Výsledky <span>vyhledávání</span></h2>
 	<div class="catalog search">
@@ -32,12 +32,14 @@ if (!function_exists($_b->blocks['content'][] = '_lbb6bf93e6d7_content')) { func
 							</div>
 
 <?php $iterations++; } ?>
+						<div class="clearfix"></div>
 					</div>
 <?php } else { ?>
 					<p>Nebyly nalezeny žádné výsledky.</p>
 <?php } ?>
 			</div>
 		</div>
+		<div class="clearfix"></div>
 	</div>
 </div><?php
 }}

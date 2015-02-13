@@ -2,13 +2,13 @@
 // source: C:\xampp\htdocs\library\app\FrontModule/templates/MyProfile/myBooks.latte
 
 // prolog Latte\Macros\CoreMacros
-list($_b, $_g, $_l) = $template->initialize('7885066141', 'html')
+list($_b, $_g, $_l) = $template->initialize('0416008645', 'html')
 ;
 // prolog Latte\Macros\BlockMacros
 //
 // block content
 //
-if (!function_exists($_b->blocks['content'][] = '_lb3a048a52a3_content')) { function _lb3a048a52a3_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+if (!function_exists($_b->blocks['content'][] = '_lb645b42345c_content')) { function _lb645b42345c_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
 ?><div class="container account">
         <h2><span>Můj</span> účet</h2>
 	<nav>
@@ -29,7 +29,7 @@ if (!function_exists($_b->blocks['content'][] = '_lb3a048a52a3_content')) { func
 //
 // block _dataGrid
 //
-if (!function_exists($_b->blocks['_dataGrid'][] = '_lb092946d1db__dataGrid')) { function _lb092946d1db__dataGrid($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v; $_control->redrawControl('dataGrid', FALSE)
+if (!function_exists($_b->blocks['_dataGrid'][] = '_lb639101b80c__dataGrid')) { function _lb639101b80c__dataGrid($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v; $_control->redrawControl('dataGrid', FALSE)
 ;$_l->tmp = $_control->getComponent("myBooksDataGrid"); if ($_l->tmp instanceof Nette\Application\UI\IRenderable) $_l->tmp->redrawControl(NULL, FALSE); $_l->tmp->render() ;
 }}
 

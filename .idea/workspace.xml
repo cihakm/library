@@ -2,13 +2,62 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="067f0405-de9b-4eb4-9b10-137e14a596d8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/cache/Nette.Configurator/21f3d8c8f8630370e58604a73e01e082.php.meta" afterPath="$PROJECT_DIR$/temp/cache/Nette.Configurator/21f3d8c8f8630370e58604a73e01e082.php.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/model/BorrowManager.php" afterPath="$PROJECT_DIR$/app/model/BorrowManager.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/FrontModule/presenters/MyProfilePresenter.php" afterPath="$PROJECT_DIR$/app/FrontModule/presenters/MyProfilePresenter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/cache/_Nette.Database.3f3d95742cff44fb5ceff30e698d84ce/_07414f4e15ca943e6cde032dec85d92f" afterPath="$PROJECT_DIR$/temp/cache/_Nette.Database.3f3d95742cff44fb5ceff30e698d84ce/_07414f4e15ca943e6cde032dec85d92f" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/cache/_Nette.RobotLoader/_6a152334aa88e082055079577dbdaf49" afterPath="$PROJECT_DIR$/temp/cache/_Nette.RobotLoader/_6a152334aa88e082055079577dbdaf49" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/src/less/header.less" afterPath="$PROJECT_DIR$/www/src/less/header.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/styles.css" afterPath="$PROJECT_DIR$/www/css/styles.css" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\Nette.Configurator\21f3d8c8f8630370e58604a73e01e082.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\Nette.Configurator\21f3d8c8f8630370e58604a73e01e082.php.meta" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\Nette.Configurator\21f3d8c8f8630370e58604a73e01e082.php.tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\_Nette.Database.3f3d95742cff44fb5ceff30e698d84ce\_07414f4e15ca943e6cde032dec85d92f" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\_Nette.Database.3f3d95742cff44fb5ceff30e698d84ce\_18dc48608542358a3c1b923d94520948" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\_Nette.Database.3f3d95742cff44fb5ceff30e698d84ce\_320e62362fe3957d9d7715f504704d7b" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\_Nette.Database.3f3d95742cff44fb5ceff30e698d84ce\_38da9d45c563462d0e1201e1207f943d" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\_Nette.Database.3f3d95742cff44fb5ceff30e698d84ce\_642f5986c8a34ce81687748e3040d4d1" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\_Nette.Database.3f3d95742cff44fb5ceff30e698d84ce\_76f825eab3b70c9a6e2a3642a685530a" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\_Nette.Database.3f3d95742cff44fb5ceff30e698d84ce\_77e6b40e241e6e95de92e0491c94a075" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\_Nette.Database.3f3d95742cff44fb5ceff30e698d84ce\_8323af496e1759e4a523fd650f1484b7" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\_Nette.Database.3f3d95742cff44fb5ceff30e698d84ce\_89d66f3f0400fdfed52829fef7ab44f7" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\_Nette.Database.3f3d95742cff44fb5ceff30e698d84ce\_90c6487ebd90d2f53808aef9595d0af7" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\_Nette.Database.3f3d95742cff44fb5ceff30e698d84ce\_aad5184d8c52b773bd73b5c7c5c819c9" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\_Nette.Database.3f3d95742cff44fb5ceff30e698d84ce\_b49b10ae415a3f1527e68c57b8d97f1d" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\_Nette.Database.3f3d95742cff44fb5ceff30e698d84ce\_b879bea5ea6868975bc3005e7728ddfa" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\_Nette.Database.3f3d95742cff44fb5ceff30e698d84ce\_bc3136afb1f2e080d9c62ad0ecd55cd2" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\_Nette.Database.3f3d95742cff44fb5ceff30e698d84ce\_bc4f6f1d7615a6071286d3db31726199" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\_Nette.Database.3f3d95742cff44fb5ceff30e698d84ce\_cd71daf3033277bf67c22afc4463aaed" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\_Nette.Database.3f3d95742cff44fb5ceff30e698d84ce\_d732f038fdcc1625f635269899553f42" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\_Nette.Database.3f3d95742cff44fb5ceff30e698d84ce\_e9fcbdfbbc07dfd1713e369bfd144ecc" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\_Nette.Database.3f3d95742cff44fb5ceff30e698d84ce\_f9f905c34b496695e8d4761143ecd1d2" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\_Nette.Database.3f3d95742cff44fb5ceff30e698d84ce\_fdc8154a95bcea502b9b60ca0462963c" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\_Nette.RobotLoader\_6a152334aa88e082055079577dbdaf49" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\latte\FrontModule-templates-MyProfile-editMyData-latte-2c7087ee285dc01486840a857126cdee.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\latte\FrontModule-templates-MyProfile-editPassword-latte-92168c31d3a0323ea091480d4f2e36b2.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\latte\app-AdminModule-templates-Borrows-default-latte-7b46272f44304fa5ee5356ddb83fb400.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\latte\app-AdminModule-templates-Catalog-addBook-latte-db7825bf37ecf045ec582857f16021e2.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\latte\app-AdminModule-templates-Catalog-books-latte-78fec911659ea69ffe855e653fbfaa95.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\latte\app-AdminModule-templates-Catalog-publishers-latte-a97492b6b235dbdbdab54a40bc6cbf3e.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\latte\app-AdminModule-templates-Default-default-latte-5fb26324f0e78614d5a7c4054590e3d9.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\latte\app-AdminModule-templates-News-default-latte-2bf6c0be29c2784822162ed245c9fe10.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\latte\app-AdminModule-templates-Texts-default-latte-da0d412d833dea746985042def16f240.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\latte\app-FrontModule-templates-Catalog-default-latte-c3a127447f7eb133aa7518aab40eeba8.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\latte\app-FrontModule-templates-Catalog-detail-latte-c24705ef06d14c10838bf9719ded8824.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\latte\app-FrontModule-templates-Homepage-default-latte-4ca247bca8f9f980baa114dc87c5b9c6.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\latte\app-FrontModule-templates-MyProfile-default-latte-7a96b97b501f87ddd8c9f1f7a35eabee.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\latte\app-FrontModule-templates-MyProfile-myBooks-latte-656d68114935417e4eb147218740ed07.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\latte\app-FrontModule-templates-MyProfile-myData-latte-e5450b42d32495db20ef0ff33ffd9f81.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\latte\app-FrontModule-templates-News-default-latte-d03fb9204141f9a65101caca008464a0.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\latte\app-FrontModule-templates-Search-default-latte-aef9186b9f194e25f73465ced5d6df73.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\latte\library-app-AdminModule-templates-News-add-latte-ef25aa223eac61df8a4f2dac1b57cee0.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\latte\library-app-AdminModule-templates-Sign-in-latte-9de07309df16d6ecb40992f27406303a.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\latte\library-app-AdminModule-templates-Tax-default-latte-87140a269d5d5d1106f010bf0136969b.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\latte\library-app-AdminModule-templates-Tax-edit-latte-4f3007056f2bc073a3bf5003c158cf37.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\latte\library-app-AdminModule-templates-layout-latte-97ad4eef8f7e75e3eb783f9b45792c93.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\latte\library-app-AdminModule-templates-modal-latte-009e86969d14beb28fd8e1ad816bc628.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\latte\library-app-FrontModule-templates-Tax-default-latte-bf06ceb4293a1de921d989d43ed56c08.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\latte\library-app-FrontModule-templates-footer-latte-13d6f271f9bc2f933ba2c35869257e33.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\latte\library-app-FrontModule-templates-header-latte-ab4846ec05a55df04da43756ca0f8399.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\latte\library-app-FrontModule-templates-layout-latte-a3c2ae73680ad65b8dce8622a0ece71e.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\latte\library-app-FrontModule-templates-modals-latte-81a038180f1902703508c4a26c7a146e.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\library\temp\cache\latte\library-vendor-mesour-datagrid-DataGrid-Grid-latte-bb3cbe4e7a6269ee4461903b3707e500.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/btfj.dat" afterPath="$PROJECT_DIR$/temp/btfj.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/FrontModule/templates/@layout.latte" afterPath="$PROJECT_DIR$/app/FrontModule/templates/@layout.latte" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/FrontModule/templates/Search/default.latte" afterPath="$PROJECT_DIR$/app/FrontModule/templates/Search/default.latte" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="library.iws" />
@@ -34,41 +83,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MyProfilePresenter.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/FrontModule/presenters/MyProfilePresenter.php">
+      <file leaf-file-name="@layout.latte" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/@layout.latte">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.518518" vertical-offset="2398" max-vertical-offset="3330">
-              <caret line="152" column="69" selection-start-line="152" selection-start-column="69" selection-end-line="152" selection-end-column="69" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1332">
+              <caret line="10" column="77" selection-start-line="10" selection-start-column="77" selection-end-line="10" selection-end-column="77" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BorrowManager.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/model/BorrowManager.php">
+      <file leaf-file-name="print.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/css/print.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.3333335" vertical-offset="45" max-vertical-offset="1098">
-              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+            <state vertical-scroll-proportion="1.0274842" vertical-offset="0" max-vertical-offset="1260">
+              <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="content.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/src/less/content.less">
+      <file leaf-file-name="default.latte" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/Search/default.latte">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.481482" vertical-offset="2039" max-vertical-offset="6768">
-              <caret line="147" column="39" selection-start-line="147" selection-start-column="39" selection-end-line="147" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.less" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/www/src/less/header.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7120709" vertical-offset="149" max-vertical-offset="1116">
-              <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="666">
+              <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -92,10 +131,8 @@
         <option value="$PROJECT_DIR$/app/AdminModule/presenters/BorrowsPresenter.php" />
         <option value="$PROJECT_DIR$/www/js/main.js" />
         <option value="$PROJECT_DIR$/app/FrontModule/presenters/CatalogPresenter.php" />
-        <option value="$PROJECT_DIR$/app/FrontModule/templates/@layout.latte" />
         <option value="$PROJECT_DIR$/app/FrontModule/templates/MyProfile/default.latte" />
         <option value="$PROJECT_DIR$/app/FrontModule/templates/MyProfile/myBooks.latte" />
-        <option value="$PROJECT_DIR$/app/FrontModule/templates/Search/default.latte" />
         <option value="$PROJECT_DIR$/www/src/less/responsive.less" />
         <option value="$PROJECT_DIR$/app/FrontModule/templates/MyProfile/myData.latte" />
         <option value="$PROJECT_DIR$/app/FrontModule/templates/header.latte" />
@@ -118,6 +155,10 @@
         <option value="$PROJECT_DIR$/app/FrontModule/presenters/MyProfilePresenter.php" />
         <option value="$PROJECT_DIR$/app/model/BorrowManager.php" />
         <option value="$PROJECT_DIR$/www/src/less/header.less" />
+        <option value="$PROJECT_DIR$/app/FrontModule/templates/@layout.latte" />
+        <option value="$PROJECT_DIR$/www/css/print" />
+        <option value="$PROJECT_DIR$/app/FrontModule/templates/Search/default.latte" />
+        <option value="$PROJECT_DIR$/www/css/print.css" />
       </list>
     </option>
   </component>
@@ -201,11 +242,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="less" />
+              <option name="myItemId" value="temp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -260,6 +311,58 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FrontModule" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tax" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FrontModule" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Search" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -412,6 +515,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\library\www\css" />
       <recent name="C:\xampp\htdocs\library\app\AdminModule\templates" />
       <recent name="C:\xampp\htdocs\library\app\model" />
       <recent name="C:\xampp\htdocs\library\app\AdminModule\presenters" />
@@ -465,6 +569,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928064" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -475,12 +580,11 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -504,13 +608,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/src/less/buttons.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../creox/jobclipr/www/html-templates/homepage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.024357239" vertical-offset="270" max-vertical-offset="6804">
@@ -612,13 +709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/Search/default.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
-          <caret line="11" column="66" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/src/less/responsive.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1912" max-vertical-offset="4320">
@@ -630,13 +720,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.31908238" vertical-offset="0" max-vertical-offset="959">
           <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/@layout.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.689655" vertical-offset="140" max-vertical-offset="1314">
-          <caret line="25" column="61" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -700,13 +783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="55.333332" vertical-offset="4050" max-vertical-offset="4806">
           <caret line="142" column="49" selection-start-line="142" selection-start-column="49" selection-end-line="142" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/FrontModule/presenters/HomepagePresenter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4787234" vertical-offset="0" max-vertical-offset="752">
-          <caret line="20" column="81" selection-start-line="20" selection-start-column="81" selection-end-line="20" selection-end-column="81" />
         </state>
       </provider>
     </entry>
@@ -819,7 +895,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.54953074" vertical-offset="85" max-vertical-offset="1044">
           <caret line="34" column="71" selection-start-line="34" selection-start-column="71" selection-end-line="34" selection-end-column="71" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -827,7 +902,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4055794" vertical-offset="0" max-vertical-offset="932">
           <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -835,13 +909,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15015641" vertical-offset="0" max-vertical-offset="959">
           <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/FrontModule/presenters/MyProfilePresenter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.518518" vertical-offset="2398" max-vertical-offset="3330">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2398" max-vertical-offset="3330">
           <caret line="152" column="69" selection-start-line="152" selection-start-column="69" selection-end-line="152" selection-end-column="69" />
           <folding />
         </state>
@@ -849,7 +922,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/model/BorrowManager.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.3333335" vertical-offset="45" max-vertical-offset="1098">
+        <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="1098">
           <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
           <folding />
         </state>
@@ -857,7 +930,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/src/less/content.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.481482" vertical-offset="2039" max-vertical-offset="6768">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2039" max-vertical-offset="6768">
           <caret line="147" column="39" selection-start-line="147" selection-start-column="39" selection-end-line="147" selection-end-column="39" />
           <folding />
         </state>
@@ -865,8 +938,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/src/less/header.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7120709" vertical-offset="149" max-vertical-offset="1116">
+        <state vertical-scroll-proportion="0.0" vertical-offset="149" max-vertical-offset="1116">
           <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/FrontModule/presenters/HomepagePresenter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38626608" vertical-offset="0" max-vertical-offset="932">
+          <caret line="20" column="81" selection-start-line="20" selection-start-column="81" selection-end-line="20" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/@layout.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1332">
+          <caret line="10" column="77" selection-start-line="10" selection-start-column="77" selection-end-line="10" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/FrontModule/templates/Search/default.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="666">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/print.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0274842" vertical-offset="0" max-vertical-offset="1260">
+          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
           <folding />
         </state>
       </provider>

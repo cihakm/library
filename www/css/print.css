@@ -1,0 +1,65 @@
+*{
+	margin: 0;
+	padding: 0;
+	color: #000 !important;
+	background-color: transparent !important;
+}
+header .pull-right, .slider, .navbar-collapse, .numbers .list .col-md-4:before, .bestsellers, .registration, .footer, .catalog .navbar-collapse.collapse, #navbar-main,
+.catalog .col-md-3, .book-box .infobox a.info-button, .book-box .infobox a.basket-button, .book-detail .book-about .row>.col-md-12:first-child,
+.book-detail .book-about .row .basket a, .account nav a.btn, .account .btn.edit, .account .btn.editPass{
+	display: none !important;
+}
+.container{
+	width: 100%;
+	padding: 0;
+}
+.numbers{
+	padding-bottom: 0 !important;
+}
+h2, .numbers h2, .welcome h2, .bestsellers h2, .catalog h4, .col-md-9.col-sm-9.col-xs-12 h2{
+	margin-top: 0 !important;
+	font-size: 20px !important;
+	text-align: left !important;
+	margin-bottom: 10px !important;
+	color: #000000 !important
+}
+.numbers .list .col-md-4 p{
+	padding-left: 0 !important;
+}
+.numbers .list p.number{
+	margin-bottom: 20px;
+	font-size: 25px;
+
+}
+.welcome{
+	font-size: 14px !important;
+}
+.catalog .book-box.col-md-4{
+	width: 210px !important;
+}
+.catalog .book-box.col-md-4 img{
+	height: 250px !important;
+}
+.catalog .book-box .infobox p{
+	color: #000000 !important;
+}
+.book-detail .book-about .row>.col-md-3{
+	width: 20% !important;
+	float: left;
+}
+.book-detail .book-about .row>.col-md-9{
+	width: 80% !important;
+	float: left;
+}
+.book-detail .book-about .row>.col-md-9 .category p{
+	color: #000000 !important;
+}
+.search .book-box.col-md-3{
+	width: 210px !important;
+	display: block !important;
+	float: left;
+
+}
+.search .book-box.col-md-3 img{
+	height: 250px !important;
+}

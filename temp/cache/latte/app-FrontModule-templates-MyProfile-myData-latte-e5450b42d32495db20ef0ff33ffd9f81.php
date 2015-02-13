@@ -2,13 +2,13 @@
 // source: C:\xampp\htdocs\library\app\FrontModule/templates/MyProfile/myData.latte
 
 // prolog Latte\Macros\CoreMacros
-list($_b, $_g, $_l) = $template->initialize('6321868719', 'html')
+list($_b, $_g, $_l) = $template->initialize('9116897715', 'html')
 ;
 // prolog Latte\Macros\BlockMacros
 //
 // block content
 //
-if (!function_exists($_b->blocks['content'][] = '_lb72e1975ce3_content')) { function _lb72e1975ce3_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+if (!function_exists($_b->blocks['content'][] = '_lb7c78eb6b5a_content')) { function _lb7c78eb6b5a_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
 ?><div class="container account">
         <h2><span>Můj</span> účet</h2>
 	<div class="row">

@@ -2,13 +2,13 @@
 // source: C:\xampp\htdocs\library\app\FrontModule/templates/@layout.latte
 
 // prolog Latte\Macros\CoreMacros
-list($_b, $_g, $_l) = $template->initialize('8046608935', 'html')
+list($_b, $_g, $_l) = $template->initialize('7030687365', 'html')
 ;
 // prolog Latte\Macros\BlockMacros
 //
 // block _flashes
 //
-if (!function_exists($_b->blocks['_flashes'][] = '_lb6c51c36e5e__flashes')) { function _lb6c51c36e5e__flashes($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v; $_control->redrawControl('flashes', FALSE)
+if (!function_exists($_b->blocks['_flashes'][] = '_lbd8ee5b63b0__flashes')) { function _lbd8ee5b63b0__flashes($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v; $_control->redrawControl('flashes', FALSE)
 ;$iterations = 0; foreach ($flashes as $flash) { ?>
 				<div class="alert alert-<?php echo Latte\Runtime\Filters::escapeHtml($flash->type, ENT_COMPAT) ?> alert-dismissible" role="alert">
 					<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -48,6 +48,7 @@ if (empty($_l->extends) && !empty($_control->snippetMode)) {
 		<title>Knihovna Hradec Králové</title>
 
 		<!-- CSS -->
+		<link href="<?php echo Latte\Runtime\Filters::escapeHtml(Latte\Runtime\Filters::safeUrl($basePath), ENT_COMPAT) ?>/css/print.css" rel="stylesheet" media="print">
 		<link href="<?php echo Latte\Runtime\Filters::escapeHtml(Latte\Runtime\Filters::safeUrl($basePath), ENT_COMPAT) ?>/css/styles.css" rel="stylesheet">
 		<link href="<?php echo Latte\Runtime\Filters::escapeHtml(Latte\Runtime\Filters::safeUrl($basePath), ENT_COMPAT) ?>/css/responsive-slider.css" rel="stylesheet">
 
@@ -62,10 +63,10 @@ if (empty($_l->extends) && !empty($_control->snippetMode)) {
         <body>
 <?php if ($_l->extends) { ob_end_clean(); return $template->renderChildTemplate($_l->extends, get_defined_vars()); } ?>
 <div id="<?php echo $_control->getSnippetId('flashes') ?>"><?php call_user_func(reset($_b->blocks['_flashes']), $_b, $template->getParameters()) ?>
-</div><?php $_b->templates['8046608935']->renderChildTemplate('modals.latte', $template->getParameters()) ?>
+</div><?php $_b->templates['7030687365']->renderChildTemplate('modals.latte', $template->getParameters()) ?>
 
 		<div class="wrapper">
-<?php $_b->templates['8046608935']->renderChildTemplate('header.latte', $template->getParameters()) ?>
+<?php $_b->templates['7030687365']->renderChildTemplate('header.latte', $template->getParameters()) ?>
 			<section>
 				<div class="slider">
 					<div class="container">
@@ -91,7 +92,7 @@ if (empty($_l->extends) && !empty($_control->snippetMode)) {
 <?php Latte\Macros\BlockMacros::callBlock($_b, 'content', $template->getParameters()) ?>
 			<div class="push"></div>
 		</div>
-<?php $_b->templates['8046608935']->renderChildTemplate('footer.latte', $template->getParameters()) ?>
+<?php $_b->templates['7030687365']->renderChildTemplate('footer.latte', $template->getParameters()) ?>
 
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 		<script type="text/javascript" src="<?php echo Latte\Runtime\Filters::escapeHtml(Latte\Runtime\Filters::safeUrl($basePath), ENT_COMPAT) ?>/js/nette.ajax.js"></script>

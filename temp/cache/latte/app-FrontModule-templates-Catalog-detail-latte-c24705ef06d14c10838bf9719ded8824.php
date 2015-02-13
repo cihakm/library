@@ -2,13 +2,13 @@
 // source: C:\xampp\htdocs\library\app\FrontModule/templates/Catalog/detail.latte
 
 // prolog Latte\Macros\CoreMacros
-list($_b, $_g, $_l) = $template->initialize('3524751894', 'html')
+list($_b, $_g, $_l) = $template->initialize('8102542936', 'html')
 ;
 // prolog Latte\Macros\BlockMacros
 //
 // block content
 //
-if (!function_exists($_b->blocks['content'][] = '_lba6ec9fbeba_content')) { function _lba6ec9fbeba_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+if (!function_exists($_b->blocks['content'][] = '_lbb65f8c68ba_content')) { function _lbb65f8c68ba_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
 ?><div class="container">
 	<div class="book-detail">
 		<div class="book-about">
@@ -73,7 +73,7 @@ if (!function_exists($_b->blocks['content'][] = '_lba6ec9fbeba_content')) { func
 //
 // block _bookCount
 //
-if (!function_exists($_b->blocks['_bookCount'][] = '_lb42bd47776a__bookCount')) { function _lb42bd47776a__bookCount($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v; $_control->redrawControl('bookCount', FALSE)
+if (!function_exists($_b->blocks['_bookCount'][] = '_lbdf1b948664__bookCount')) { function _lbdf1b948664__bookCount($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v; $_control->redrawControl('bookCount', FALSE)
 ?><p><span>Dostupnost: </span>zbývají <?php echo Latte\Runtime\Filters::escapeHtml($book->count, ENT_NOQUOTES) ?>
 </p><?php
 }}
